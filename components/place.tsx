@@ -12,14 +12,16 @@ import {
 } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import { UpdateStatus } from "@/function/details";
+import { PrismaClient } from "@prisma/client";
+
+const prisma = new PrismaClient();
 
 type Props = {
-  Img: string;
-  Name: string;
-  Description: string;
+  Data: any;
 };
 
-export default function PlacePage({ Img, Name, Description }: Props) {
+export default async function PlacePage({ Data }: Props) {
   return (
     <div className="flex items-center justify-center">
       <Dialog>
@@ -29,7 +31,7 @@ export default function PlacePage({ Img, Name, Description }: Props) {
             className="flex flex-col rounded-lg p-2 h-full border-2 border-gray-100 items-center group border-transparent px-4 py-6 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           >
             <Image
-              src={`${Img}`}
+              src="/uploads/1007508.jpg"
               width={150}
               height={0}
               alt="Picture of the author"
@@ -37,16 +39,16 @@ export default function PlacePage({ Img, Name, Description }: Props) {
             />
 
             <h2 className={`mt-3 font-semibold text-[12px] text-dark:invert`}>
-              {Name}
+              1007508
             </h2>
             <p
               className={`max-w-[30ch] text-[10px] opacity-50 text-dark:invert`}
             >
-              {Description}
+              department
             </p>
           </Button>
         </DialogTrigger>
-        <DialogContent className="max-w-[350px] h-[750px] rounded-lg sm:max-w-[425px]">
+        <DialogContent className="max-w-[350px] max-h-[600px] rounded-lg sm:max-w-[425px]">
           <DialogHeader>
             <DialogTitle>Voting...🚀</DialogTitle>
             <DialogDescription>
@@ -55,8 +57,8 @@ export default function PlacePage({ Img, Name, Description }: Props) {
           </DialogHeader>
           <div className="flex flex-col items-center justify-between gap-y-4">
             <Image
-              src={`${Img}`}
-              width={250}
+              src="/uploads/1007508.jpg"
+              width={200}
               height={0}
               alt="Picture of the author"
               className="rounded"
@@ -65,15 +67,22 @@ export default function PlacePage({ Img, Name, Description }: Props) {
               <Label htmlFor="name" className="text-right">
                 ID
               </Label>
-              <Input id="username" className="col-span-3" />
-              <Button variant="secondary">Search</Button>
+              <Input
+                id="username"
+                placeholder="รหัสพนักงาน"
+                className="col-span-3"
+              />
+              <Button variant="secondary" type="submit">
+                Search
+              </Button>
             </div>
-            <div className="grid items-center justify-center gap-y-4">
+
+            <div className="flex flex-col items-center justify-center gap-y-4">
               <Label htmlFor="name" className="text-right">
-                Mrs. Lalidwadee Wongpromma
+                name
               </Label>
               <Label htmlFor="department" className="text-right">
-                424680-EPD-B-TPM (Spare Parts)
+                department
               </Label>
             </div>
           </div>

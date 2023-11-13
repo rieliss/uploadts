@@ -1,8 +1,10 @@
+"use client";
 import React, { useState } from "react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import {
   Dialog,
+  DialogClose,
   DialogContent,
   DialogDescription,
   DialogFooter,
@@ -10,18 +12,44 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
+import {
+  Form,
+  FormControl,
+  FormDescription,
+  FormField,
+  FormItem,
+  FormLabel,
+  FormMessage,
+} from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { UpdateStatus } from "@/function/details";
 import { PrismaClient } from "@prisma/client";
+import toast, { Toaster } from "react-hot-toast";
+import { useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
+import * as z from "zod";
 
 const prisma = new PrismaClient();
 
-type Props = {
-  Data: any;
-};
+const formSchema = z.object({
+  username: z.string().min(7, {
+    message: "ID must be at least 2 characters.",
+  }),
+});
 
-export default async function PlacePage({ Data }: Props) {
+export function PlacePage() {
+  const form = useForm<z.infer<typeof formSchema>>({
+    resolver: zodResolver(formSchema),
+    defaultValues: {
+      username: "",
+    },
+  });
+
+  async function handleSubmit(data: z.infer<typeof formSchema>) {
+    await UpdateStatus(data);
+    toast.success("Successfully created!");
+  }
   return (
     <div className="flex items-center justify-center">
       <Dialog>
@@ -63,18 +91,38 @@ export default async function PlacePage({ Data }: Props) {
               alt="Picture of the author"
               className="rounded"
             />
-            <div className="flex justify-center items-center gap-2">
+            <div className="flex justify-center items-center gap-x-4">
               <Label htmlFor="name" className="text-right">
                 ID
               </Label>
-              <Input
-                id="username"
-                placeholder="รหัสพนักงาน"
-                className="col-span-3"
-              />
-              <Button variant="secondary" type="submit">
-                Search
-              </Button>
+              <Form {...form}>
+                <form
+                  onSubmit={form.handleSubmit(handleSubmit)}
+                  className="w-3/3"
+                >
+                  <FormField
+                    control={form.control}
+                    name="username"
+                    render={({ field }) => (
+                      <FormItem>
+                        <FormControl>
+                          <Input
+                            id="username"
+                            placeholder="รหัสพนักงาน"
+                            className="col-span-3"
+                            {...field}
+                          />
+                        </FormControl>
+                        <FormMessage />
+                      </FormItem>
+                    )}
+                  />
+                  <DialogFooter></DialogFooter>
+                </form>
+                <Button variant="secondary" type="submit">
+                  Search
+                </Button>
+              </Form>
             </div>
 
             <div className="flex flex-col items-center justify-center gap-y-4">

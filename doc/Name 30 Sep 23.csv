@@ -1,0 +1,1774 @@
+﻿id,username,name,department,status
+1,1000430,Mr. Surat Polthanya,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+2,1000452,Mr. Suraphun Paenthongrong,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+3,1000500,Mr. Virat Kodkaew,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+4,1000508,Mrs. Lalidwadee Wongpromma,424680-EPD-B-TPM (Spare Parts),FALSE
+5,1000568,Mr. Chamnarn Suphansawat,424994-EPD-B-Safety (Assy),FALSE
+6,1000598,Miss Khuanjai Sai-La,414498-EPD-B-Pregnant Room,FALSE
+7,1000610,Mr. Lersak Kirdpoo,414111-EPD-B-Press Parts,FALSE
+8,1000617,Mr. Somkiat Suk-Ngam,424655-EPD-B-QA (Initial Inspection : Assy),FALSE
+9,1000619,Mr. Vichien Sisang,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+10,1000638,Mrs. Pluenta Julcharoen,424674-EPD-B-Pro.Eng. (PE Planning),FALSE
+11,1000640,Mr. Suchart Julcharoen,424994-EPD-B-Safety (Assy),FALSE
+12,1000641,Mrs. Urai Paenthongrong,424771-EPD-B-PC & Logistics Planning,FALSE
+13,1000657,Mr. Monchai Maksakorn,414111-EPD-B-Press Parts,FALSE
+14,1000661,Mr. Sanong Thatthong,424627-EPD-B-TPM (PM),FALSE
+15,1000693,Miss Voraphun Chuenmanus,424680-EPD-B-TPM (Spare Parts),FALSE
+16,1000705,Mr. Pairote Khiewsart,424994-EPD-B-Safety (Assy),FALSE
+17,1000775,Mr. Sontaya Sae-Heng,424835-EPD-B-Lgt. Management (BPK),FALSE
+18,1000779,Miss Nualjira Klangkampa,434992-CAD-B-General Affairs,FALSE
+19,1000792,Mr. Kamhaeng Pilalam,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+20,1000798,Mr. Amorn Chansuksri,424675-EPD-B-Pro.Eng. (ECC & Other),FALSE
+21,1000807,Mr. Sunan Wongkool,424661-EPD-B-Factory Engineering,FALSE
+22,1000832,Miss Raksiri Kongyolpravet,424994-EPD-B-Safety (Assy),FALSE
+23,1000833,Mrs. Kulphassorn Boonparattanapun,414498-EPD-B-Pregnant Room,FALSE
+24,1000840,Mrs. Narinthip Soisuwan,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+25,1000843,Mrs. Kanthima Thiemsi-Fha,414721-EPD-B-Material & Part Control (Assy),FALSE
+26,1000855,Mr. Disak Soisuwan,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+27,1000872,Mr. Sujin Pleenoi,424627-EPD-B-TPM (PM),FALSE
+28,1000879,Mrs. Kesorn Srisai,414251-EPD-B-Starter Magnetic Switch Gen,FALSE
+29,1000885,Mr. Naris Saengpuen,424661-EPD-B-Factory Engineering,FALSE
+30,1000892,Mr. Bantoon Wattanapong,424659-MPC-B-Facility Management & Carbon Neutral,FALSE
+31,1000893,Mr. Kriengkrai Napasai,424679-EPD-B-Pro.Eng. (Alternator),FALSE
+32,1000900,Mrs. Siriwan Sisang,414645-EPD-B-QA (In-process Inspection : Assy),FALSE
+33,1000905,Mr. Panya Panjapornsuk,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+34,1000930,Mr. Thassanawat Surakulset,424659-MPC-B-Facility Management & Carbon Neutral,FALSE
+35,1000958,Mr. Thongsuk Pattana,424663-EPD-B-TIE & EF Promotion & FQI,FALSE
+36,1000963,Mr. Anucha Ngamsiri,424680-EPD-B-TPM (Spare Parts),FALSE
+37,1000993,Mr. Thiwa Soonghangwha,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+38,1001030,Mr. Phuwasit Suriyarattawekul,424622-MPC-B-Facility Operation (BPK),FALSE
+39,1001061,Mr. Kristapas Kamchom,414111-EPD-B-Press Parts,FALSE
+40,1001087,Mrs. U-Sa Chumyen,424680-EPD-B-TPM (Spare Parts),FALSE
+41,1001105,Mr. Thawatchai Srisai,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+42,1001122,Mr. Somjet Dee-Book,414111-EPD-B-Press Parts,FALSE
+43,1001125,Mr. Chalerm Muangsithong,424835-EPD-B-Lgt. Management (BPK),FALSE
+44,1001141,Mr. Surin Thong-Ampol,424686-EPD-B-TPM (Die),FALSE
+45,1001161,Mr. Watchara Pengsuriya,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+46,1001170,Mrs. Saifon Thedkawinkul,414136-EPD-B-Warm Forgings,FALSE
+47,1001174,Mrs. Kulhab Sornprasert,414420-EPD-B-Wiper,FALSE
+48,1001196,Mr. Chookiat Panjapornsuk,414419-EPD-B-Air Bag Sensor,FALSE
+49,1001218,Mr. Thawee Ruensamran,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+50,1001222,Mrs. Chongpatr Changrua,414651-EPD-B-QA (Receiving Inspection),FALSE
+51,1001226,Mrs. Somporn Singhakul,414412-EPD-B-Washer,FALSE
+52,1001227,Mrs. Suchada Dathong,414645-EPD-B-QA (In-process Inspection : Assy),FALSE
+53,1001233,Miss Noknoi Sinsiri,414267-EPD-B-SE Rotor Assy 2,FALSE
+54,1001247,Mr. Jaruek Sujawipan,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+55,1001282,Mr. Watchara Charakamud,424837-EPD-B-Mfg. Management (BPK-Parts),FALSE
+56,1001287,Mr. Boonlert Morarak,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+57,1001298,Mrs. Rattana Himmin,414276-EPD-B-SE Slip Ring 2,FALSE
+58,1001331,Mrs. Nongluck Marumdee,424655-EPD-B-QA (Initial Inspection : Assy),FALSE
+59,1001345,Mr. Krit Paethsit,424627-EPD-B-TPM (PM),FALSE
+60,1001368,Mr. Manusak Charoen-Assawasuk,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+61,1001370,Mr. Arnan Wanthongsuk,424627-EPD-B-TPM (PM),FALSE
+62,1001379,Mrs. Sasikan Kabang,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+63,1001381,Mr. Pongsak Wantrong,414290-EPD-B-SE Stator 3,FALSE
+64,1001433,Mrs. Chalalai Khothong,414721-EPD-B-Material & Part Control (Assy),FALSE
+65,1001460,Mr. Krissada Wongsumalai,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+66,1001491,Mrs. Molta Sithongphap,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+67,1001501,Act.2Nd Lt. Pa-Phon Charoensuk,424680-EPD-B-TPM (Spare Parts),FALSE
+68,1001503,Mr. Sitthikorn Kaew-In,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+69,1001506,Mr. Pirom Nilpana,424621-EPD-B-TPM (Machine),FALSE
+70,1001545,Mrs. Surinthorn Khanteesa,424835-EPD-B-Lgt. Management (BPK),FALSE
+71,1001555,Mr. Sukri Changrua,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+72,1001600,Mrs. Sukanya Nilpana,424674-EPD-B-Pro.Eng. (PE Planning),FALSE
+73,1001626,Mr. Anuwat Harnsamer,414114-EPD-B-SE Stator Core,FALSE
+74,1001639,Mrs. Sirikul Taemthong,424996-MPC-B-Environment Operation,FALSE
+75,1001655,Mr. Jantakras Prappan,424837-EPD-B-Mfg. Management (BPK-Parts),FALSE
+76,1001668,Miss Supakthat Thinthieng,414412-EPD-B-Washer,FALSE
+77,1001671,Mr. Chatree Kongkaew,424835-EPD-B-Lgt. Management (BPK),FALSE
+78,1001684,Mr. Udom Puangpure,424680-EPD-B-TPM (Spare Parts),FALSE
+79,1001686,Mr. Praphunsak Boonmark,424663-EPD-B-TIE & EF Promotion & FQI,FALSE
+80,1001687,Mr. Kitisak Polcharoensuk,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+81,1001690,Miss Sudarat Sanguanchue,414498-EPD-B-Pregnant Room,FALSE
+82,1001692,Mrs. Nittaya Haenthaisong,414420-EPD-B-Wiper,FALSE
+83,1001693,Mrs. Narumol Aryapradit,414114-EPD-B-SE Stator Core,FALSE
+84,1001697,Mr. Chinnakorn Bamrungrach,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+85,1001705,Mr. Jiraroch Armarasaraisri,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+86,1001707,Mr. Pairat Chareechai,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+87,1001712,Miss Suwanna Phansantia,414253-EPD-B-Starter Magnetic Switch R2,FALSE
+88,1001716,Mr. Thanat Nithiphurimongkol,424994-EPD-B-Safety (Assy),FALSE
+89,1001724,Mrs. Surada Chaichanamongkol,424813-EPD-B-QA (EDER),FALSE
+90,1001737,Mr. Sitthipong Roshom,424686-EPD-B-TPM (Die),FALSE
+91,1001749,Mr. Suppakorn Promnai,424993-MPC-SWB-Environment Center,FALSE
+92,1001760,Mr. Suwat Traisriwirat,414259-EPD-B-Starter Magnetic Switch PA,FALSE
+93,1001768,Mrs. Jutharat Paethsit,414134-EPD-B-GDP-3,FALSE
+94,1001775,Mr. Sanya Sridam,424622-MPC-B-Facility Operation (BPK),FALSE
+95,1001812,Mr. Sompong Rattana,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+96,1001843,Mr. Veelapol Thongsuk,414645-EPD-B-QA (In-process Inspection : Assy),FALSE
+97,1001847,Mrs. Nawaporn Nuchtien,424996-MPC-B-Environment Operation,FALSE
+98,1001863,Mr. Jare Kaewket,424627-EPD-B-TPM (PM),FALSE
+99,1001865,Mr. Nivest Samran,414443-EPD-B-Glow Plug Control Unit,FALSE
+100,1001867,Miss Orn-Anong Konggunkong,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+101,1001871,Mrs. Thitirat Sae-Lim,424659-MPC-B-Facility Management & Carbon Neutral,FALSE
+102,1001918,Mr. Amnaj Jakphun,414111-EPD-B-Press Parts,FALSE
+103,1001930,Mr. Somphoch Phookong,414136-EPD-B-Warm Forgings,FALSE
+104,1001967,Mr. Niwat Manop,424675-EPD-B-Pro.Eng. (ECC & Other),FALSE
+105,1001974,Mrs. Winid Talungpol,414419-EPD-B-Air Bag Sensor,FALSE
+106,1001975,Mrs. Anocha Injorn,414275-EPD-B-SE Regulator Assy 2,FALSE
+107,1001980,Mr. Varongwet Chaiyarat,414151-EPD-B-Cold Forgings (Parts),FALSE
+108,1001982,Miss Thanyarat Sirirak,414419-EPD-B-Air Bag Sensor,FALSE
+109,1002021,Mrs. Sumita Mongsrithong,414141-EPD-B-Washing,FALSE
+110,1002073,Mrs. Bussaba Maneechansuk,424680-EPD-B-TPM (Spare Parts),FALSE
+111,1002110,Mr. Vichai Hemasaton,414272-EPD-B-SE Stator,FALSE
+112,1002119,Mrs. Thitaree Worawatbenjakul,424883-EPD-B-Business Planning,FALSE
+113,1002316,Mrs. Rattana Janyaphot,424889-EPD-B-Cost Planning,FALSE
+114,1002366,Miss Phatcharaphorn Phaethong,424889-EPD-B-Cost Planning,FALSE
+115,1002665,Miss Valunchpimon Waritthornthakun,424870-2WAC-B-Design 1 & 2,FALSE
+116,1002948,Miss Aimrudee Prairungrueng,424883-EPD-B-Business Planning,FALSE
+117,1002960,Miss Moltatip Charoenyingsook,424883-EPD-B-Business Planning,FALSE
+118,1003165,Miss Yanisa Duanghi-Run,424659-MPC-B-Facility Management & Carbon Neutral,FALSE
+119,1003175,Miss Sujittra Jiramongkollert,414650-EPD-B-QA (In-process Inspection : Parts),FALSE
+120,1003596,Miss Siriporn Ruensumruay,424993-MPC-SWB-Environment Center,FALSE
+121,1003915,Miss Pattra Kaoted,424659-MPC-B-Facility Management & Carbon Neutral,FALSE
+122,1003922,Miss Paweena Aonnom,424771-EPD-B-PC & Logistics Planning,FALSE
+123,1004301,Mrs. Amornrat Ninyakanont,424889-EPD-B-Cost Planning,FALSE
+124,1004391,Mr. Chachapol Gunjeakpong,424771-EPD-B-PC & Logistics Planning,FALSE
+125,1004802,Mr. Prawit Suengsompat,414124-EPD-B-Starter Shaft P-Drive,FALSE
+126,1004803,Miss Sukanya Wongwan,424659-MPC-B-Facility Management & Carbon Neutral,FALSE
+127,1004822,Miss Marisa Far-Arunsuk,424771-EPD-B-PC & Logistics Planning,FALSE
+128,1005007,Mr. Nattanan Akkraprechasart,424627-EPD-B-TPM (PM),FALSE
+129,1005018,Miss Vanitcha Kammongkol,414645-EPD-B-QA (In-process Inspection : Assy),FALSE
+130,1005025,Mr. Dech Chidpalad,424673-EPD-B-Pro.Eng. (Starter),FALSE
+131,1005034,Mr. Narongchai Ong-In,424655-EPD-B-QA (Initial Inspection : Assy),FALSE
+132,1005037,Mr. Nuttapark Sutthitearranun,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+133,1005052,Mr. Sirisak Buakhem,424663-EPD-B-TIE & EF Promotion & FQI,FALSE
+134,1005071,Mrs. Sombat Chai-Aai,424661-EPD-B-Factory Engineering,FALSE
+135,1005072,Mr. Boontham Phanprom,424622-MPC-B-Facility Operation (BPK),FALSE
+136,1005074,Mr. Montree Yodying,414412-EPD-B-Washer,FALSE
+137,1005078,Mr. Yutsakarn Manakitkumtorn,424919-MPC-B-Safety Planning,FALSE
+138,1005080,Mr. Nawin Sae-Gnow,414111-EPD-B-Press Parts,FALSE
+139,1005082,Miss Nicharat Thitichantawat,434926-CAD-B-HR Development,FALSE
+140,1005098,Mr. Thanong Wongsukjit,424837-EPD-B-Mfg. Management (BPK-Parts),FALSE
+141,1005105,Mr. Sanong Kumsan,414419-EPD-B-Air Bag Sensor,FALSE
+142,1005118,Mr. Anan Rattanasirisak,414464-EPD-B-SE Alternator Assy 3,FALSE
+143,1005126,Mrs. Nednapha Hemmala,414260-EPD-B-Starter R-Large Assy,FALSE
+144,1005128,Mr. Rungroj Thongudom,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+145,1005132,Mr. Krissada Sardphan,424771-EPD-B-PC & Logistics Planning,FALSE
+146,1005143,Miss Monsicha Ritthichanchai,414498-EPD-B-Pregnant Room,FALSE
+147,1005145,Mr. Narong Dumnoen,414111-EPD-B-Press Parts,FALSE
+148,1005150,Mr. Tossaporn Siripong,424771-EPD-B-PC & Logistics Planning,FALSE
+149,1005158,Mr. Niran Limpakdee,424621-EPD-B-TPM (Machine),FALSE
+150,1005163,Mr. Sutas Moontongsong,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+151,1005180,Mr. Siwarith Tingsarath,424811-EPD-B-QA (Planning & ESC),FALSE
+152,1005186,Mr. Soros Raksasuk,424679-EPD-B-Pro.Eng. (Alternator),FALSE
+153,1005193,Miss Thatsanee Chorsungnoen,414120-EPD-B-Starter Armature Shaft,FALSE
+154,1005200,Mr. Nuttawat Kamsaen,414114-EPD-B-SE Stator Core,FALSE
+155,1005203,Mr. Namchai Jairak,424815-EPD-B-QA (SQD),FALSE
+156,1005206,Mr. Vichien Bua-Ngam,414111-EPD-B-Press Parts,FALSE
+157,1005216,Mr. Prasit Choothong,424627-EPD-B-TPM (PM),FALSE
+158,1005226,Mr. Napat Thongkorn,414651-EPD-B-QA (Receiving Inspection),FALSE
+159,1005228,Mr. Rangsan Thongsiri,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+160,1005231,Mr. Suriyan Sukban,424837-EPD-B-Mfg. Management (BPK-Parts),FALSE
+161,1005235,Mr. Roongsuriya Seehamat,414452-EPD-B-Starter Assy Gen,FALSE
+162,1005236,Mr. Bancha Mitmat,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+163,1005239,Mr. Danai Sangsawang,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+164,1005243,Mr. Wiwat Komek,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+165,1005247,Miss Bussayarat Philuek,424655-EPD-B-QA (Initial Inspection : Assy),FALSE
+166,1005249,Mr. Dusit Wanjongkam,424622-MPC-B-Facility Operation (BPK),FALSE
+167,1005255,Miss Akkharacha Reabroi,414651-EPD-B-QA (Receiving Inspection),FALSE
+168,1005258,Mr. Chaiyos Leelasart,414433-EPD-B-Glow Plug,FALSE
+169,1005260,Miss U-Maporn Taengmueang,414433-EPD-B-Glow Plug,FALSE
+170,1005265,Mr. Akekamol Sutinpuek,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+171,1005266,Mr. Chaiyong Pangma,414721-EPD-B-Material & Part Control (Assy),FALSE
+172,1005279,Mr. Attapol Sopa,414284-EPD-B-Starter Tube S/A PA70,FALSE
+173,1005281,Miss Manastannapas Chiengkasem,414412-EPD-B-Washer,FALSE
+174,1005284,Miss Sirilak Sukchoo,424837-EPD-B-Mfg. Management (BPK-Parts),FALSE
+175,1005286,Mrs. Patitta Armarasaraisri,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+176,1005289,Mr. Anurak Saokomut,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+177,1005290,Mr. Supachai Thanachavengwong,424679-EPD-B-Pro.Eng. (Alternator),FALSE
+178,1005293,Mr. Vichai Sae-Teung,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+179,1005294,Mr. Vorawit Srichan,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+180,1005295,Mrs. Pornpen Boonsong,414498-EPD-B-Pregnant Room,FALSE
+181,1005296,Mrs. Ar-Porn Kamlangharn,424837-EPD-B-Mfg. Management (BPK-Parts),FALSE
+182,1005297,Mrs. Porntipa Dee-Book,424688-EPD-B-TPM (PC Cutting Tool),FALSE
+183,1005299,Mr. Atthasit Pattanaprapan,414453-EPD-B-Starter R-Large,FALSE
+184,1005303,Mrs. Thitirat Daengta,414270-EPD-B-SE Frame Lathe,FALSE
+185,1005304,Mr. Chok-Anan Duangchuen,414281-EPD-B-Starter Yoke Assy PA70,FALSE
+186,1005307,Miss Jutamart Kansri,414642-EPD-B-QA (Final Inspection : Parts),FALSE
+187,1005308,Mrs. Rutcharun Manasoonthorn,414721-EPD-B-Material & Part Control (Assy),FALSE
+188,1005309,Miss Arpaporn Ratthakit,414286-EPD-B-Starter Armature RA90,FALSE
+189,1005310,Miss Sureephon Yongyingpoon,414461-EPD-B-SE Alternator Assy,FALSE
+190,1005312,Mrs. Jarunee Sae-Eiw,424835-EPD-B-Lgt. Management (BPK),FALSE
+191,1005314,Miss Nutchanon Krajang,414131-EPD-B-Cold Forgings (T & Former),FALSE
+192,1005315,Mrs. Nattaya Prasong,424835-EPD-B-Lgt. Management (BPK),FALSE
+193,1005320,Miss Veeranut Sangmanee,414253-EPD-B-Starter Magnetic Switch R2,FALSE
+194,1005324,Mrs. Wongduen Pransuea,414267-EPD-B-SE Rotor Assy 2,FALSE
+195,1005328,Mrs. Supranee Sumee,414280-EPD-B-Starter Armature Assy,FALSE
+196,1005332,Miss Chutinthorn Sugsai,424811-EPD-B-QA (Planning & ESC),FALSE
+197,1005340,Miss Pikulthong Tasiw,414499-EPD-B-Packaging,FALSE
+198,1005343,Mrs. Watcharaporn Chidplad,414270-EPD-B-SE Frame Lathe,FALSE
+199,1005347,Mrs. Kesorn Srichan,414132-EPD-B-Housing Stator & Nozzle Body,FALSE
+200,1005350,Mr. Porntep Nakanam,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+201,1005352,Mr. Bannarak Madot,424661-EPD-B-Factory Engineering,FALSE
+202,1005356,Miss Tharinee Srisuk,414114-EPD-B-SE Stator Core,FALSE
+203,1005357,Mr. Ammarin Jiranantakul,424621-EPD-B-TPM (Machine),FALSE
+204,1005358,Mr. Tanawan Ngam-Boonkam,414499-EPD-B-Packaging,FALSE
+205,1005359,Mr. Suchart Sombatlar,414412-EPD-B-Washer,FALSE
+206,1005360,Mrs. Suttasinee Prabpan,414253-EPD-B-Starter Magnetic Switch R2,FALSE
+207,1005364,Mrs. Petchara Chamnanphrai,414259-EPD-B-Starter Magnetic Switch PA,FALSE
+208,1005366,Miss Jettiyaporn Jaroenchon,414454-EPD-B-Starter Magnetic Switch P64,FALSE
+209,1005368,Mrs. Yupin Larakee,414453-EPD-B-Starter R-Large,FALSE
+210,1005372,Mrs. Sureeporn Charakamud,424996-MPC-B-Environment Operation,FALSE
+211,1005374,Mrs. Onjitra Deemark,414721-EPD-B-Material & Part Control (Assy),FALSE
+212,1005375,Mr. Banjob Tongsawas,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+213,1005383,Mr. Somsak Pudonkam,424671-EPD-B-Part Pro.Eng. (Lathing),FALSE
+214,1005384,Mr. Nattapong Camzao,424679-EPD-B-Pro.Eng. (Alternator),FALSE
+215,1005385,Mr. Prajak Janbua,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+216,1005386,Mr. Tip-Uthai Pho-Tong,424686-EPD-B-TPM (Die),FALSE
+217,1005392,Mr. Kitpipat Onnue,424671-EPD-B-Part Pro.Eng. (Lathing),FALSE
+218,1005394,Mrs. Panomporn Krasae,424816-EPD-B-QA (Defect Control),FALSE
+219,1005396,Miss Bua-Ngern Waikroo,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+220,1005398,Mrs. Supairin Jantapetch,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+221,1005400,Mr. Anuchit Chaiputtha,414131-EPD-B-Cold Forgings (T & Former),FALSE
+222,1005401,Miss Sarisa Meesuk,414721-EPD-B-Material & Part Control (Assy),FALSE
+223,1005402,Miss Priyakorn Khattiya,414268-EPD-B-SE Rectifier Assy 3,FALSE
+224,1005403,Mrs. Tharika Suwankomolchai,414498-EPD-B-Pregnant Room,FALSE
+225,1005404,Mr. Surachart Sae-Eiw,424663-EPD-B-TIE & EF Promotion & FQI,FALSE
+226,1005406,Mr. Chumpol Kamphet,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+227,1005408,Miss A-Ramsree Keawpara,414136-EPD-B-Warm Forgings,FALSE
+228,1005409,Mrs. Veeraya Arsa,414721-EPD-B-Material & Part Control (Assy),FALSE
+229,1005412,Mr. Pornpol Meechu,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+230,1005413,Mr. Chalong Raddaduang,424813-EPD-B-QA (EDER),FALSE
+231,1005414,Miss Supunya Pongsa-Ard,424771-EPD-B-PC & Logistics Planning,FALSE
+232,1005417,Mr. Samroeng Kongchoodee,414499-EPD-B-Packaging,FALSE
+233,1005420,Mr. Sutee Noralak,424670-EPD-B-Part Pro.Eng. (Stamping),FALSE
+234,1005422,Mr. Surachai Viboonpeng,424661-EPD-B-Factory Engineering,FALSE
+235,1005423,Mr. Kullikhit Mahiphan,424674-EPD-B-Pro.Eng. (PE Planning),FALSE
+236,1005424,Mr. Weerachai Srinak,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+237,1005426,Mr. Kukkong Thadabadin,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+238,1005429,Mr. Niwat Tabutwong,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+239,1005430,Mrs. Sudarat Chanhom,414412-EPD-B-Washer,FALSE
+240,1005431,Mrs. Nuttapat Pattanapraphun,414256-EPD-B-Starter Armature PA70,FALSE
+241,1005433,Mr. Nattapong Kaewkoonok,414152-EPD-B-Boss Rotor,FALSE
+242,1005434,Miss Sukanya Wangthapan,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+243,1005435,Mrs. Kannapat Phromsing,414433-EPD-B-Glow Plug,FALSE
+244,1005436,Mr. Ekkarin Manimalaphakhanan,414280-EPD-B-Starter Armature Assy,FALSE
+245,1005437,Mrs. Sukanlaya Jusawas,414256-EPD-B-Starter Armature PA70,FALSE
+246,1005441,Mrs. Anchalee Kongchoodee,414412-EPD-B-Washer,FALSE
+247,1005443,Miss Saowanee Kedpratum,414111-EPD-B-Press Parts,FALSE
+248,1005445,Mr. Sutas Pachimplee,414153-EPD-B-Frame Magnetic Switch,FALSE
+249,1005449,Mr. Chalermpol Monkraiwet,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+250,1005450,Mr. Niwat Kaennakham,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+251,1005451,Miss Pattaraporn Doncoksung,424771-EPD-B-PC & Logistics Planning,FALSE
+252,1005454,Mr. Pirom Wongwan,414152-EPD-B-Boss Rotor,FALSE
+253,1005460,Mr. Wittawat Bunpan,414153-EPD-B-Frame Magnetic Switch,FALSE
+254,1005463,Mr. Pidsanu Sukchoo,414721-EPD-B-Material & Part Control (Assy),FALSE
+255,1005464,Mr. Surachet Udomwit,414452-EPD-B-Starter Assy Gen,FALSE
+256,1005465,Mr. Karn Huangprakone,414111-EPD-B-Press Parts,FALSE
+257,1005466,Mr. Prayote Tientam,414270-EPD-B-SE Frame Lathe,FALSE
+258,1005468,Mrs. Orawan Sutinpuek,414464-EPD-B-SE Alternator Assy 3,FALSE
+259,1005471,Mr. Kornpong Thongphol,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+260,1005478,Miss Varin Duangsalee,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+261,1005479,Mrs. Suradda Kotchapum,414498-EPD-B-Pregnant Room,FALSE
+262,1005481,Mr. Sathid Teepang,414721-EPD-B-Material & Part Control (Assy),FALSE
+263,1005489,Mr. Mana Jakkapan,414151-EPD-B-Cold Forgings (Parts),FALSE
+264,1005490,Mr. Tanakorn Sangpreedasiri,424663-EPD-B-TIE & EF Promotion & FQI,FALSE
+265,1005491,Miss Danuch Lohachitlumpao,424883-EPD-B-Business Planning,FALSE
+266,1005494,Mr. Wutthichai Intawichai,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+267,1005496,Mr. Thakorn Kingkangplu,424771-EPD-B-PC & Logistics Planning,FALSE
+268,1005499,Mr. Montree Mongkolkun,414721-EPD-B-Material & Part Control (Assy),FALSE
+269,1005502,Mr. Virote Jaturat,414257-EPD-B-Starter Lathing,FALSE
+270,1005503,Miss Moltira Nakna,414721-EPD-B-Material & Part Control (Assy),FALSE
+271,1005504,Mrs. Natthakarn Bao-Ngam,414443-EPD-B-Glow Plug Control Unit,FALSE
+272,1005505,Mr. Panya Ngernying,414114-EPD-B-SE Stator Core,FALSE
+273,1005508,Mr. Suwat Wisetkul,414111-EPD-B-Press Parts,FALSE
+274,1005510,Mrs. Bang-Orn Sang-Ngiew,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+275,1005516,Mrs. Chutamas Chantet,424680-EPD-B-TPM (Spare Parts),FALSE
+276,1005518,Mr. Seksan Pramarn,424663-EPD-B-TIE & EF Promotion & FQI,FALSE
+277,1005520,Mr. Apichart Janjuie,424811-EPD-B-QA (Planning & ESC),FALSE
+278,1005521,Mr. Boonchoo Phanchan,424686-EPD-B-TPM (Die),FALSE
+279,1005524,Mr. Chalee Busayacharoensuk,424811-EPD-B-QA (Planning & ESC),FALSE
+280,1005525,Mr. Supatchai Boonmek,424663-EPD-B-TIE & EF Promotion & FQI,FALSE
+281,1005528,Mr. Tanadet Sodkhuntod,424661-EPD-B-Factory Engineering,FALSE
+282,1005531,Mr. Supot Panthongrong,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+283,1005532,Mr. Boonmark Panmas,424671-EPD-B-Part Pro.Eng. (Lathing),FALSE
+284,1005534,Mr. Wongkot Sang-Ngiew,424813-EPD-B-QA (EDER),FALSE
+285,1005536,Mrs. Kanticha Thatthiam,414278-EPD-B-SE Alternator Service Kit,FALSE
+286,1005539,Mr. Montree Kullachote,424621-EPD-B-TPM (Machine),FALSE
+287,1005540,Mr. Nisit Yuwanna,424621-EPD-B-TPM (Machine),FALSE
+288,1005541,Mr. Nattawut Tubjan,424876-2WAC-B-Monozukuri Engineering,FALSE
+289,1005543,Miss Buatong Posarach,424811-EPD-B-QA (Planning & ESC),FALSE
+290,1005548,Mr. Subancha Karnchasaen,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+291,1005549,Mr. Thananwat Thiraphibundet,424663-EPD-B-TIE & EF Promotion & FQI,FALSE
+292,1005552,Mrs. Voranut Keanchandam,414645-EPD-B-QA (In-process Inspection : Assy),FALSE
+293,1005562,Mr. Pitak Chantet,424621-EPD-B-TPM (Machine),FALSE
+294,1005567,Mr. Natthapol Moolmee,424837-EPD-B-Mfg. Management (BPK-Parts),FALSE
+295,1005569,Mr. Anucha Sae-Lim,424621-EPD-B-TPM (Machine),FALSE
+296,1005570,Mr. Prayut Thongtiew,424671-EPD-B-Part Pro.Eng. (Lathing),FALSE
+297,1005576,Mr. Sakda Payakgul,424671-EPD-B-Part Pro.Eng. (Lathing),FALSE
+298,1005579,Mr. Korn Manopatthada,424659-MPC-B-Facility Management & Carbon Neutral,FALSE
+299,1005580,Mr. Sittichai Treethan,424621-EPD-B-TPM (Machine),FALSE
+300,1005581,Mr. Jeerasit Srisajja,424885-EPD-B-Job Innovation Promotion,FALSE
+301,1005583,Mr. Sutep Thintab,424679-EPD-B-Pro.Eng. (Alternator),FALSE
+302,1005584,Mr. Thanawit Charoenkijvanich,424675-EPD-B-Pro.Eng. (ECC & Other),FALSE
+303,1005586,Mr. Arkom Rattanathip,424675-EPD-B-Pro.Eng. (ECC & Other),FALSE
+304,1005588,Mr. Chanarat Chonpakdee,424670-EPD-B-Part Pro.Eng. (Stamping),FALSE
+305,1005589,Mr. Worapon Siriruengsakhun,424811-EPD-B-QA (Planning & ESC),FALSE
+306,1005590,Mr. Sittikorn Sangpuen,424815-EPD-B-QA (SQD),FALSE
+307,1005593,Mrs. Sirisiree Kuntisiridit,424688-EPD-B-TPM (PC Cutting Tool),FALSE
+308,1005594,Mr. Banlue Pethtong,414156-EPD-B-Pole Core,FALSE
+309,1005595,Mr. Manit Dunkrang,414259-EPD-B-Starter Magnetic Switch PA,FALSE
+310,1005598,Mr. Pongsak Rungrotchokraksa,414270-EPD-B-SE Frame Lathe,FALSE
+311,1005601,Mr. Chatchawal Pattanaphapan,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+312,1005603,Mr. Kittipong Kraiyoosuk,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+313,1005604,Mrs. Nuanchan Singsena,414721-EPD-B-Material & Part Control (Assy),FALSE
+314,1005611,Mrs. Khanittha Pijitkadeepol,424674-EPD-B-Pro.Eng. (PE Planning),FALSE
+315,1005612,Mr. Jeerasak Polsongmuang,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+316,1005616,Mr. Ittipat Anuthum,424673-EPD-B-Pro.Eng. (Starter),FALSE
+317,1005617,Mr. Chatree Thammawuttikul,424673-EPD-B-Pro.Eng. (Starter),FALSE
+318,1005632,Mr. Eakwit Phrom-In,424627-EPD-B-TPM (PM),FALSE
+319,1005634,Mr. Chaowalit Sanyabut,424679-EPD-B-Pro.Eng. (Alternator),FALSE
+320,1005639,Mr. Noppadon Jansompong,424675-EPD-B-Pro.Eng. (ECC & Other),FALSE
+321,1005647,Mr. Natthawat Srichaisopa,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+322,1005651,Mr. Peeti Senanikorn,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+323,1005652,Miss Thanyapak Suksa-Nguan,414271-EPD-B-SE Slip Ring 1,FALSE
+324,1005661,Miss Waraporn Roungtong,414269-EPD-B-SE Regulator Assy 1,FALSE
+325,1005662,Mr. Taweesak Boonpet,414277-EPD-B-SE Rotor Assy 3,FALSE
+326,1005663,Mr. Khjornsak Khao-Ngam,414152-EPD-B-Boss Rotor,FALSE
+327,1005664,Mr. Ar-Kom Boonpan,414270-EPD-B-SE Frame Lathe,FALSE
+328,1005667,Mr. Anantachai Sudsopa,414151-EPD-B-Cold Forgings (Parts),FALSE
+329,1005668,Mr. Kampol Krueta,414151-EPD-B-Cold Forgings (Parts),FALSE
+330,1005670,Mrs. Booncherd Sukkrad,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+331,1005671,Mrs. Chanjira Thepphanom,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+332,1005672,Miss Nipaporn Bueknanta,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+333,1005673,Mr. Nattawut Beachan,424816-EPD-B-QA (Defect Control),FALSE
+334,1005675,Mr. Jeerasak Maneepaksee,414156-EPD-B-Pole Core,FALSE
+335,1005678,Mr. Niwat Sinsam-Ang,424622-MPC-B-Facility Operation (BPK),FALSE
+336,1005679,Mr. Wisan Phapuai,414443-EPD-B-Glow Plug Control Unit,FALSE
+337,1005681,Mrs. Rattanasil Luang-On,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+338,1005682,Mr. Akkarapan Seetao,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+339,1005683,Mr. Caboy Bamroongsawas,414721-EPD-B-Material & Part Control (Assy),FALSE
+340,1005684,Miss Pranee Phongsai,414282-EPD-B-Starter Brush Holder PA70,FALSE
+341,1005688,Miss Ratchanok Pienprasert,424680-EPD-B-TPM (Spare Parts),FALSE
+342,1005689,Mr. Parit Homdokploy,414499-EPD-B-Packaging,FALSE
+343,1005693,Mr. Sakol Luang-On,414257-EPD-B-Starter Lathing,FALSE
+344,1005695,Mr. Pradit Fongfung,414281-EPD-B-Starter Yoke Assy PA70,FALSE
+345,1005696,Mrs. Arissara Boonpan,414133-EPD-B-Die Casting 1,FALSE
+346,1005697,Mrs. Marisa Tientam,414420-EPD-B-Wiper,FALSE
+347,1005699,Miss Wipapuk Saogomut,414721-EPD-B-Material & Part Control (Assy),FALSE
+348,1005700,Mrs. On-Anong Thadabadin,424771-EPD-B-PC & Logistics Planning,FALSE
+349,1005701,Miss Lamai Srisalasang,414433-EPD-B-Glow Plug,FALSE
+350,1005704,Mrs. Supattra Buayai,414650-EPD-B-QA (In-process Inspection : Parts),FALSE
+351,1005707,Mrs. Patcharaporn Wongkaew,424680-EPD-B-TPM (Spare Parts),FALSE
+352,1005708,Miss Pattakan Sooksan,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+353,1005713,Mr. Aroon Siriphakakul,424835-EPD-B-Lgt. Management (BPK),FALSE
+354,1005720,Mr. Ekkachai Lertamrungkul,424663-EPD-B-TIE & EF Promotion & FQI,FALSE
+355,1005721,Mrs. Nongthip Pantasri,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+356,1005722,Miss Ratchakorn Ketwiriyakarn,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+357,1005726,Mr. Satit Sornjan,424837-EPD-B-Mfg. Management (BPK-Parts),FALSE
+358,1005727,Mrs. Ratchanok Thongchumphoo,424663-EPD-B-TIE & EF Promotion & FQI,FALSE
+359,1005728,Mr. Keng Sing-Hasen,414133-EPD-B-Die Casting 1,FALSE
+360,1005731,Mr. Nirut Chasombat,424837-EPD-B-Mfg. Management (BPK-Parts),FALSE
+361,1005732,Mr. Kowit Puangkaew,424837-EPD-B-Mfg. Management (BPK-Parts),FALSE
+362,1005736,Mr. Napon Klaykaew,424627-EPD-B-TPM (PM),FALSE
+363,1005737,Mr. Banjerd Torin,424837-EPD-B-Mfg. Management (BPK-Parts),FALSE
+364,1005738,Mr. Kittinat Chimplee,434929-CAD-B-Associate Relations (LU),FALSE
+365,1005739,Mr. Sangwien Montip,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+366,1005740,Mr. Arthit Chaipha,424813-EPD-B-QA (EDER),FALSE
+367,1005743,Miss Patcharee Polchairuen,424686-EPD-B-TPM (Die),FALSE
+368,1005748,Mr. Pratueng Buajoom,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+369,1005749,Mr. Watcharin Sangdang,424663-EPD-B-TIE & EF Promotion & FQI,FALSE
+370,1005750,Mr. Prawit Chiengsin,424816-EPD-B-QA (Defect Control),FALSE
+371,1005751,Mr. Arnon Muang-In,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+372,1005756,Mr. Pairin Duangjit,414136-EPD-B-Warm Forgings,FALSE
+373,1005759,Miss Wullapa Benjasing,424674-EPD-B-Pro.Eng. (PE Planning),FALSE
+374,1005762,Mrs. Pranee Butrcha,424837-EPD-B-Mfg. Management (BPK-Parts),FALSE
+375,1005769,Mr. Jeerasak Srisang,424680-EPD-B-TPM (Spare Parts),FALSE
+376,1005770,Mrs. Sureeporn Intaphan,414651-EPD-B-QA (Receiving Inspection),FALSE
+377,1005771,Mr. Parkpoom Ket-In,414270-EPD-B-SE Frame Lathe,FALSE
+378,1005777,Mr. Arthit Wachapornsirisuk,424627-EPD-B-TPM (PM),FALSE
+379,1005780,Miss Chanatda Poowapee,424680-EPD-B-TPM (Spare Parts),FALSE
+380,1005781,Miss Krue-Wan Rakklin,414721-EPD-B-Material & Part Control (Assy),FALSE
+381,1005785,Mrs. Ketsunee Maneechansuk,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+382,1005788,Miss Suphaporn Wan-Ngam,424816-EPD-B-QA (Defect Control),FALSE
+383,1005789,Mr. Narong Maneekart,414276-EPD-B-SE Slip Ring 2,FALSE
+384,1005790,Mr. U-Thai Kaskasem,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+385,1005791,Mr. Kittikorn Chintong,414443-EPD-B-Glow Plug Control Unit,FALSE
+386,1005792,Mrs. Orapinya Seetao,414419-EPD-B-Air Bag Sensor,FALSE
+387,1005796,Miss Sawitree Intha-O-Pas,414443-EPD-B-Glow Plug Control Unit,FALSE
+388,1005798,Mr. Somwang Chaida,414286-EPD-B-Starter Armature RA90,FALSE
+389,1005801,Mr. Manop Phomkam,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+390,1005802,Mr. Sirichai Panjamroon,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+391,1005804,Mr. Suriya Wongsrikaew,414156-EPD-B-Pole Core,FALSE
+392,1005805,Mr. Supachai Suengsompat,414120-EPD-B-Starter Armature Shaft,FALSE
+393,1005808,Mr. Meechai Tabwithon,414412-EPD-B-Washer,FALSE
+394,1005809,Mr. Rungruaeng Puangkam,414151-EPD-B-Cold Forgings (Parts),FALSE
+395,1005811,Miss Areerat Kwanyuen,424663-EPD-B-TIE & EF Promotion & FQI,FALSE
+396,1005812,Mr. Piyarat Wiwut,414111-EPD-B-Press Parts,FALSE
+397,1005813,Mr. Somkid Janhom,414454-EPD-B-Starter Magnetic Switch P64,FALSE
+398,1005814,Mr. Sanid Wongsrikeaw,414153-EPD-B-Frame Magnetic Switch,FALSE
+399,1005815,Mr. Kirawat Buayai,414645-EPD-B-QA (In-process Inspection : Assy),FALSE
+400,1005816,Mr. Charoon Promhoo,424813-EPD-B-QA (EDER),FALSE
+401,1005820,Mr. Siripan Nonthamat,424771-EPD-B-PC & Logistics Planning,FALSE
+402,1005822,Mr. U-Then Jitman,414132-EPD-B-Housing Stator & Nozzle Body,FALSE
+403,1005823,Miss Sumalee Pummanee,414651-EPD-B-QA (Receiving Inspection),FALSE
+404,1005824,Mr. Pichet Noomrit,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+405,1005825,Mr. Surasak Poonmuong,414153-EPD-B-Frame Magnetic Switch,FALSE
+406,1005827,Mr. Somkuan Kamlangharn,414280-EPD-B-Starter Armature Assy,FALSE
+407,1005828,Mr. Jumlong Pransue,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+408,1005830,Miss Supansa Yearam,414443-EPD-B-Glow Plug Control Unit,FALSE
+409,1005836,Mrs. Sunan Chanhuaton,414412-EPD-B-Washer,FALSE
+410,1005837,Mr. Sombut Sansa-Nor,424627-EPD-B-TPM (PM),FALSE
+411,1005841,Mr. Kittisak Klinklob,424615-EPD-B-QA (Measurement Control),FALSE
+412,1005842,Mr. Poosit Srithon,424837-EPD-B-Mfg. Management (BPK-Parts),FALSE
+413,1005848,Miss Nisakorn Srisuriyachai,424674-EPD-B-Pro.Eng. (PE Planning),FALSE
+414,1005849,Mr. Chaianan Chanseenak,424655-EPD-B-QA (Initial Inspection : Assy),FALSE
+415,1005852,Mr. Toungsit Tongchoompu,424811-EPD-B-QA (Planning & ESC),FALSE
+416,1005855,Mr. Kowit Koonkhuntod,424686-EPD-B-TPM (Die),FALSE
+417,1005856,Mr. Suchart Pradabpetch,414136-EPD-B-Warm Forgings,FALSE
+418,1005857,Miss Sirilak Suwanmalai,434926-CAD-B-HR Development,FALSE
+419,1005859,Mr. Banprot Choonprasert,414154-EPD-B-Starter R Large Pinion,FALSE
+420,1005860,Mr. Thanarit Mitsawan,424655-EPD-B-QA (Initial Inspection : Assy),FALSE
+421,1005861,Mr. Kamphol Saelim,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+422,1005862,Miss Inthira Lamongkol,424837-EPD-B-Mfg. Management (BPK-Parts),FALSE
+423,1005863,Mr. Pornsak Malahom,424837-EPD-B-Mfg. Management (BPK-Parts),FALSE
+424,1005865,Mr. Bancha Tongjan,424686-EPD-B-TPM (Die),FALSE
+425,1005866,Mr. Jetsada Wongprasert,424686-EPD-B-TPM (Die),FALSE
+426,1005868,Mr. Punyawich Momala,414111-EPD-B-Press Parts,FALSE
+427,1005869,Mr. Panom Duangpak,424813-EPD-B-QA (EDER),FALSE
+428,1005871,Mr. Akkharanan Wasitthanawat,424671-EPD-B-Part Pro.Eng. (Lathing),FALSE
+429,1005872,Miss Thanomsri Sri-Onnee,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+430,1005875,Miss Bang-On Phonlakorn,424811-EPD-B-QA (Planning & ESC),FALSE
+431,1005876,Mr. Wasan Wantrong,424622-MPC-B-Facility Operation (BPK),FALSE
+432,1005877,Mr. Kittisak Nilyam,424771-EPD-B-PC & Logistics Planning,FALSE
+433,1005883,Miss Pailit Pawiset,414271-EPD-B-SE Slip Ring 1,FALSE
+434,1005884,Mrs. Patcharin Poonsuk,414419-EPD-B-Air Bag Sensor,FALSE
+435,1005885,Mrs. Preeya Phetmart,424659-MPC-B-Facility Management & Carbon Neutral,FALSE
+436,1005887,Mr. Santi Sangchart,414420-EPD-B-Wiper,FALSE
+437,1005888,Miss Walaiporn Porn-Anake,414273-EPD-B-SE Coil Rotor,FALSE
+438,1005889,Mr. Chalermchai Buatum,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+439,1005890,Mr. Jeerasak Sorndee,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+440,1005891,Mr. Supasit Wisetsud,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+441,1005892,Mr. Wirat Yos-Heang,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+442,1005894,Mr. Sittiporn Sri-Thilert,414420-EPD-B-Wiper,FALSE
+443,1005897,Mr. Nutthapurk Teewee,414290-EPD-B-SE Stator 3,FALSE
+444,1005901,Mr. Pongsak Phasuk,414464-EPD-B-SE Alternator Assy 3,FALSE
+445,1005903,Mr. Kraisee Klin-Niem,414651-EPD-B-QA (Receiving Inspection),FALSE
+446,1005904,Mr. Somchai Kesornpate,414451-EPD-B-Starter Assy R2,FALSE
+447,1005906,Mr. Krissana Tanalue,414114-EPD-B-SE Stator Core,FALSE
+448,1005907,Miss Natthayaporn Pedee,414282-EPD-B-Starter Brush Holder PA70,FALSE
+449,1005909,Miss Pornpimol Horthong,424663-EPD-B-TIE & EF Promotion & FQI,FALSE
+450,1005910,Miss Sabaitip Suklor,414272-EPD-B-SE Stator,FALSE
+451,1005911,Mr. Montree Wandee,424663-EPD-B-TIE & EF Promotion & FQI,FALSE
+452,1005915,Mr. Vira Pholsakkree,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+453,1005923,Mr. Apichart Moljoi,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+454,1005924,Mr. Wittaya Wisetkul,424837-EPD-B-Mfg. Management (BPK-Parts),FALSE
+455,1005926,Mr. Rangsan Kansorn,424837-EPD-B-Mfg. Management (BPK-Parts),FALSE
+456,1005927,Miss Saowanee Inma,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+457,1005928,Miss Rampoey Sansuwan,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+458,1005929,Mr. Narongrit Somchai,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+459,1005933,Mr. Arthit Fang-Daharn,424837-EPD-B-Mfg. Management (BPK-Parts),FALSE
+460,1005934,Mr. Sarawut Duangpayom,424811-EPD-B-QA (Planning & ESC),FALSE
+461,1005937,Mr. Mitchai Arsa,424663-EPD-B-TIE & EF Promotion & FQI,FALSE
+462,1005942,Mr. Praphas Phoocha,424837-EPD-B-Mfg. Management (BPK-Parts),FALSE
+463,1005943,Mr. Jiradech Boonchit,424627-EPD-B-TPM (PM),FALSE
+464,1005946,Mr. Prajak Jandang,424837-EPD-B-Mfg. Management (BPK-Parts),FALSE
+465,1005954,Miss Ananya Laloon,414270-EPD-B-SE Frame Lathe,FALSE
+466,1005957,Mrs. Pennapa Suwanwattana,414133-EPD-B-Die Casting 1,FALSE
+467,1005958,Mrs. Laphatrada Phapuai,414274-EPD-B-SE Rectifier Assy 2,FALSE
+468,1005959,Mrs. Suranee Chamnongprakhon,414419-EPD-B-Air Bag Sensor,FALSE
+469,1005962,Mr. Yotin Artidchandao,414270-EPD-B-SE Frame Lathe,FALSE
+470,1005963,Mr. Prasong Manchit,414499-EPD-B-Packaging,FALSE
+471,1005966,Mrs. Anuchsara Panyosuk,414254-EPD-B-Starter Clutch,FALSE
+472,1005967,Mr. Suchart Kitkhayan,414420-EPD-B-Wiper,FALSE
+473,1005972,Mr. Somporn Audna,414151-EPD-B-Cold Forgings (Parts),FALSE
+474,1005974,Mrs. Ruangtip Krueta,414260-EPD-B-Starter R-Large Assy,FALSE
+475,1005977,Miss Wassana Nuengket,414642-EPD-B-QA (Final Inspection : Parts),FALSE
+476,1005980,Mr. Narongdech Pech-Aiem,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+477,1005981,Mr. Anusorn Chokchai,424655-EPD-B-QA (Initial Inspection : Assy),FALSE
+478,1005982,Miss Duangnet Wongsuwan,414645-EPD-B-QA (In-process Inspection : Assy),FALSE
+479,1005985,Mr. Surasak Kotchapum,414141-EPD-B-Washing,FALSE
+480,1005987,Mr. Tanorm Sangsai,414114-EPD-B-SE Stator Core,FALSE
+481,1005988,Mr. Wut Tuayset,414270-EPD-B-SE Frame Lathe,FALSE
+482,1005994,Mr. Tawee Nuchnim,424673-EPD-B-Pro.Eng. (Starter),FALSE
+483,1005996,Mr. Kolachai Therdtappanun,424813-EPD-B-QA (EDER),FALSE
+484,1006000,Mr. Sittichai Sangnuttee,424659-MPC-B-Facility Management & Carbon Neutral,FALSE
+485,1006005,Mr. Wichai Nilpat,424876-2WAC-B-Monozukuri Engineering,FALSE
+486,1006007,Mr. Theeraphon Termpong,424621-EPD-B-TPM (Machine),FALSE
+487,1006008,Miss Sunisa Kettrakultham,424674-EPD-B-Pro.Eng. (PE Planning),FALSE
+488,1006011,Mr. Weerayut Suwanwattana,414441-EPD-B-Magneto Assy,FALSE
+489,1006013,Mr. Panomtien Lobthan,424815-EPD-B-QA (SQD),FALSE
+490,1006016,Mr. Pairoj Sinpru,424673-EPD-B-Pro.Eng. (Starter),FALSE
+491,1006017,Miss Patchamon Hirunyapornwichai,424663-EPD-B-TIE & EF Promotion & FQI,FALSE
+492,1006018,Miss Pratthana Prawong,424683-EPD-B-Factory Restructure,FALSE
+493,1006019,Mr. Phaithoon Thanonnork,424837-EPD-B-Mfg. Management (BPK-Parts),FALSE
+494,1006020,Mrs. Jiraporn Chantasen,424815-EPD-B-QA (SQD),FALSE
+495,1006021,Mr. Surapong Sungweera,414122-EPD-B-SE Shaft Lathe,FALSE
+496,1006026,Miss Wayupak Kotebancha,414278-EPD-B-SE Alternator Service Kit,FALSE
+497,1006027,Mr. Saengdao Fankaew,414463-EPD-B-SE Alternator Assy 2,FALSE
+498,1006031,Mr. Rattanasin Koon-Um,424686-EPD-B-TPM (Die),FALSE
+499,1006032,Mr. Kasem Sopathee,424686-EPD-B-TPM (Die),FALSE
+500,1006033,Mr. Payap Suetale,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+501,1006038,Mr. Arthit Noitharong,424622-MPC-B-Facility Operation (BPK),FALSE
+502,1006040,Mr. Pratarn Sangsak,424656-EPD-B-QA (Initial Inspection : Parts),FALSE
+503,1006042,Mrs. Benyapa Boonsamrouy,424661-EPD-B-Factory Engineering,FALSE
+504,1006045,Mr. Songpol Taewinya,424837-EPD-B-Mfg. Management (BPK-Parts),FALSE
+505,1006046,Mr. Wisoot Khumkhrongsap,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+506,1006049,Mr. Kasemsan Wantong,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+507,1006051,Miss Wirat Nicamo,414454-EPD-B-Starter Magnetic Switch P64,FALSE
+508,1006053,Mr. Khiatisak Chantaranin,414721-EPD-B-Material & Part Control (Assy),FALSE
+509,1006055,Mrs. Janya Jaroenyot,414253-EPD-B-Starter Magnetic Switch R2,FALSE
+510,1006056,Miss Itsaya Sueptrakun,414269-EPD-B-SE Regulator Assy 1,FALSE
+511,1006057,Mrs. Pimpinan Suebkaew,414721-EPD-B-Material & Part Control (Assy),FALSE
+512,1006059,Mr. Weerasak Prabpan,424663-EPD-B-TIE & EF Promotion & FQI,FALSE
+513,1006060,Mr. Yingsak Rintarak,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+514,1006061,Mr. Raewat Wattana,414651-EPD-B-QA (Receiving Inspection),FALSE
+515,1006063,Mrs. Pairin Klahan,414412-EPD-B-Washer,FALSE
+516,1006064,Miss Nichanan Sukpan,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+517,1006065,Miss Nanthapak Kaewtang,424680-EPD-B-TPM (Spare Parts),FALSE
+518,1006066,Miss Rattanan Promniyom,424994-EPD-B-Safety (Assy),FALSE
+519,1006067,Miss Papatchaya Sukprasert,424655-EPD-B-QA (Initial Inspection : Assy),FALSE
+520,1006069,Miss Ladda Phocha,414721-EPD-B-Material & Part Control (Assy),FALSE
+521,1006071,Mr. Panupong Harnyut,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+522,1006072,Mr. Kanapot Kunlasak,414151-EPD-B-Cold Forgings (Parts),FALSE
+523,1006073,Miss Wassana Hewkuntod,414721-EPD-B-Material & Part Control (Assy),FALSE
+524,1006074,Miss Siriporn Wantrong,414271-EPD-B-SE Slip Ring 1,FALSE
+525,1006075,Mr. Boonrueng Singkampong,414645-EPD-B-QA (In-process Inspection : Assy),FALSE
+526,1006076,Mr. Sakda Tabklang,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+527,1006077,Miss Nattaphat Yuchi,414122-EPD-B-SE Shaft Lathe,FALSE
+528,1006078,Mr. Worapan Panapunnang,414273-EPD-B-SE Coil Rotor,FALSE
+529,1006079,Mr. Ekkachai Paekjai,414114-EPD-B-SE Stator Core,FALSE
+530,1006082,Miss Kedsada Siripol,414133-EPD-B-Die Casting 1,FALSE
+531,1006083,Mrs. Nichapa Jansompong,414642-EPD-B-QA (Final Inspection : Parts),FALSE
+532,1006087,Miss Wassana Pompin,414412-EPD-B-Washer,FALSE
+533,1006088,Mrs. Torntira Boonrod,414464-EPD-B-SE Alternator Assy 3,FALSE
+534,1006090,Mr. Panpanvat Bantanit,414111-EPD-B-Press Parts,FALSE
+535,1006091,Miss Wiratda Chatsanoi,414284-EPD-B-Starter Tube S/A PA70,FALSE
+536,1006092,Mr. Nirutpan Jantasarae,414256-EPD-B-Starter Armature PA70,FALSE
+537,1006094,Miss Wilai Cherdchai,414499-EPD-B-Packaging,FALSE
+538,1006095,Miss On-Anong Yeekew,414267-EPD-B-SE Rotor Assy 2,FALSE
+539,1006098,Mr. Sermsil Lhathaisong,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+540,1006100,Miss Supaporn Buala,414419-EPD-B-Air Bag Sensor,FALSE
+541,1006101,Miss Neeranud Chanpqn,414412-EPD-B-Washer,FALSE
+542,1006102,Mr. Wanchai Boonprasert,424622-MPC-B-Facility Operation (BPK),FALSE
+543,1006103,Mr. Prasong Sainoi,424622-MPC-B-Facility Operation (BPK),FALSE
+544,1006104,Miss Phichamon Chontarak,414277-EPD-B-SE Rotor Assy 3,FALSE
+545,1006106,Mr. Thongchai Panpech,424627-EPD-B-TPM (PM),FALSE
+546,1006110,Mr. Kittichai Ngaokaew,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+547,1006111,Miss Sukanya Tatong,424813-EPD-B-QA (EDER),FALSE
+548,1006112,Mr. Chartnakorn Kaomoon,424621-EPD-B-TPM (Machine),FALSE
+549,1006113,Mrs. Maliwan Kaennakham,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+550,1006116,Mr. Nikom On-Tana,414111-EPD-B-Press Parts,FALSE
+551,1006123,Mr. Chatree Tapewkrua,414253-EPD-B-Starter Magnetic Switch R2,FALSE
+552,1006124,Mr. Taewa Pool-Ngarm,424679-EPD-B-Pro.Eng. (Alternator),FALSE
+553,1006127,Mrs. On-Uma Jiranantakul,414443-EPD-B-Glow Plug Control Unit,FALSE
+554,1006129,Mr. Autnakorn Rojjanyaporn,414286-EPD-B-Starter Armature RA90,FALSE
+555,1006130,Mr. Nirut Hammasatol,414256-EPD-B-Starter Armature PA70,FALSE
+556,1006132,Mrs. Wilairat Maiket,414120-EPD-B-Starter Armature Shaft,FALSE
+557,1006134,Mrs. Natcha Teewee,414269-EPD-B-SE Regulator Assy 1,FALSE
+558,1006136,Mr. Booneua Manphet,414272-EPD-B-SE Stator,FALSE
+559,1006137,Mr. Chawalit Punsupoudee,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+560,1006138,Mr. Ekkarak Khangrang,414291-EPD-B-SE Stator 4,FALSE
+561,1006140,Mrs. Wongduen Saikunkaew,414419-EPD-B-Air Bag Sensor,FALSE
+562,1006141,Mr. Kanchit Kwamman,414443-EPD-B-Glow Plug Control Unit,FALSE
+563,1006145,Mrs. Pranom Meetam,414419-EPD-B-Air Bag Sensor,FALSE
+564,1006146,Miss Warinthip Wiratthananon,414412-EPD-B-Washer,FALSE
+565,1006147,Miss Pattarawadee Chamnan,414420-EPD-B-Wiper,FALSE
+566,1006148,Mr. Sutas Lothong,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+567,1006149,Mr. Rakchart Namkam,414141-EPD-B-Washing,FALSE
+568,1006150,Miss Pornpimol Lampay,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+569,1006151,Miss Yossaya Komek,414419-EPD-B-Air Bag Sensor,FALSE
+570,1006152,Mr. Thossaporn Thongmuang,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+571,1006153,Mrs. Primprapa Netnee,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+572,1006154,Mr. Tawatchai Seksri,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+573,1006155,Mr. Piyapong Thongpol,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+574,1006160,Miss Aumarin Pumchuen,414419-EPD-B-Air Bag Sensor,FALSE
+575,1006161,Miss Wiratchada Yachalorm,414433-EPD-B-Glow Plug,FALSE
+576,1006165,Mrs. Kamchan Kankham,414721-EPD-B-Material & Part Control (Assy),FALSE
+577,1006166,Mr. Aod Kaewkam,424813-EPD-B-QA (EDER),FALSE
+578,1006168,Mr. Natthaphong Jankhrajang,424815-EPD-B-QA (SQD),FALSE
+579,1006169,Mr. Thanakorn Wattanapakdee,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+580,1006170,Miss Suwanna Sukkum,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+581,1006174,Miss Ploypitchayapat Rojanakulthanan,424811-EPD-B-QA (Planning & ESC),FALSE
+582,1006180,Mr. Panupong Markrod,414134-EPD-B-GDP-3,FALSE
+583,1006183,Mr. Rakchart Napachote,414464-EPD-B-SE Alternator Assy 3,FALSE
+584,1006188,Mr. Sutathep Bosittipichet,424771-EPD-B-PC & Logistics Planning,FALSE
+585,1006189,Mr. Thanee Thamrongritthikul,424675-EPD-B-Pro.Eng. (ECC & Other),FALSE
+586,1006192,Mr. Rachan Supboonchuay,424655-EPD-B-QA (Initial Inspection : Assy),FALSE
+587,1006194,Mr. Maitree Kotesri,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+588,1006195,Mr. Arkom Karnbun,424919-MPC-B-Safety Planning,FALSE
+589,1006196,Mr. Kumpol Nukaew,424815-EPD-B-QA (SQD),FALSE
+590,1006199,Mr. Suchart Utaisri,424686-EPD-B-TPM (Die),FALSE
+591,1006200,Mr. Sunan Chantasen,424663-EPD-B-TIE & EF Promotion & FQI,FALSE
+592,1006202,Mr. Wittaya Tathiem,424655-EPD-B-QA (Initial Inspection : Assy),FALSE
+593,1006203,Miss Likhitkul Kertsang,414267-EPD-B-SE Rotor Assy 2,FALSE
+594,1006204,Miss Ketsarin Burata,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+595,1006206,Mrs. Patima Sansri,414291-EPD-B-SE Stator 4,FALSE
+596,1006207,Mrs. Atcharaporn Kotebancha,414259-EPD-B-Starter Magnetic Switch PA,FALSE
+597,1006209,Mrs. Pimpa Rakmanee,414132-EPD-B-Housing Stator & Nozzle Body,FALSE
+598,1006210,Mrs. Sukanya Potithanan,414721-EPD-B-Material & Part Control (Assy),FALSE
+599,1006211,Mr. Anurat Rachnuwong,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+600,1006214,Miss Supaporn Onta,414419-EPD-B-Air Bag Sensor,FALSE
+601,1006215,Mrs. Rangsan Kruepanich,414412-EPD-B-Washer,FALSE
+602,1006216,Miss Kwanruedee Jindasri,414153-EPD-B-Frame Magnetic Switch,FALSE
+603,1006217,Miss Porntida Aupatam,414443-EPD-B-Glow Plug Control Unit,FALSE
+604,1006218,Mr. Paiwal Nanna,414721-EPD-B-Material & Part Control (Assy),FALSE
+605,1006221,Mr. Banyat Suwan,414721-EPD-B-Material & Part Control (Assy),FALSE
+606,1006222,Miss Nongluck Promniyom,414721-EPD-B-Material & Part Control (Assy),FALSE
+607,1006224,Mrs. A-Ngoon Treesart,414731-EPD-B-Assy & Delivery Control (Parts),FALSE
+608,1006225,Miss Nongnuch Sareepuang,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+609,1006227,Mr. Mongkol Srisuwan,424622-MPC-B-Facility Operation (BPK),FALSE
+610,1006229,Miss Wanida Khunklang,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+611,1006230,Mr. Teerapong Peerachataweevat,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+612,1006231,Mrs. Surinthorn Wisatram,414645-EPD-B-QA (In-process Inspection : Assy),FALSE
+613,1006233,Mr. Weerapol Suksathit,414114-EPD-B-SE Stator Core,FALSE
+614,1006234,Mr. Nikom Chinpoklang,414151-EPD-B-Cold Forgings (Parts),FALSE
+615,1006235,Mr. U-Thit Appamano,424627-EPD-B-TPM (PM),FALSE
+616,1006242,Miss Jirawadee Watpakdee,424771-EPD-B-PC & Logistics Planning,FALSE
+617,1006249,Miss Piyapat Sangkamdee,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+618,1006252,Act.2Nd Lt. Patpong Mungmool,424686-EPD-B-TPM (Die),FALSE
+619,1006264,Mr. Kamlang-Eak Klowpimai,424680-EPD-B-TPM (Spare Parts),FALSE
+620,1006265,Mr. Sakorn Onnet,424671-EPD-B-Part Pro.Eng. (Lathing),FALSE
+621,1006268,Mr. Tawat Kaewwong,424686-EPD-B-TPM (Die),FALSE
+622,1006269,Mr. Wisit Kiewkhajee,414731-EPD-B-Assy & Delivery Control (Parts),FALSE
+623,1006275,Miss Wannapa Kunpanas,424659-MPC-B-Facility Management & Carbon Neutral,FALSE
+624,1006278,Mrs. Phakhaphon Palasit,414721-EPD-B-Material & Part Control (Assy),FALSE
+625,1006281,Miss Kritsana Padchanhom,414274-EPD-B-SE Rectifier Assy 2,FALSE
+626,1006284,Mrs. Eisaraporn Lueasrichan,414412-EPD-B-Washer,FALSE
+627,1006285,Mrs. Sasiprapa Silpsanpisut,414419-EPD-B-Air Bag Sensor,FALSE
+628,1006286,Mrs. Patamaporn Pongpatcharapan,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+629,1006288,Miss Yuparat Kruasuk,414412-EPD-B-Washer,FALSE
+630,1006289,Miss Phanicha Srijampa,414271-EPD-B-SE Slip Ring 1,FALSE
+631,1006290,Miss Chonnad Wijitpanya,414412-EPD-B-Washer,FALSE
+632,1006291,Miss Supattra Somnak,414277-EPD-B-SE Rotor Assy 3,FALSE
+633,1006292,Miss Kornkamon Boonchan,414433-EPD-B-Glow Plug,FALSE
+634,1006293,Mrs. Nopparat Pech-Aiem,414257-EPD-B-Starter Lathing,FALSE
+635,1006294,Mrs. Maliwal Deeramies,414257-EPD-B-Starter Lathing,FALSE
+636,1006295,Miss Siriwan Krangdee,414260-EPD-B-Starter R-Large Assy,FALSE
+637,1006297,Miss Thanyaporn Kamkruang,424673-EPD-B-Pro.Eng. (Starter),FALSE
+638,1006298,Miss Supunsa Sakaew,414260-EPD-B-Starter R-Large Assy,FALSE
+639,1006299,Mr. Patee Pechpimai,414499-EPD-B-Packaging,FALSE
+640,1006300,Miss Prakaidaow Kerdyoo,414650-EPD-B-QA (In-process Inspection : Parts),FALSE
+641,1006301,Miss Rungnapa Wichaikhot,414420-EPD-B-Wiper,FALSE
+642,1006303,Mr. Witoon Nuengkam-In,414433-EPD-B-Glow Plug,FALSE
+643,1006304,Mrs. Saowalak Tananitipum,414498-EPD-B-Pregnant Room,FALSE
+644,1006307,Mr. Pornsak Phowang,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+645,1006309,Mr. Jatupol Pansuwan,414721-EPD-B-Material & Part Control (Assy),FALSE
+646,1006310,Mr. Pramote Jittranon,414721-EPD-B-Material & Part Control (Assy),FALSE
+647,1006312,Mr. Watchainan Maneelert,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+648,1006313,Miss Rachaphak Kanchanakornpiti,414645-EPD-B-QA (In-process Inspection : Assy),FALSE
+649,1006314,Miss Nipaporn Onjai,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+650,1006316,Miss Chanpen Sataban,414645-EPD-B-QA (In-process Inspection : Assy),FALSE
+651,1006319,Miss Siridol Dabtong,424811-EPD-B-QA (Planning & ESC),FALSE
+652,1006321,Miss Chuleeporn Chatchawan,414645-EPD-B-QA (In-process Inspection : Assy),FALSE
+653,1006322,Miss Nittaya Pimsen,414642-EPD-B-QA (Final Inspection : Parts),FALSE
+654,1006323,Miss Chanpen Janplook,414650-EPD-B-QA (In-process Inspection : Parts),FALSE
+655,1006324,Mrs. Molthira Thongkham,414642-EPD-B-QA (Final Inspection : Parts),FALSE
+656,1006325,Mr. Teerawut Meesuk,414111-EPD-B-Press Parts,FALSE
+657,1006326,Mr. Kitsada Lamply,414151-EPD-B-Cold Forgings (Parts),FALSE
+658,1006328,Mr. Prasert Sanjaroen,414650-EPD-B-QA (In-process Inspection : Parts),FALSE
+659,1006329,Mrs. Sukanya Wiseskul,424615-EPD-B-QA (Measurement Control),FALSE
+660,1006331,Miss Wilawal Somsri,414136-EPD-B-Warm Forgings,FALSE
+661,1006332,Miss Natthida Fubkhuntod,414139-EPD-B-Tool Pre-setter & Re-build,FALSE
+662,1006333,Miss Siriwan Prasatchai,414650-EPD-B-QA (In-process Inspection : Parts),FALSE
+663,1006334,Miss Piruntip Chanpanya,414141-EPD-B-Washing,FALSE
+664,1006335,Mr. Ekkachai Khantee,414153-EPD-B-Frame Magnetic Switch,FALSE
+665,1006336,Mrs. Warin Autatoon,414269-EPD-B-SE Regulator Assy 1,FALSE
+666,1006337,Mr. Naratip Warana,414721-EPD-B-Material & Part Control (Assy),FALSE
+667,1006338,Mr. Dirak Phongpaew,414721-EPD-B-Material & Part Control (Assy),FALSE
+668,1006340,Miss Kanchana Boonrod,414721-EPD-B-Material & Part Control (Assy),FALSE
+669,1006343,Miss Varinnapa Chanthamang,424688-EPD-B-TPM (PC Cutting Tool),FALSE
+670,1006345,Mr. Witsanu Soma,424683-EPD-B-Factory Restructure,FALSE
+671,1006352,Miss Sangwarn Kasemsuksan,414277-EPD-B-SE Rotor Assy 3,FALSE
+672,1006355,Mrs. Punchida Phanson,414153-EPD-B-Frame Magnetic Switch,FALSE
+673,1006356,Miss Lawanrat Kanyasai,414257-EPD-B-Starter Lathing,FALSE
+674,1006357,Miss Tapanee Kongburan,414270-EPD-B-SE Frame Lathe,FALSE
+675,1006359,Mr. Patcharakorn Toongkaw,414270-EPD-B-SE Frame Lathe,FALSE
+676,1006360,Miss Pornthip Prompech,414651-EPD-B-QA (Receiving Inspection),FALSE
+677,1006362,Mr. Kitchanat Kitwanthongsuk,414419-EPD-B-Air Bag Sensor,FALSE
+678,1006363,Miss Supawadee Chanchuen,414642-EPD-B-QA (Final Inspection : Parts),FALSE
+679,1006364,Mrs. Sujittra Pechnil,414651-EPD-B-QA (Receiving Inspection),FALSE
+680,1006366,Miss Phanthipha Piaya,414141-EPD-B-Washing,FALSE
+681,1006367,Mrs. Sarisa Phumcharoen,414153-EPD-B-Frame Magnetic Switch,FALSE
+682,1006369,Mrs. Jidapa Manopatthada,414651-EPD-B-QA (Receiving Inspection),FALSE
+683,1006370,Miss Supansa Benjana,414274-EPD-B-SE Rectifier Assy 2,FALSE
+684,1006371,Miss Jureerat Mairoklang,414464-EPD-B-SE Alternator Assy 3,FALSE
+685,1006372,Mrs. Tichakorn Piwitha,414274-EPD-B-SE Rectifier Assy 2,FALSE
+686,1006373,Mr. Rungruang Budwiengpan,414290-EPD-B-SE Stator 3,FALSE
+687,1006374,Miss Patcharin Choengkuntod,414268-EPD-B-SE Rectifier Assy 3,FALSE
+688,1006375,Mrs. Orasa Manoy,414269-EPD-B-SE Regulator Assy 1,FALSE
+689,1006376,Miss Phichayapuk Palatorn,414141-EPD-B-Washing,FALSE
+690,1006377,Miss Prapasai Sornsri,414275-EPD-B-SE Regulator Assy 2,FALSE
+691,1006379,Miss Doungnamphung Yaito,414464-EPD-B-SE Alternator Assy 3,FALSE
+692,1006380,Miss Dutrudee Srichan,414412-EPD-B-Washer,FALSE
+693,1006381,Mr. Rapeepong Tatong,414273-EPD-B-SE Coil Rotor,FALSE
+694,1006385,Mr. Thianchai Niamklang,414256-EPD-B-Starter Armature PA70,FALSE
+695,1006386,Miss Orasa Lapang,414111-EPD-B-Press Parts,FALSE
+696,1006388,Miss Kalnika Thongmee,414256-EPD-B-Starter Armature PA70,FALSE
+697,1006390,Mr. Ekkapol Panyosuk,414257-EPD-B-Starter Lathing,FALSE
+698,1006396,Miss Wanna Laokaew,414284-EPD-B-Starter Tube S/A PA70,FALSE
+699,1006397,Mrs. Payom Poolsan,414273-EPD-B-SE Coil Rotor,FALSE
+700,1006398,Miss Ratirose Buasri,414120-EPD-B-Starter Armature Shaft,FALSE
+701,1006401,Mr. Prason Nugadram,414283-EPD-B-Starter Shaft Sub Assy,FALSE
+702,1006404,Miss Supichaya Juywong,414419-EPD-B-Air Bag Sensor,FALSE
+703,1006405,Miss Orathaipansa Suksawat,414254-EPD-B-Starter Clutch,FALSE
+704,1006406,Miss Lomchoi Puerngjan,414650-EPD-B-QA (In-process Inspection : Parts),FALSE
+705,1006407,Miss Karnphitcha Padoemphon,414433-EPD-B-Glow Plug,FALSE
+706,1006409,Mr. Nipat Multakul,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+707,1006410,Miss Watcharin Saonoi,414111-EPD-B-Press Parts,FALSE
+708,1006415,Mr. Rachen Pewhom,414650-EPD-B-QA (In-process Inspection : Parts),FALSE
+709,1006418,Mrs. Uthaiwan Suriard,414650-EPD-B-QA (In-process Inspection : Parts),FALSE
+710,1006420,Mr. Wichai Atjariyawut,414642-EPD-B-QA (Final Inspection : Parts),FALSE
+711,1006421,Mr. Surasak Karaket,424656-EPD-B-QA (Initial Inspection : Parts),FALSE
+712,1006422,Miss Wassana Buahorm,414651-EPD-B-QA (Receiving Inspection),FALSE
+713,1006426,Miss Rojjana Satirachon,414260-EPD-B-Starter R-Large Assy,FALSE
+714,1006428,Mr. Jakkares Nanna,414152-EPD-B-Boss Rotor,FALSE
+715,1006429,Mr. Assawin Alan,414154-EPD-B-Starter R Large Pinion,FALSE
+716,1006430,Mr. Weerayut Sangkaew,414133-EPD-B-Die Casting 1,FALSE
+717,1006431,Mr. Somjeen Chanalak,414136-EPD-B-Warm Forgings,FALSE
+718,1006432,Miss Rassarin Pongphnumwan,414642-EPD-B-QA (Final Inspection : Parts),FALSE
+719,1006433,Miss Titiya Kaiyafai,414433-EPD-B-Glow Plug,FALSE
+720,1006434,Miss Sasithon Nadasarn,424627-EPD-B-TPM (PM),FALSE
+721,1006440,Mr. Uthit Pongsura,414156-EPD-B-Pole Core,FALSE
+722,1006441,Mr. Uthai Khoyaiklang,414134-EPD-B-GDP-3,FALSE
+723,1006442,Mr. Pongsak Somsri,414133-EPD-B-Die Casting 1,FALSE
+724,1006443,Miss Ngamnat Hadchaiyapoom,414132-EPD-B-Housing Stator & Nozzle Body,FALSE
+725,1006447,Mr. Suwit Ruangklang,414132-EPD-B-Housing Stator & Nozzle Body,FALSE
+726,1006450,Mr. Boonchu Manphet,414721-EPD-B-Material & Part Control (Assy),FALSE
+727,1006451,Mrs. U-Maporn Chorjapo,414412-EPD-B-Washer,FALSE
+728,1006452,Mr. Prajak Paeprakhon,414731-EPD-B-Assy & Delivery Control (Parts),FALSE
+729,1006456,Miss Kanwara Khieojaiya,424627-EPD-B-TPM (PM),FALSE
+730,1006462,Mr. Somkid Bantao,424627-EPD-B-TPM (PM),FALSE
+731,1006463,Mr. Watcharapong Suksai,424627-EPD-B-TPM (PM),FALSE
+732,1006464,Mr. Prawit Nuwongsri,424622-MPC-B-Facility Operation (BPK),FALSE
+733,1006468,Mr. Kosol Satirachon,424621-EPD-B-TPM (Machine),FALSE
+734,1006469,Mr. Chart Aunpromma,424627-EPD-B-TPM (PM),FALSE
+735,1006482,Mrs. Supatcharin Nanna,414721-EPD-B-Material & Part Control (Assy),FALSE
+736,1006483,Mrs. Nujaree Satanbua,414290-EPD-B-SE Stator 3,FALSE
+737,1006484,Miss Pimlapat Cherdwijit,414254-EPD-B-Starter Clutch,FALSE
+738,1006486,Miss Pornwipa Yonrum,424771-EPD-B-PC & Logistics Planning,FALSE
+739,1006488,Mr. Nipat Topuang,414272-EPD-B-SE Stator,FALSE
+740,1006489,Mrs. Thanthip Wongming,424680-EPD-B-TPM (Spare Parts),FALSE
+741,1006490,Mrs. Areerat Mankasikorn,414419-EPD-B-Air Bag Sensor,FALSE
+742,1006491,Mr. Satip Rattanasuwan,414721-EPD-B-Material & Part Control (Assy),FALSE
+743,1006494,Miss Supannada Khajadroka,424661-EPD-B-Factory Engineering,FALSE
+744,1006496,Miss Jamnong Kumpagping,424835-EPD-B-Lgt. Management (BPK),FALSE
+745,1006498,Mr. Anuchit Maitreepan,424813-EPD-B-QA (EDER),FALSE
+746,1006506,Mrs. Ranya Chotechuang,424680-EPD-B-TPM (Spare Parts),FALSE
+747,1006508,Mr. Prasit Taowpinkaew,434992(D)-CAD-B-General Affairs (Driver),FALSE
+748,1006509,Mr. Sujin Atcha,434992(D)-CAD-B-General Affairs (Driver),FALSE
+749,1006510,Mr. Srisamai Pansai,414731-EPD-B-Assy & Delivery Control (Parts),FALSE
+750,1006517,Mr. Decha Yoonui,434992(D)-CAD-B-General Affairs (Driver),FALSE
+751,1006518,Miss Thannaphas Rungthaweenithiwong,434992-CAD-B-General Affairs,FALSE
+752,1006522,Mr. Sutha Manasri,424686-EPD-B-TPM (Die),FALSE
+753,1006526,Mr. Narong Thawornpat,424674-EPD-B-Pro.Eng. (PE Planning),FALSE
+754,1006530,Mr. Suchart Phosri,424621-EPD-B-TPM (Machine),FALSE
+755,1006531,Mr. Rachasak Ongloy,424627-EPD-B-TPM (PM),FALSE
+756,1006532,Mr. Sakchai Poowapi,424621-EPD-B-TPM (Machine),FALSE
+757,1006534,Mr. Ongart Wisatram,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+758,1006535,Mr. Satis Camsod,414111-EPD-B-Press Parts,FALSE
+759,1006538,Mr. Wittawat Reekprakhon,414291-EPD-B-SE Stator 4,FALSE
+760,1006540,Mr. Danai Srimahachai,424994-EPD-B-Safety (Assy),FALSE
+761,1006543,Miss Waraporn Rattanawong,414270-EPD-B-SE Frame Lathe,FALSE
+762,1006544,Mrs. Noppawan Polyiem,414412-EPD-B-Washer,FALSE
+763,1006546,Miss Wassana Thongpool,414136-EPD-B-Warm Forgings,FALSE
+764,1006548,Miss Ratchanee Wuttiyasarn,414133-EPD-B-Die Casting 1,FALSE
+765,1006549,Mr. Chaiwat Najanon,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+766,1006550,Mr. Chalawut Pinmanee,414721-EPD-B-Material & Part Control (Assy),FALSE
+767,1006552,Miss Suwapat Luekamlang,414721-EPD-B-Material & Part Control (Assy),FALSE
+768,1006555,Miss Somjit Maneesang,414134-EPD-B-GDP-3,FALSE
+769,1006557,Mrs. Ketsaraporn Wanjongkam,414268-EPD-B-SE Rectifier Assy 3,FALSE
+770,1006558,Mrs. Sayfon Meechai,414412-EPD-B-Washer,FALSE
+771,1006560,Miss Thiyada Srisaban,414131-EPD-B-Cold Forgings (T & Former),FALSE
+772,1006561,Miss Kamrai Chanthima,414420-EPD-B-Wiper,FALSE
+773,1006564,Miss Tiwarun Phassupoe,414132-EPD-B-Housing Stator & Nozzle Body,FALSE
+774,1006565,Miss Sureewan Seanmuangsawangsri,414134-EPD-B-GDP-3,FALSE
+775,1006566,Miss Raweewan Peaprachon,414133-EPD-B-Die Casting 1,FALSE
+776,1006568,Miss Chonticha Jamhmo,414645-EPD-B-QA (In-process Inspection : Assy),FALSE
+777,1006569,Miss Lanlalin Congkonklang,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+778,1006570,Miss Umaphorn Reipin,414645-EPD-B-QA (In-process Inspection : Assy),FALSE
+779,1006571,Mrs. Siriporn Toma,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+780,1006572,Mr. Phanupong Banying,414111-EPD-B-Press Parts,FALSE
+781,1006574,Miss Nhooparn Sikratum,414721-EPD-B-Material & Part Control (Assy),FALSE
+782,1006576,Miss Kanlayanee Sangmontree,414257-EPD-B-Starter Lathing,FALSE
+783,1006577,Miss Nittaya Arksonnarong,414134-EPD-B-GDP-3,FALSE
+784,1006578,Mrs. Surunya Sankasam,414124-EPD-B-Starter Shaft P-Drive,FALSE
+785,1006579,Mrs. Wantana Aupathum,414650-EPD-B-QA (In-process Inspection : Parts),FALSE
+786,1006582,Mr. Prayoon Chommoh,414139-EPD-B-Tool Pre-setter & Re-build,FALSE
+787,1006583,Mrs. Ruangthong Chokmoh,414136-EPD-B-Warm Forgings,FALSE
+788,1006585,Mrs. Haruthai Chunprasert,414136-EPD-B-Warm Forgings,FALSE
+789,1006589,Miss Kusumal Jeknok,414114-EPD-B-SE Stator Core,FALSE
+790,1006590,Miss Suprakarn Rattanacharoensirikul,414642-EPD-B-QA (Final Inspection : Parts),FALSE
+791,1006591,Mr. Prawit Namwichai,414120-EPD-B-Starter Armature Shaft,FALSE
+792,1006592,Miss Sujittra Songsang,414464-EPD-B-SE Alternator Assy 3,FALSE
+793,1006597,Miss Somporn Padtatasang,414443-EPD-B-Glow Plug Control Unit,FALSE
+794,1006599,Miss Mintra Khiewsod,424680-EPD-B-TPM (Spare Parts),FALSE
+795,1006601,Miss Nungnuch Kaewdee,414463-EPD-B-SE Alternator Assy 2,FALSE
+796,1006602,Miss Wanidaporn Sukthonglang,414464-EPD-B-SE Alternator Assy 3,FALSE
+797,1006606,Miss Ampa Eiamram,414134-EPD-B-GDP-3,FALSE
+798,1006607,Miss Phatchakorn Jiemthong,414269-EPD-B-SE Regulator Assy 1,FALSE
+799,1006608,Miss Suparat Tabpila,414122-EPD-B-SE Shaft Lathe,FALSE
+800,1006609,Miss Karaked Wangklang,414419-EPD-B-Air Bag Sensor,FALSE
+801,1006610,Miss Thanyathorn Doungnapa,414419-EPD-B-Air Bag Sensor,FALSE
+802,1006612,Miss Thipphawan Khotmungkun,414419-EPD-B-Air Bag Sensor,FALSE
+803,1006615,Mr. Sompong Lephimai,434992-CAD-B-General Affairs,FALSE
+804,1006616,Mr. Charoon Pranee,414136-EPD-B-Warm Forgings,FALSE
+805,1006618,Mrs. Chalom Wetchasart,414642-EPD-B-QA (Final Inspection : Parts),FALSE
+806,1006619,Miss Sirilak Bureesombat,414642-EPD-B-QA (Final Inspection : Parts),FALSE
+807,1006623,Miss Kanchitha Mingkwan,414270-EPD-B-SE Frame Lathe,FALSE
+808,1006625,Miss Pichanun Suriyarattawekul,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+809,1006626,Mr. Sornchai Taweenun,414721-EPD-B-Material & Part Control (Assy),FALSE
+810,1006627,Mr. Mongkol Thanvan,414721-EPD-B-Material & Part Control (Assy),FALSE
+811,1006628,Miss Wipaporn Sitthipornvoragul,424680-EPD-B-TPM (Spare Parts),FALSE
+812,1006629,Miss Chanda Klinkanha,414131-EPD-B-Cold Forgings (T & Former),FALSE
+813,1006630,Miss Julalak Sumrit,414114-EPD-B-SE Stator Core,FALSE
+814,1006633,Mrs. Jiraporn Siriphakakul,414443-EPD-B-Glow Plug Control Unit,FALSE
+815,1006634,Miss Lamprai Panakpanya,414270-EPD-B-SE Frame Lathe,FALSE
+816,1006635,Mrs. Suchada Kosajan,414650-EPD-B-QA (In-process Inspection : Parts),FALSE
+817,1006637,Mrs. Ampai Ngoenthaem,414645-EPD-B-QA (In-process Inspection : Assy),FALSE
+818,1006645,Mr. Thananat Piyajaruwan,424621-EPD-B-TPM (Machine),FALSE
+819,1006648,Mrs. Artithan Mungmool,424680-EPD-B-TPM (Spare Parts),FALSE
+820,1006650,Mr. Anuchit Anantarat,414273-EPD-B-SE Coil Rotor,FALSE
+821,1006651,Miss Pornthip Meephimai,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+822,1006652,Mr. Chaiwat Panapute,414270-EPD-B-SE Frame Lathe,FALSE
+823,1006653,Mr. Wuttipong Poonupa,414131-EPD-B-Cold Forgings (T & Former),FALSE
+824,1006654,Miss Natthita Panya-Aek,414270-EPD-B-SE Frame Lathe,FALSE
+825,1006655,Miss Nathaphan Jullakalop,424615-EPD-B-QA (Measurement Control),FALSE
+826,1006656,Mrs. Sathanee Prommalee,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+827,1006657,Miss Chananchida Piadchan,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+828,1006658,Miss Jiranan Kamyan,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+829,1006659,Miss Sujitra Hom-Aon,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+830,1006660,Miss Phakwalan Siriphairot,414420-EPD-B-Wiper,FALSE
+831,1006661,Miss Papada Chumnat,414650-EPD-B-QA (In-process Inspection : Parts),FALSE
+832,1006663,Mr. Eakkachai Tatong,424686-EPD-B-TPM (Die),FALSE
+833,1006664,Mr. Manop Srisuda,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+834,1006667,Mr. Suchart Nonsawart,414136-EPD-B-Warm Forgings,FALSE
+835,1006668,Mr. Apidech Sriburin,424627-EPD-B-TPM (PM),FALSE
+836,1006669,Mr. Rung-Aroon Sirisuwan,424621-EPD-B-TPM (Machine),FALSE
+837,1006674,Mr. Nirut Thonglor,434992-CAD-B-General Affairs,FALSE
+838,1006676,Miss Pennapa Wongsuwan,424919-MPC-B-Safety Planning,FALSE
+839,1006678,Mr. Jiraphant Aebkluan,424837-EPD-B-Mfg. Management (BPK-Parts),FALSE
+840,1006684,Miss Khanitha Petsawat,424885-EPD-B-Job Innovation Promotion,FALSE
+841,1006686,Mr. Chatuphon Sritapanya,424621-EPD-B-TPM (Machine),FALSE
+842,1006687,Miss Jaruwan Pluem,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+843,1006688,Miss Darunee Jaturat,414256-EPD-B-Starter Armature PA70,FALSE
+844,1006689,Miss Nittaya Obmasui,414290-EPD-B-SE Stator 3,FALSE
+845,1006690,Miss Forida Tanomwong,424811-EPD-B-QA (Planning & ESC),FALSE
+846,1006691,Mrs. Pannipa Chiangsin,424996-MPC-B-Environment Operation,FALSE
+847,1006693,Miss Molruedee Bunoum,414642-EPD-B-QA (Final Inspection : Parts),FALSE
+848,1006694,Mrs. Pattana Pewhom,414256-EPD-B-Starter Armature PA70,FALSE
+849,1006695,Miss Suparat Waibantao,414136-EPD-B-Warm Forgings,FALSE
+850,1006696,Miss Punjama Sukon,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+851,1006697,Mr. Samart Charoensin,414133-EPD-B-Die Casting 1,FALSE
+852,1006700,Miss Pensri Sochada,414464-EPD-B-SE Alternator Assy 3,FALSE
+853,1006706,Mr. Virayut Sing-Nuan,424615-EPD-B-QA (Measurement Control),FALSE
+854,1006712,Mr. Kamol Sa-Nguanwong,424655-EPD-B-QA (Initial Inspection : Assy),FALSE
+855,1006714,Mr. Sunan Sornsri,424686-EPD-B-TPM (Die),FALSE
+856,1006716,Mrs. Suparat Watanapong,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+857,1006720,Miss Varaporn Thongla,414133-EPD-B-Die Casting 1,FALSE
+858,1006730,Mr. Samar Srinak,424615-EPD-B-QA (Measurement Control),FALSE
+859,1006735,Mr. Kannakorn Yusuk,424835-EPD-B-Lgt. Management (BPK),FALSE
+860,1006736,Miss Tawanda Wongkhumchan,414280-EPD-B-Starter Armature Assy,FALSE
+861,1006737,Miss Arisara Ngaokaew,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+862,1006738,Miss Lamai Thiangphon,414134-EPD-B-GDP-3,FALSE
+863,1006740,Mr. Paiboon Phonoi,414650-EPD-B-QA (In-process Inspection : Parts),FALSE
+864,1006741,Miss Napaporn Kaewbunsai,414268-EPD-B-SE Rectifier Assy 3,FALSE
+865,1006744,Mr. Pattarapong Charoenwattananon,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+866,1006747,Miss Jutharat Sawatphiphatphon,424883-EPD-B-Business Planning,FALSE
+867,1006753,Mr. Krisada Phayoong,424615-EPD-B-QA (Measurement Control),FALSE
+868,1006756,Mr. Thana Wichianwutthiphong,424680-EPD-B-TPM (Spare Parts),FALSE
+869,1006762,Miss Penporn Sanmuang,414280-EPD-B-Starter Armature Assy,FALSE
+870,1006763,Mr. Prayut Khotpabu,414277-EPD-B-SE Rotor Assy 3,FALSE
+871,1006764,Miss Jiratchya Promsuk,414282-EPD-B-Starter Brush Holder PA70,FALSE
+872,1006765,Miss Rattikhan Thankrathok,414271-EPD-B-SE Slip Ring 1,FALSE
+873,1006767,Mr. Apichart Korkaew,424663-EPD-B-TIE & EF Promotion & FQI,FALSE
+874,1006769,Miss Patcharee Poolkamlang,414651-EPD-B-QA (Receiving Inspection),FALSE
+875,1006772,Miss Supattra Dabjun,414441-EPD-B-Magneto Assy,FALSE
+876,1006773,Miss Arisara Wichieanwuttipong,414642-EPD-B-QA (Final Inspection : Parts),FALSE
+877,1006776,Mr. Boonlert Wandee,424615-EPD-B-QA (Measurement Control),FALSE
+878,1006780,Mr. Wuttinan Pusrisavatchat,424803-2WAC-B-Design 3,FALSE
+879,1006781,Mr. Yutthasin Jaikaew,424813-EPD-B-QA (EDER),FALSE
+880,1006783,Mr. Pattarakarn Nisaijariyakun,424659-MPC-B-Facility Management & Carbon Neutral,FALSE
+881,1006784,Miss Apaporn Patcharanoppachai,424811-EPD-B-QA (Planning & ESC),FALSE
+882,1006788,Mr. Charoen Sanolam,414141-EPD-B-Washing,FALSE
+883,1006789,Miss Jarmjuree Ketdaung,414259-EPD-B-Starter Magnetic Switch PA,FALSE
+884,1006790,Mr. Prawit Junsawang,414454-EPD-B-Starter Magnetic Switch P64,FALSE
+885,1006791,Mr. Nirun Kotmongkol,414452-EPD-B-Starter Assy Gen,FALSE
+886,1006796,Miss Sirinapa Sorndee,414642-EPD-B-QA (Final Inspection : Parts),FALSE
+887,1006808,Mr. Ampol Thongla,414136-EPD-B-Warm Forgings,FALSE
+888,1006810,Mr. Natthaphon Hiranyaphornwichai,414111-EPD-B-Press Parts,FALSE
+889,1006811,Mr. Somsak Poolmanas,414131-EPD-B-Cold Forgings (T & Former),FALSE
+890,1006812,Mr. Manoon Bunpheng,424837-EPD-B-Mfg. Management (BPK-Parts),FALSE
+891,1006814,Mr. Yuttana Nammungkun,424680-EPD-B-TPM (Spare Parts),FALSE
+892,1006816,Mr. Phongphan Chaiyachate,414650-EPD-B-QA (In-process Inspection : Parts),FALSE
+893,1006817,Mr. Nirun Wongarsa,424656-EPD-B-QA (Initial Inspection : Parts),FALSE
+894,1006823,Miss Natthaporn Klaewklong,424615-EPD-B-QA (Measurement Control),FALSE
+895,1006827,Mr. Chidchai Anuchidkiattipoom,424813-EPD-B-QA (EDER),FALSE
+896,1006828,Miss Aungwalee Dunklang,414454-EPD-B-Starter Magnetic Switch P64,FALSE
+897,1006829,Mr. Theerapong Jan-Plook,414731-EPD-B-Assy & Delivery Control (Parts),FALSE
+898,1006830,Miss Prapassorn Ponprasan,414257-EPD-B-Starter Lathing,FALSE
+899,1006831,Miss Patsaraporn Tongkae,414286-EPD-B-Starter Armature RA90,FALSE
+900,1006832,Miss Natwaran Aphiwitkornchawan,414433-EPD-B-Glow Plug,FALSE
+901,1006833,Miss Namphueng Chanchomnong,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+902,1006836,Miss Chutima Rorboon,414114-EPD-B-SE Stator Core,FALSE
+903,1006838,Miss Saowanee Somchart,414419-EPD-B-Air Bag Sensor,FALSE
+904,1006840,Miss Orawan Sudta,414419-EPD-B-Air Bag Sensor,FALSE
+905,1006842,Miss Nualpen Boonsri,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+906,1006844,Mrs. Patchara Srilamai,414290-EPD-B-SE Stator 3,FALSE
+907,1006846,Mrs. Pornwilai Lampay,414120-EPD-B-Starter Armature Shaft,FALSE
+908,1006847,Miss Sarochar Supapichai,414721-EPD-B-Material & Part Control (Assy),FALSE
+909,1006853,Mr. Chairat Boonloun,414134-EPD-B-GDP-3,FALSE
+910,1006856,Mr. Sutee Teewee,414132-EPD-B-Housing Stator & Nozzle Body,FALSE
+911,1006860,Miss Oranoot Termprayoon,424673-EPD-B-Pro.Eng. (Starter),FALSE
+912,1006861,Mr. Chainarong Sanitsom,424622-MPC-B-Facility Operation (BPK),FALSE
+913,1006863,Miss Thanyapat Punsap,424771-EPD-B-PC & Logistics Planning,FALSE
+914,1006866,Miss Min Saepua,424771-EPD-B-PC & Logistics Planning,FALSE
+915,1006868,Mr. Chaisak Homnual,414134-EPD-B-GDP-3,FALSE
+916,1006872,Mr. Sittisak Chuseng,424671-EPD-B-Part Pro.Eng. (Lathing),FALSE
+917,1006879,Miss Sarocha Nakcharoen,424771-EPD-B-PC & Logistics Planning,FALSE
+918,1006883,Mr. Wissarut Tunklang,414650-EPD-B-QA (In-process Inspection : Parts),FALSE
+919,1006884,Mr. Sureeya Wong-Ampa,414132-EPD-B-Housing Stator & Nozzle Body,FALSE
+920,1006885,Miss Phatcharee Kongkaew,424889-EPD-B-Cost Planning,FALSE
+921,1006888,Mr. Nirut Liamdee,414131-EPD-B-Cold Forgings (T & Former),FALSE
+922,1006889,Mr. Yanakorn Pilert,414133-EPD-B-Die Casting 1,FALSE
+923,1006890,Mr. Boonyachai Lueng-On,424686-EPD-B-TPM (Die),FALSE
+924,1006895,Mr. Phuangphet Matrphong,424813-EPD-B-QA (EDER),FALSE
+925,1006897,Mr. Sutape Bovonsimukda,424622-MPC-B-Facility Operation (BPK),FALSE
+926,1006898,Miss Jutarat Chimpalee,414412-EPD-B-Washer,FALSE
+927,1006902,Miss Jamjan Uan-In,414257-EPD-B-Starter Lathing,FALSE
+928,1006904,Miss Janpen Pealkam,414463-EPD-B-SE Alternator Assy 2,FALSE
+929,1006908,Mr. Nattaphon Jaiboon,424627-EPD-B-TPM (PM),FALSE
+930,1006914,Mr. Mana Boonyakhet,424621-EPD-B-TPM (Machine),FALSE
+931,1006915,Mr. Suttipong Sripromthong,414284-EPD-B-Starter Tube S/A PA70,FALSE
+932,1006918,Mr. Chayapol Yongpookhiew,424656-EPD-B-QA (Initial Inspection : Parts),FALSE
+933,1006919,Mr. Sontaya Jomram,414291-EPD-B-SE Stator 4,FALSE
+934,1006922,Miss Sirintip Suttawong,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+935,1006926,Mr. Jeerapun Chawnan,414272-EPD-B-SE Stator,FALSE
+936,1006927,Mr. Tantikorn Promma,414151-EPD-B-Cold Forgings (Parts),FALSE
+937,1006928,Mr. Yuthana Satua,414136-EPD-B-Warm Forgings,FALSE
+938,1006929,Mr. Santad Arttawong,414131-EPD-B-Cold Forgings (T & Former),FALSE
+939,1006931,Miss Nipa Prajummuang,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+940,1006932,Miss Suwanna Buanupap,414419-EPD-B-Air Bag Sensor,FALSE
+941,1006935,Miss Kanya Peanprasert,414131-EPD-B-Cold Forgings (T & Former),FALSE
+942,1006936,Miss Jareya Maythong,424674-EPD-B-Pro.Eng. (PE Planning),FALSE
+943,1006937,Mr. Chanarot Wisitphatthanakun,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+944,1006938,Miss Alissara Ketsa-Ard,414133-EPD-B-Die Casting 1,FALSE
+945,1006939,Miss Vipavadee Kaewwiset,414152-EPD-B-Boss Rotor,FALSE
+946,1006941,Miss Nittaya Phanitwattana,414454-EPD-B-Starter Magnetic Switch P64,FALSE
+947,1006943,Mr. Sarayuth Buato,414273-EPD-B-SE Coil Rotor,FALSE
+948,1006944,Miss Piyawan Radsana,424655-EPD-B-QA (Initial Inspection : Assy),FALSE
+949,1006945,Miss Wanlapa Kammanee,414256-EPD-B-Starter Armature PA70,FALSE
+950,1006946,Mr. Chatchai Sorasee,414256-EPD-B-Starter Armature PA70,FALSE
+951,1006947,Miss Chantima Tapthong,414283-EPD-B-Starter Shaft Sub Assy,FALSE
+952,1006948,Miss Anonglak Noochan,414254-EPD-B-Starter Clutch,FALSE
+953,1006949,Miss Duangkamol Ritkong,414650-EPD-B-QA (In-process Inspection : Parts),FALSE
+954,1006950,Mr. Sarawut Kosangruksa,414131-EPD-B-Cold Forgings (T & Former),FALSE
+955,1006951,Miss Namfon Boonsing,414268-EPD-B-SE Rectifier Assy 3,FALSE
+956,1006952,Miss Newika Rotma,414153-EPD-B-Frame Magnetic Switch,FALSE
+957,1006954,Miss Sirilak Wanna,414731-EPD-B-Assy & Delivery Control (Parts),FALSE
+958,1006956,Miss Thananan Fuangnapasook,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+959,1006957,Mrs. Sirinan Tomee,414111-EPD-B-Press Parts,FALSE
+960,1006958,Miss Kanchana Aurairak,414136-EPD-B-Warm Forgings,FALSE
+961,1006959,Miss Jantima Sangnon,414259-EPD-B-Starter Magnetic Switch PA,FALSE
+962,1006975,Mr. Nachaphon Monthien,414131-EPD-B-Cold Forgings (T & Former),FALSE
+963,1006977,Miss Nipha Sungnoi,424670-EPD-B-Part Pro.Eng. (Stamping),FALSE
+964,1006978,Mr. Peerawich Kalasai,424680-EPD-B-TPM (Spare Parts),FALSE
+965,1006979,Mr. Akkharadech Jinakhiew,414645-EPD-B-QA (In-process Inspection : Assy),FALSE
+966,1006980,Mr. Suphachai Mumuensri,414433-EPD-B-Glow Plug,FALSE
+967,1006986,Mr. Suchart Pongwan,424680-EPD-B-TPM (Spare Parts),FALSE
+968,1006990,Mr. Pongwuth Kongkeaw,424673-EPD-B-Pro.Eng. (Starter),FALSE
+969,1006991,Mr. Jittrakorn Dathong,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+970,1006994,Miss Yuwadee Lamaikhae,424771-EPD-B-PC & Logistics Planning,FALSE
+971,1006995,Mr. Natdanai Photong,424622-MPC-B-Facility Operation (BPK),FALSE
+972,1006996,Mr. Watcharin Salee,424622-MPC-B-Facility Operation (BPK),FALSE
+973,1006997,Miss Pannarai Prombut,414275-EPD-B-SE Regulator Assy 2,FALSE
+974,1006998,Miss Aree Sangyoy,414412-EPD-B-Washer,FALSE
+975,1006999,Mrs. Sujitra Saisong,414645-EPD-B-QA (In-process Inspection : Assy),FALSE
+976,1007000,Mr. Sarawut Thianthong,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+977,1007001,Miss Wilaiporn Singlar,414274-EPD-B-SE Rectifier Assy 2,FALSE
+978,1007002,Miss Ploenpis Khoonnatham,414257-EPD-B-Starter Lathing,FALSE
+979,1007004,Miss Sujitra Sarbua,414443-EPD-B-Glow Plug Control Unit,FALSE
+980,1007005,Mr. Peerayooth Kittisiripan,424811-EPD-B-QA (Planning & ESC),FALSE
+981,1007006,Mr. Thana Konkrasang,414270-EPD-B-SE Frame Lathe,FALSE
+982,1007008,Mr. Wacharawit Wonkathok,424671-EPD-B-Part Pro.Eng. (Lathing),FALSE
+983,1007017,Miss Pankanok Bussatip,424885-EPD-B-Job Innovation Promotion,FALSE
+984,1007020,Mr. Nirawat Sangkaew,424686-EPD-B-TPM (Die),FALSE
+985,1007021,Mr. Khemmawat Chasombat,414131-EPD-B-Cold Forgings (T & Former),FALSE
+986,1007022,Mr. Sutin Aomsiri,414139-EPD-B-Tool Pre-setter & Re-build,FALSE
+987,1007024,Mr. Songsit Sriwichian,424621-EPD-B-TPM (Machine),FALSE
+988,1007026,Mr. Saran Penpu,424671-EPD-B-Part Pro.Eng. (Lathing),FALSE
+989,1007027,Mr. Pooriwat Kamsert,424621-EPD-B-TPM (Machine),FALSE
+990,1007029,Mr. Weerayut Santrong,424621-EPD-B-TPM (Machine),FALSE
+991,1007030,Mr. Grissada Phuenphrom,424621-EPD-B-TPM (Machine),FALSE
+992,1007031,Miss Paphatsara Sriprathum,424771-EPD-B-PC & Logistics Planning,FALSE
+993,1007037,Mr. Tanadol Jearrasupat,424663-EPD-B-TIE & EF Promotion & FQI,FALSE
+994,1007049,Mr. Chayapol Prachachai,424673-EPD-B-Pro.Eng. (Starter),FALSE
+995,1007053,Miss Orasa Klinkulab,414443-EPD-B-Glow Plug Control Unit,FALSE
+996,1007054,Miss Kittiya Towasakun,414131-EPD-B-Cold Forgings (T & Former),FALSE
+997,1007056,Miss Sunisa Warattikulprasert,414253-EPD-B-Starter Magnetic Switch R2,FALSE
+998,1007058,Miss Wannarat Bunyathisukcharoen,414454-EPD-B-Starter Magnetic Switch P64,FALSE
+999,1007064,Mr. Chaiyaporn Warawut,424655-EPD-B-QA (Initial Inspection : Assy),FALSE
+1000,1007070,Mr. Chaipat Puttagosai,424671-EPD-B-Part Pro.Eng. (Lathing),FALSE
+1001,1007071,Mr. Sermsak Kaeosaard,414111-EPD-B-Press Parts,FALSE
+1002,1007073,Mr. Jetsada Thaksin,424656-EPD-B-QA (Initial Inspection : Parts),FALSE
+1003,1007074,Mr. Anirut Panmen,414133-EPD-B-Die Casting 1,FALSE
+1004,1007075,Mr. Uthai Phurkboonnark,414134-EPD-B-GDP-3,FALSE
+1005,1007076,Mr. Narin Vannathong,414134-EPD-B-GDP-3,FALSE
+1006,1007077,Mr. Trairong Khaengraeng,424686-EPD-B-TPM (Die),FALSE
+1007,1007079,Mr. Pariwat Wanthananphat,424837-EPD-B-Mfg. Management (BPK-Parts),FALSE
+1008,1007080,Mr. Sittichai Polsamak,414134-EPD-B-GDP-3,FALSE
+1009,1007082,Miss Kanyaphat Dawan,424674-EPD-B-Pro.Eng. (PE Planning),FALSE
+1010,1007083,Mr. Theerapong Yottakote,414134-EPD-B-GDP-3,FALSE
+1011,1007084,Mr. Suwat Bantaongjai,414134-EPD-B-GDP-3,FALSE
+1012,1007085,Mr. Chatchawan Boonorn,414464-EPD-B-SE Alternator Assy 3,FALSE
+1013,1007087,Mr. Thana Namnai,414134-EPD-B-GDP-3,FALSE
+1014,1007089,Mr. Chanachai Wattana-Am,414134-EPD-B-GDP-3,FALSE
+1015,1007090,Miss Kannipa Suwanprateep,424883-EPD-B-Business Planning,FALSE
+1016,1007091,Mr. Sompong Seehawong,414133-EPD-B-Die Casting 1,FALSE
+1017,1007092,Mr. Tosaporn Hongdamnern,414141-EPD-B-Washing,FALSE
+1018,1007094,Mr. Ketjarin Thana,414134-EPD-B-GDP-3,FALSE
+1019,1007098,Mr. Satorn Changteelek,424656-EPD-B-QA (Initial Inspection : Parts),FALSE
+1020,1007099,Mr. Subin Namwongsa,424679-EPD-B-Pro.Eng. (Alternator),FALSE
+1021,1007101,Miss Hataitip Promtong,424771-EPD-B-PC & Logistics Planning,FALSE
+1022,1007103,Miss Netnapa Buttanu,414132-EPD-B-Housing Stator & Nozzle Body,FALSE
+1023,1007104,Miss Punnapa Kitwanthongsuk,414259-EPD-B-Starter Magnetic Switch PA,FALSE
+1024,1007106,Miss Piyada Khamheeb,414260-EPD-B-Starter R-Large Assy,FALSE
+1025,1007107,Miss Chanthida Khamkoon,414290-EPD-B-SE Stator 3,FALSE
+1026,1007108,Mr. Noppadol Niltab,414111-EPD-B-Press Parts,FALSE
+1027,1007109,Mrs. Mathinee Noitharong,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+1028,1007112,Miss Supattra Jantan,424771-EPD-B-PC & Logistics Planning,FALSE
+1029,1007113,Mr. Panupong Punyasuk,414139-EPD-B-Tool Pre-setter & Re-build,FALSE
+1030,1007114,Miss Thamolwan Samphanthawiwat,424889-EPD-B-Cost Planning,FALSE
+1031,1007116,Mr. Sompong Pimrat,424627-EPD-B-TPM (PM),FALSE
+1032,1007117,Mr. Chanwit Suwan,424686-EPD-B-TPM (Die),FALSE
+1033,1007129,Mr. Somkiat Ketprathum,414122-EPD-B-SE Shaft Lathe,FALSE
+1034,1007130,Mr. Tarawich Roopkhamdee,414134-EPD-B-GDP-3,FALSE
+1035,1007134,Miss Nopphawan Chetsadawiriyawong,424683-EPD-B-Factory Restructure,FALSE
+1036,1007136,Mr. Somkhit Saenkhot,414433-EPD-B-Glow Plug,FALSE
+1037,1007137,Mr. Santipap Premprayot,414443-EPD-B-Glow Plug Control Unit,FALSE
+1038,1007138,Mr. Sarawoot Chotprasert,424680-EPD-B-TPM (Spare Parts),FALSE
+1039,1007140,Mr. Witsanu Wijit,424870-2WAC-B-Design 1 & 2,FALSE
+1040,1007147,Mr. Surakit Boonbai,424686-EPD-B-TPM (Die),FALSE
+1041,1007148,Mr. Pokpong Pantong,424621-EPD-B-TPM (Machine),FALSE
+1042,1007149,Mr. Nutthapong Dondong,424686-EPD-B-TPM (Die),FALSE
+1043,1007151,Mr. Worawit Matarat,414133-EPD-B-Die Casting 1,FALSE
+1044,1007154,Mr. Arnon Promla,414134-EPD-B-GDP-3,FALSE
+1045,1007156,Mr. Thanongsak Parkathok,414134-EPD-B-GDP-3,FALSE
+1046,1007160,Miss Nittayaporn Wongpheng,414269-EPD-B-SE Regulator Assy 1,FALSE
+1047,1007161,Miss Supansa Saensri,424680-EPD-B-TPM (Spare Parts),FALSE
+1048,1007162,Mr. Ampol Nabniam,414284-EPD-B-Starter Tube S/A PA70,FALSE
+1049,1007163,Miss Nittaya Fuengpae,414443-EPD-B-Glow Plug Control Unit,FALSE
+1050,1007164,Mr. Nuttapong Pongkan,414281-EPD-B-Starter Yoke Assy PA70,FALSE
+1051,1007166,Miss Siranee Kortsri,414253-EPD-B-Starter Magnetic Switch R2,FALSE
+1052,1007167,Mr. Amnat Pa-Ngam,414111-EPD-B-Press Parts,FALSE
+1053,1007169,Miss Siwarin Wacharafuangnapasook,414156-EPD-B-Pole Core,FALSE
+1054,1007170,Mrs. Tuenjai Sub-Udom,414270-EPD-B-SE Frame Lathe,FALSE
+1055,1007171,Miss Orawan Butdaphong,414124-EPD-B-Starter Shaft P-Drive,FALSE
+1056,1007172,Miss Arridsa Phakhao,414141-EPD-B-Washing,FALSE
+1057,1007173,Miss On-Uma Moljoi,414464-EPD-B-SE Alternator Assy 3,FALSE
+1058,1007174,Miss Srisupang Intaopas,414463-EPD-B-SE Alternator Assy 2,FALSE
+1059,1007177,Mr. Banyat Seedum,424686-EPD-B-TPM (Die),FALSE
+1060,1007178,Mr. Narakorn Changchalat,424686-EPD-B-TPM (Die),FALSE
+1061,1007194,Mr. Rujinop Maneerat,424813-EPD-B-QA (EDER),FALSE
+1062,1007195,Mr. Kongnapa Hunthong,424621-EPD-B-TPM (Machine),FALSE
+1063,1007196,Miss Jiraporn Siriya,414412-EPD-B-Washer,FALSE
+1064,1007197,Miss Rinda Boonmeekhaw,414268-EPD-B-SE Rectifier Assy 3,FALSE
+1065,1007198,Miss Dawlaong Waiwirach,414153-EPD-B-Frame Magnetic Switch,FALSE
+1066,1007199,Mr. Choktawee Sribut,414650-EPD-B-QA (In-process Inspection : Parts),FALSE
+1067,1007200,Miss Juthaporn Chompunimlt,414259-EPD-B-Starter Magnetic Switch PA,FALSE
+1068,1007201,Miss Mewika Phondongnok,414268-EPD-B-SE Rectifier Assy 3,FALSE
+1069,1007202,Mr. Phoomin Shitthijinda,414257-EPD-B-Starter Lathing,FALSE
+1070,1007203,Mr. Thanakit Choeichaiyaphum,414131-EPD-B-Cold Forgings (T & Former),FALSE
+1071,1007204,Mr. Phakhanan Khumheeb,414274-EPD-B-SE Rectifier Assy 2,FALSE
+1072,1007205,Miss Chanthip Yottakhot,414642-EPD-B-QA (Final Inspection : Parts),FALSE
+1073,1007206,Miss Rattanawadee Saensri,414267-EPD-B-SE Rotor Assy 2,FALSE
+1074,1007207,Miss Somkid Saytongsod,414284-EPD-B-Starter Tube S/A PA70,FALSE
+1075,1007208,Miss Wareerut Martrangsang,414463-EPD-B-SE Alternator Assy 2,FALSE
+1076,1007209,Miss Aphinya Khanman,414498-EPD-B-Pregnant Room,FALSE
+1077,1007211,Miss Sarocha Wuttiya,414282-EPD-B-Starter Brush Holder PA70,FALSE
+1078,1007212,Mr. Janupong Kaewviset,414256-EPD-B-Starter Armature PA70,FALSE
+1079,1007214,Miss Narin Phosri,414412-EPD-B-Washer,FALSE
+1080,1007215,Miss Dokrak Poetha,414282-EPD-B-Starter Brush Holder PA70,FALSE
+1081,1007216,Miss Doungjai Ouppanum,414132-EPD-B-Housing Stator & Nozzle Body,FALSE
+1082,1007220,Mr. Matturin Srinak,424686-EPD-B-TPM (Die),FALSE
+1083,1007222,Mr. Todsaporn Chamchomvit,414133-EPD-B-Die Casting 1,FALSE
+1084,1007231,Mr. Sophon Kraitananan,424670-EPD-B-Part Pro.Eng. (Stamping),FALSE
+1085,1007232,Mr. Bodin Sukkasem,414134-EPD-B-GDP-3,FALSE
+1086,1007233,Mr. Nantavee Thongboot,414133-EPD-B-Die Casting 1,FALSE
+1087,1007234,Mr. Taweesak Chinnaboot,414134-EPD-B-GDP-3,FALSE
+1088,1007235,Mr. Weerachai Promwang,414131-EPD-B-Cold Forgings (T & Former),FALSE
+1089,1007242,Mr. Phoompong Phinket,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+1090,1007243,Mr. Pirapong Mungna,414270-EPD-B-SE Frame Lathe,FALSE
+1091,1007245,Mr. Parunyu Muangkaew,414650-EPD-B-QA (In-process Inspection : Parts),FALSE
+1092,1007250,Miss Waraporn Pabu,414257-EPD-B-Starter Lathing,FALSE
+1093,1007251,Miss Charinya Khenwong,414443-EPD-B-Glow Plug Control Unit,FALSE
+1094,1007252,Miss Nuanjan Bussabong,414650-EPD-B-QA (In-process Inspection : Parts),FALSE
+1095,1007253,Miss Chanyapak Nainet,414259-EPD-B-Starter Magnetic Switch PA,FALSE
+1096,1007254,Miss Panodphron Nooyong,414256-EPD-B-Starter Armature PA70,FALSE
+1097,1007255,Miss Nattawadee Peangpongma,414454-EPD-B-Starter Magnetic Switch P64,FALSE
+1098,1007256,Mr. Sakchai Somsri,414642-EPD-B-QA (Final Inspection : Parts),FALSE
+1099,1007257,Mr. Jindanai Taikosorn,414443-EPD-B-Glow Plug Control Unit,FALSE
+1100,1007258,Miss Jansee Lueklap,414120-EPD-B-Starter Armature Shaft,FALSE
+1101,1007259,Miss Wassana Suksanan,414443-EPD-B-Glow Plug Control Unit,FALSE
+1102,1007261,Miss Thiwaporn Ngamloes,414412-EPD-B-Washer,FALSE
+1103,1007262,Miss Vijittraphorn Thinthabthai,414256-EPD-B-Starter Armature PA70,FALSE
+1104,1007263,Miss Phattama Inthiban,414257-EPD-B-Starter Lathing,FALSE
+1105,1007264,Miss Napatsanan Duangpayup,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+1106,1007265,Miss Nanthaya Naram,414270-EPD-B-SE Frame Lathe,FALSE
+1107,1007266,Miss Wongduen Tongrot,414282-EPD-B-Starter Brush Holder PA70,FALSE
+1108,1007267,Miss Sujittra Obmasui,424680-EPD-B-TPM (Spare Parts),FALSE
+1109,1007268,Miss Phairin Phasuk,414464-EPD-B-SE Alternator Assy 3,FALSE
+1110,1007269,Mr. Wirapon Wo-Onsi,414132-EPD-B-Housing Stator & Nozzle Body,FALSE
+1111,1007270,Miss Khankham Kaewlamul,414114-EPD-B-SE Stator Core,FALSE
+1112,1007271,Miss Katemanee Baisanguanporn,414443-EPD-B-Glow Plug Control Unit,FALSE
+1113,1007272,Mr. Manasak Junjinda,414283-EPD-B-Starter Shaft Sub Assy,FALSE
+1114,1007273,Mr. Santisuk Ploymuenwai,424621-EPD-B-TPM (Machine),FALSE
+1115,1007280,Mr. Phruesawat Ariyanuwat,424686-EPD-B-TPM (Die),FALSE
+1116,1007282,Mr. Phattharaphong Namburi,414134-EPD-B-GDP-3,FALSE
+1117,1007284,Miss Ruangkaew Katintip,424675-EPD-B-Pro.Eng. (ECC & Other),FALSE
+1118,1007285,Mr. Chakaphan Namboot,424621-EPD-B-TPM (Machine),FALSE
+1119,1007286,Mr. Siraphop Koseyayothin,424621-EPD-B-TPM (Machine),FALSE
+1120,1007287,Mr. Krit Tawonying,424655-EPD-B-QA (Initial Inspection : Assy),FALSE
+1121,1007294,Miss Kanyapatch Panpanyanat,424673-EPD-B-Pro.Eng. (Starter),FALSE
+1122,1007295,Mr. Chakkaphong Natwila,414131-EPD-B-Cold Forgings (T & Former),FALSE
+1123,1007296,Miss Kanokwan Seekan,414133-EPD-B-Die Casting 1,FALSE
+1124,1007297,Miss Wirakan Netnit,414464-EPD-B-SE Alternator Assy 3,FALSE
+1125,1007298,Miss Jariya Sungruang,414454-EPD-B-Starter Magnetic Switch P64,FALSE
+1126,1007299,Miss Waranya Saicharan,414133-EPD-B-Die Casting 1,FALSE
+1127,1007300,Miss Supaporn Saesim,414273-EPD-B-SE Coil Rotor,FALSE
+1128,1007303,Miss Nannaphat Kaeokanya,414259-EPD-B-Starter Magnetic Switch PA,FALSE
+1129,1007304,Miss Sasipat Chairat,414153-EPD-B-Frame Magnetic Switch,FALSE
+1130,1007305,Mr. Teerapong Jantaranipa,414642-EPD-B-QA (Final Inspection : Parts),FALSE
+1131,1007307,Miss Jiamjit Thongma,414268-EPD-B-SE Rectifier Assy 3,FALSE
+1132,1007309,Miss Jutapa Sriwongsa,414153-EPD-B-Frame Magnetic Switch,FALSE
+1133,1007310,Miss Vassana Baunupap,414454-EPD-B-Starter Magnetic Switch P64,FALSE
+1134,1007311,Miss Urai Sawongram,424661-EPD-B-Factory Engineering,FALSE
+1135,1007312,Miss Kunraweeruk Rattanachanunnakorn,414120-EPD-B-Starter Armature Shaft,FALSE
+1136,1007313,Miss Pornsawan Houysai,414272-EPD-B-SE Stator,FALSE
+1137,1007314,Mr. Wandee Aksorn,414134-EPD-B-GDP-3,FALSE
+1138,1007315,Miss Aorachorn Maneelam,414267-EPD-B-SE Rotor Assy 2,FALSE
+1139,1007316,Mrs. Chariphon Tiwi,414276-EPD-B-SE Slip Ring 2,FALSE
+1140,1007317,Mr. Tanva Phasuwan,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+1141,1007318,Miss Nutprawee Srisa-Ard,424680-EPD-B-TPM (Spare Parts),FALSE
+1142,1007322,Mr. Anusorn Tanmetha,424870-2WAC-B-Design 1 & 2,FALSE
+1143,1007323,Miss Monthira Taboonthong,424811-EPD-B-QA (Planning & ESC),FALSE
+1144,1007327,Mr. Nuttapong Praman,424771-EPD-B-PC & Logistics Planning,FALSE
+1145,1007328,Mr. Nattanon Popadcha,424771-EPD-B-PC & Logistics Planning,FALSE
+1146,1007331,Mr. Weerayut Chom-On,424621-EPD-B-TPM (Machine),FALSE
+1147,1007337,Mr. Jeerawat Duangsri,424621-EPD-B-TPM (Machine),FALSE
+1148,1007338,Mr. Chonlatorn Intarakom,424621-EPD-B-TPM (Machine),FALSE
+1149,1007340,Miss Juraiporn Anjantuek,424811-EPD-B-QA (Planning & ESC),FALSE
+1150,1007342,Mr. Nut Yuktirat,424627-EPD-B-TPM (PM),FALSE
+1151,1007348,Mr. Voramet Chanprawat,424674-EPD-B-Pro.Eng. (PE Planning),FALSE
+1152,1007350,Mr. Jakarin Akanittaporn,424837-EPD-B-Mfg. Management (BPK-Parts),FALSE
+1153,1007353,Mr. Pramual Kamanee,414256-EPD-B-Starter Armature PA70,FALSE
+1154,1007354,Miss Vichudar Charttum,414498-EPD-B-Pregnant Room,FALSE
+1155,1007355,Miss Warunee Chuenchom,414256-EPD-B-Starter Armature PA70,FALSE
+1156,1007356,Miss Kumporn Mitatha,414111-EPD-B-Press Parts,FALSE
+1157,1007357,Mr. Somchai Phromphiw,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+1158,1007358,Miss Chonlada Namsaen,414270-EPD-B-SE Frame Lathe,FALSE
+1159,1007359,Miss Janjira Rogta,414254-EPD-B-Starter Clutch,FALSE
+1160,1007360,Miss Rattana Yodying,414433-EPD-B-Glow Plug,FALSE
+1161,1007361,Miss Lampai Padee,414153-EPD-B-Frame Magnetic Switch,FALSE
+1162,1007362,Miss Prinyaphat Watthanarat,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+1163,1007363,Mr. Chanyut Thasriphu,414120-EPD-B-Starter Armature Shaft,FALSE
+1164,1007364,Mr. Sitthiphong Mangmun,414453-EPD-B-Starter R-Large,FALSE
+1165,1007365,Miss Supatree Seenumpol,414273-EPD-B-SE Coil Rotor,FALSE
+1166,1007366,Miss Niyada Prathumkeaw,414276-EPD-B-SE Slip Ring 2,FALSE
+1167,1007367,Miss Phaveena Intiban,414156-EPD-B-Pole Core,FALSE
+1168,1007368,Mr. Chatchawan Arngngoen,414284-EPD-B-Starter Tube S/A PA70,FALSE
+1169,1007375,Miss Arraya Jatupalang,424811-EPD-B-QA (Planning & ESC),FALSE
+1170,1007380,Mr. Sattaya Saengboonraeng,424883-EPD-B-Business Planning,FALSE
+1171,1007381,Mr. Vichayut Samong,424813-EPD-B-QA (EDER),FALSE
+1172,1007384,Mr. Thanakorn Wattananukij,424836-EPD-B-Mfg. Management (BPK-Assy),FALSE
+1173,1007386,Mr. Sippakorn Sanabunyarit,414257-EPD-B-Starter Lathing,FALSE
+1174,1007387,Miss Orasa Tumjoho,414498-EPD-B-Pregnant Room,FALSE
+1175,1007388,Mr. Pisit Janpaka,414134-EPD-B-GDP-3,FALSE
+1176,1007389,Miss Wiranat Khamchan,414156-EPD-B-Pole Core,FALSE
+1177,1007391,Miss Wanida Ninlamy,414650-EPD-B-QA (In-process Inspection : Parts),FALSE
+1178,1007393,Miss Supatchaya Moragutkaew,414133-EPD-B-Die Casting 1,FALSE
+1179,1007394,Miss Prapa Singchompoo,414651-EPD-B-QA (Receiving Inspection),FALSE
+1180,1007395,Mrs. Nucharee Muensripoom,414120-EPD-B-Starter Armature Shaft,FALSE
+1181,1007396,Miss Amonpan Wongsachai,414132-EPD-B-Housing Stator & Nozzle Body,FALSE
+1182,1007397,Miss Darunee Raksaken,414274-EPD-B-SE Rectifier Assy 2,FALSE
+1183,1007398,Miss Jariya Comkaow,414269-EPD-B-SE Regulator Assy 1,FALSE
+1184,1007400,Miss Chamaiporn Eainthisong,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+1185,1007401,Miss Watjira Kotaya,414132-EPD-B-Housing Stator & Nozzle Body,FALSE
+1186,1007402,Miss Kanpitcha Pongpadcha,414721-EPD-B-Material & Part Control (Assy),FALSE
+1187,1007410,Mr. Weerapol Omalikhit,414273-EPD-B-SE Coil Rotor,FALSE
+1188,1007412,Mr. Wittavat Kamnan,424679-EPD-B-Pro.Eng. (Alternator),FALSE
+1189,1007413,Mr. Wichit Sawangwong,414136-EPD-B-Warm Forgings,FALSE
+1190,1007414,Mr. Nattawut Naewklang,414134-EPD-B-GDP-3,FALSE
+1191,1007415,Mr. Wanmongkhon Changbu,424621-EPD-B-TPM (Machine),FALSE
+1192,1007416,Mr. Narissak Suebchatsukul,424837-EPD-B-Mfg. Management (BPK-Parts),FALSE
+1193,1007420,Mr. Punjavat Sorsuwan,424679-EPD-B-Pro.Eng. (Alternator),FALSE
+1194,1007424,Mr. Amphon Kaewkhom,414136-EPD-B-Warm Forgings,FALSE
+1195,1007425,Mr. Wasan Sittiwa,414131-EPD-B-Cold Forgings (T & Former),FALSE
+1196,1007426,Miss Orapin Moljoy,414134-EPD-B-GDP-3,FALSE
+1197,1007427,Miss Ulai Suddee,414274-EPD-B-SE Rectifier Assy 2,FALSE
+1198,1007428,Mr. Santi Sangsiri,414134-EPD-B-GDP-3,FALSE
+1199,1007429,Miss Petnipa Lakon,414419-EPD-B-Air Bag Sensor,FALSE
+1200,1007430,Mr. Chanchai Pongpadcha,414151-EPD-B-Cold Forgings (Parts),FALSE
+1201,1007431,Miss Sirinpon Lomda,414153-EPD-B-Frame Magnetic Switch,FALSE
+1202,1007432,Mr. Narathip Ropjapho,414277-EPD-B-SE Rotor Assy 3,FALSE
+1203,1007433,Mr. Yuththaya Yothanee,414642-EPD-B-QA (Final Inspection : Parts),FALSE
+1204,1007434,Mr. Warawut Piakka,414463-EPD-B-SE Alternator Assy 2,FALSE
+1205,1007435,Miss Tulaporn Sawangpop,414270-EPD-B-SE Frame Lathe,FALSE
+1206,1007436,Miss Praphatsorn Ngaophrommin,414419-EPD-B-Air Bag Sensor,FALSE
+1207,1007437,Miss Duanghathai Wannapake,414274-EPD-B-SE Rectifier Assy 2,FALSE
+1208,1007438,Miss Ampika Ritsorn,414721-EPD-B-Material & Part Control (Assy),FALSE
+1209,1007444,Miss Rungarun Sakunphatna,414280-EPD-B-Starter Armature Assy,FALSE
+1210,1007445,Mr. Danusorn Seesod,424688-EPD-B-TPM (PC Cutting Tool),FALSE
+1211,1007446,Miss Sunisa Solit,414120-EPD-B-Starter Armature Shaft,FALSE
+1212,1007447,Miss Pinnuta Seankla,414136-EPD-B-Warm Forgings,FALSE
+1213,1007448,Miss Janjira Wongsa,414133-EPD-B-Die Casting 1,FALSE
+1214,1007449,Miss Arissara Seeda,414650-EPD-B-QA (In-process Inspection : Parts),FALSE
+1215,1007450,Miss Duangdaw Klongchai,414131-EPD-B-Cold Forgings (T & Former),FALSE
+1216,1007451,Miss Nanthida Kanwiset,414419-EPD-B-Air Bag Sensor,FALSE
+1217,1007452,Miss Panisa Jitpoun,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+1218,1007453,Mr. Somjai Wisetwisai,414120-EPD-B-Starter Armature Shaft,FALSE
+1219,1007454,Miss Chanya Meekaew,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+1220,1007455,Mr. Naruphon Yuprajak,414111-EPD-B-Press Parts,FALSE
+1221,1007456,Miss Rungnapa Lunsin,414464-EPD-B-SE Alternator Assy 3,FALSE
+1222,1007457,Mr. Kukeat Phumprai,414120-EPD-B-Starter Armature Shaft,FALSE
+1223,1007458,Mr. Pairoj Boottasila,414283-EPD-B-Starter Shaft Sub Assy,FALSE
+1224,1007459,Miss Jeeratda Wichatham,414272-EPD-B-SE Stator,FALSE
+1225,1007461,Mr. Kasidit Chaiworapot,424663-EPD-B-TIE & EF Promotion & FQI,FALSE
+1226,1007462,Miss Suangrat Theeranaew,424663-EPD-B-TIE & EF Promotion & FQI,FALSE
+1227,1007466,Miss Kanokwun Kapjantawong,424996-MPC-B-Environment Operation,FALSE
+1228,1007467,Mr. Thanachai Saelao,424621-EPD-B-TPM (Machine),FALSE
+1229,1007468,Mr. Hunsa Rattanapakdee,424680-EPD-B-TPM (Spare Parts),FALSE
+1230,1007469,Mr. Woraphong Chueadoem,424622-MPC-B-Facility Operation (BPK),FALSE
+1231,1007470,Mr. Teerapol Permsawat,424622-MPC-B-Facility Operation (BPK),FALSE
+1232,1007473,Miss Supannee Patitang,414650-EPD-B-QA (In-process Inspection : Parts),FALSE
+1233,1007474,Miss Supannarai Tangman,414124-EPD-B-Starter Shaft P-Drive,FALSE
+1234,1007475,Miss Thatsani Khaenphao,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+1235,1007476,Miss Ilada Danprateung,414443-EPD-B-Glow Plug Control Unit,FALSE
+1236,1007478,Miss Ampaiporn Pothisom,414642-EPD-B-QA (Final Inspection : Parts),FALSE
+1237,1007479,Mr. Teerasak Junkra,414133-EPD-B-Die Casting 1,FALSE
+1238,1007480,Miss Phitchayapha Junkra,414136-EPD-B-Warm Forgings,FALSE
+1239,1007481,Miss Wiyada Phumphiphat,414650-EPD-B-QA (In-process Inspection : Parts),FALSE
+1240,1007483,Mr. Kanchit Chareepab,414111-EPD-B-Press Parts,FALSE
+1241,1007484,Mr. Seksan Piakka,414111-EPD-B-Press Parts,FALSE
+1242,1007485,Miss Wiriya Sutthiprapha,414131-EPD-B-Cold Forgings (T & Former),FALSE
+1243,1007487,Mr. Adisorn Suktanorm,424686-EPD-B-TPM (Die),FALSE
+1244,1007488,Mr. Tanasak Koauk,424680-EPD-B-TPM (Spare Parts),FALSE
+1245,1007489,Mr. Satitphon Phanphon,414131-EPD-B-Cold Forgings (T & Former),FALSE
+1246,1007490,Mr. Poovadet Malaporn,424870-2WAC-B-Design 1 & 2,FALSE
+1247,1007491,Miss Suwannee Malithong,414498-EPD-B-Pregnant Room,FALSE
+1248,1007492,Miss Nutnicha Siripong,414141-EPD-B-Washing,FALSE
+1249,1007493,Mr. Kittipong Chaihatab,424621-EPD-B-TPM (Machine),FALSE
+1250,1007494,Miss Valita Sommor,414645-EPD-B-QA (In-process Inspection : Assy),FALSE
+1251,1007495,Miss Weeraya Naruenatwatthana,414153-EPD-B-Frame Magnetic Switch,FALSE
+1252,1007496,Miss Konkanok Kaewduang,414153-EPD-B-Frame Magnetic Switch,FALSE
+1253,1007497,Miss Waraporn Naruenatwattana,414133-EPD-B-Die Casting 1,FALSE
+1254,1007498,Miss Phattharin Jamsai,414120-EPD-B-Starter Armature Shaft,FALSE
+1255,1007499,Miss Umaporn Urairam,414257-EPD-B-Starter Lathing,FALSE
+1256,1007500,Miss Niphaphon Somsri,414419-EPD-B-Air Bag Sensor,FALSE
+1257,1007502,Mr. Somprasong Buasai,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+1258,1007503,Mr. Itthiphol Peewarawong,414257-EPD-B-Starter Lathing,FALSE
+1259,1007504,Mr. Sakchai Phuchomthong,414134-EPD-B-GDP-3,FALSE
+1260,1007507,Mr. Napat Namsintuchai,424815-EPD-B-QA (SQD),FALSE
+1261,1007508,Mr. Raksin Kongsomjit,424885-EPD-B-Job Innovation Promotion,FALSE
+1262,1007509,Miss Wantanee Sansuk,424771-EPD-B-PC & Logistics Planning,FALSE
+1263,1007511,Miss Sirilak Pimsai,414153-EPD-B-Frame Magnetic Switch,FALSE
+1264,1007512,Mr. Somsak Choosrithong,414650-EPD-B-QA (In-process Inspection : Parts),FALSE
+1265,1007513,Miss Papasinee Songsook,414133-EPD-B-Die Casting 1,FALSE
+1266,1007514,Mrs. Warunya Thammawat,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+1267,1007515,Mr. Wichai Singsorm,414120-EPD-B-Starter Armature Shaft,FALSE
+1268,1007516,Mr. Seksror Chairatn,414134-EPD-B-GDP-3,FALSE
+1269,1007517,Miss Sukanya Namthong,414419-EPD-B-Air Bag Sensor,FALSE
+1270,1007518,Mr. Apided Wiwekwin,414650-EPD-B-QA (In-process Inspection : Parts),FALSE
+1271,1007519,Miss Wirawan Chanaket,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+1272,1007520,Miss Auenguma Somshom,424994-EPD-B-Safety (Assy),FALSE
+1273,1007521,Miss Sirikamol Jetsirapassorn,424883-EPD-B-Business Planning,FALSE
+1274,1007523,Mr. Tongchai Oatchasai,414136-EPD-B-Warm Forgings,FALSE
+1275,1007525,Mr. Widdiwat Bunyamwong,424679-EPD-B-Pro.Eng. (Alternator),FALSE
+1276,1007530,Miss Wasunun Khumsang,424673-EPD-B-Pro.Eng. (Starter),FALSE
+1277,1007531,Mr. Atirat Chanthool,414111-EPD-B-Press Parts,FALSE
+1278,1007532,Miss Pattama Usadee,414133-EPD-B-Die Casting 1,FALSE
+1279,1007533,Miss Narinthorn  Duangphaithong,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+1280,1007535,Miss Supaporn Chontong,414419-EPD-B-Air Bag Sensor,FALSE
+1281,1007536,Mr. Anantavit Sewisad,414277-EPD-B-SE Rotor Assy 3,FALSE
+1282,1007537,Mr. Arthit Bubpapila,414153-EPD-B-Frame Magnetic Switch,FALSE
+1283,1007538,Miss Tanawan Somdang,414156-EPD-B-Pole Core,FALSE
+1284,1007539,Miss Sunisa Thammanut,414498-EPD-B-Pregnant Room,FALSE
+1285,1007542,Mr. Nathaphat Wongsala,424674-EPD-B-Pro.Eng. (PE Planning),FALSE
+1286,1007546,Mr. Sirawit Kathinthong,424811-EPD-B-QA (Planning & ESC),FALSE
+1287,1007548,Mr. Arief Kaday,424674-EPD-B-Pro.Eng. (PE Planning),FALSE
+1288,1007549,Miss Srisa-Nga Kesinsa,414132-EPD-B-Housing Stator & Nozzle Body,FALSE
+1289,1007550,Miss Kotchawan Saensri,414153-EPD-B-Frame Magnetic Switch,FALSE
+1290,1007551,Miss Kamlungjai Jinda,414271-EPD-B-SE Slip Ring 1,FALSE
+1291,1007552,Miss Panisare Jammor,414277-EPD-B-SE Rotor Assy 3,FALSE
+1292,1007553,Mr. Apisit Thaiudomsup,424870-2WAC-B-Design 1 & 2,FALSE
+1293,1007554,Mr. Nattaset Kraiwanich,424870-2WAC-B-Design 1 & 2,FALSE
+1294,1007556,Miss Wipa Wongdee,414651-EPD-B-QA (Receiving Inspection),FALSE
+1295,1007559,Miss Bangon Buathong,414154-EPD-B-Starter R Large Pinion,FALSE
+1296,1007560,Mr. Phornthap Ngamprom,414120-EPD-B-Starter Armature Shaft,FALSE
+1297,1007561,Miss Boonprom Chuysang,414273-EPD-B-SE Coil Rotor,FALSE
+1298,1007562,Miss Suphattra Saensuk,414286-EPD-B-Starter Armature RA90,FALSE
+1299,1007563,Miss Nittaya Jitpoun,414133-EPD-B-Die Casting 1,FALSE
+1300,1007564,Mr. Mongkhon Toaunphet,414642-EPD-B-QA (Final Inspection : Parts),FALSE
+1301,1007565,Miss Monthian Wongkhamzaow,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+1302,1007566,Mr. Thinthinart Kaenchaeng,424870-2WAC-B-Design 1 & 2,FALSE
+1303,1007567,Miss Monthira Dechboon,424889-EPD-B-Cost Planning,FALSE
+1304,1007568,Miss Wesinee Aueammit,424771-EPD-B-PC & Logistics Planning,FALSE
+1305,1007569,Mr. Nidon Kijjaroentrakul,424686-EPD-B-TPM (Die),FALSE
+1306,1007570,Miss Narintip Tangcharoentham,424870-2WAC-B-Design 1 & 2,FALSE
+1307,1007571,Mr. Chaiyabhatr Anchalitam,424674-EPD-B-Pro.Eng. (PE Planning),FALSE
+1308,1007572,Miss Nattamon Thongthang,424996-MPC-B-Environment Operation,FALSE
+1309,1007574,Miss Aphatsara Ninsa,414153-EPD-B-Frame Magnetic Switch,FALSE
+1310,1007575,Mr. Pradiphat Khammun,414257-EPD-B-Starter Lathing,FALSE
+1311,1007576,Mr. Suphat Raksomdee,414133-EPD-B-Die Casting 1,FALSE
+1312,1007577,Mr. Taiphop Phiwngam,414272-EPD-B-SE Stator,FALSE
+1313,1007578,Mr. Pramuan Sonklin,424870-2WAC-B-Design 1 & 2,FALSE
+1314,1007580,Mr. Ratthaphum Somsri,414133-EPD-B-Die Casting 1,FALSE
+1315,1007581,Mr. Phuwanet Sutthi,424621-EPD-B-TPM (Machine),FALSE
+1316,1007582,Mr. Chakrid Buraned,414290-EPD-B-SE Stator 3,FALSE
+1317,1007584,Mr. Punyapat Trethepvijit,424889-EPD-B-Cost Planning,FALSE
+1318,1007585,Mr. Sirichai Kitjumroen,424837-EPD-B-Mfg. Management (BPK-Parts),FALSE
+1319,1007586,Mr. Nitipon Dangkearl,424674-EPD-B-Pro.Eng. (PE Planning),FALSE
+1320,1007587,Mr. Kantapon Kanlaya,424670-EPD-B-Part Pro.Eng. (Stamping),FALSE
+1321,1007588,Miss Benjaporn Wongnamkob,424663-EPD-B-TIE & EF Promotion & FQI,FALSE
+1322,1007589,Mr. Punpawat Budsadee,424670-EPD-B-Part Pro.Eng. (Stamping),FALSE
+1323,1007590,Mr. Phuritat Tupsai,424811-EPD-B-QA (Planning & ESC),FALSE
+1324,1007591,Mr. Sittichoke Supboonchuay,424663-EPD-B-TIE & EF Promotion & FQI,FALSE
+1325,1007594,Miss Prakaimas Abthaisong,424811-EPD-B-QA (Planning & ESC),FALSE
+1326,1007595,Miss Maytika Phasuk,424889-EPD-B-Cost Planning,FALSE
+1327,1007596,Mr. Pisit Sujawipun,424627-EPD-B-TPM (PM),FALSE
+1328,1007597,Mr. Tawaphon Tambamroong,424683-EPD-B-Factory Restructure,FALSE
+1329,1007598,Mr. Chatchai Manopchantaroj,424771-EPD-B-PC & Logistics Planning,FALSE
+1330,1007599,Miss Khessarin Kaeoli,424885-EPD-B-Job Innovation Promotion,FALSE
+1331,1007600,Mr. Phanuwat Kittithammo,424679-EPD-B-Pro.Eng. (Alternator),FALSE
+1332,1007601,Mr. Kiatisak Kaenthao,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+1333,1007602,Miss Haruethai Khotsri,414280-EPD-B-Starter Armature Assy,FALSE
+1334,1007603,Miss Phiangnapha Sichaiwan,414463-EPD-B-SE Alternator Assy 2,FALSE
+1335,1007604,Miss Oatchariya Jonburom,414120-EPD-B-Starter Armature Shaft,FALSE
+1336,1007605,Mr. Weerachai Mingkaew,414463-EPD-B-SE Alternator Assy 2,FALSE
+1337,1007606,Miss Kanjanaporn Maneechansuk,414453-EPD-B-Starter R-Large,FALSE
+1338,1007607,Miss Chonthicha Chomchuen,414272-EPD-B-SE Stator,FALSE
+1339,1007608,Miss Natthawan Janthewee,414419-EPD-B-Air Bag Sensor,FALSE
+1340,1007609,Miss Auraiwan Banlang,414256-EPD-B-Starter Armature PA70,FALSE
+1341,1007610,Miss Namooy Jaisue,414269-EPD-B-SE Regulator Assy 1,FALSE
+1342,1007611,Mr. Woottikarn Krueaduangkam,414151-EPD-B-Cold Forgings (Parts),FALSE
+1343,1007612,Mr. Chaddanai Nisasoka,414650-EPD-B-QA (In-process Inspection : Parts),FALSE
+1344,1007613,Mr. Tanupat Chaifaeng,424679-EPD-B-Pro.Eng. (Alternator),FALSE
+1345,1007614,Mr. Khunakon Lerdsrisampan,424674-EPD-B-Pro.Eng. (PE Planning),FALSE
+1346,1009144,Miss Parawee Kanjanapa,424811-EPD-B-QA (Planning & ESC),FALSE
+1347,1009172,Miss Suchawadee Kwanmuang,424663-EPD-B-TIE & EF Promotion & FQI,FALSE
+1348,1009177,Miss Suppattra Sakornsatit,424683-EPD-B-Factory Restructure,FALSE
+1349,1014208,Mr. Chanon Jongthep,414256-EPD-B-Starter Armature PA70,FALSE
+1350,1014349,Mr. Sarawut Sudkrathok,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+1351,1014375,Miss Praphatson Bunmanoi,414136-EPD-B-Warm Forgings,FALSE
+1352,1050659,Miss Oratai Datthuyawat,414273-EPD-B-SE Coil Rotor,FALSE
+1353,1050708,Miss Wanida Kontong,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+1354,1050737,Miss Wilawan Reabtawee,414273-EPD-B-SE Coil Rotor,FALSE
+1355,1050748,Miss Sangravee Neanon,414268-EPD-B-SE Rectifier Assy 3,FALSE
+1356,1050801,Miss Sansanee Kaewmongkhun,414454-EPD-B-Starter Magnetic Switch P64,FALSE
+1357,1050828,Miss Punnapha Kaewkhlueab,414443-EPD-B-Glow Plug Control Unit,FALSE
+1358,1050847,Mr. Winai Ummart,414721-EPD-B-Material & Part Control (Assy),FALSE
+1359,1050851,Mr. Ampol Ruangkampat,414291-EPD-B-SE Stator 4,FALSE
+1360,1050897,Miss Duangta Longpa,414454-EPD-B-Starter Magnetic Switch P64,FALSE
+1361,1050960,Miss Wichudaporn Srilachot,414419-EPD-B-Air Bag Sensor,FALSE
+1362,1051047,Miss Jirapa Pimprajit,414277-EPD-B-SE Rotor Assy 3,FALSE
+1363,1051073,Miss Wichuda Tongmun,414269-EPD-B-SE Regulator Assy 1,FALSE
+1364,1051101,Miss Kamonwan Soodnet,414153-EPD-B-Frame Magnetic Switch,FALSE
+1365,1051203,Miss Tidarat Kaewlamul,414721-EPD-B-Material & Part Control (Assy),FALSE
+1366,1051250,Miss Sutisa Kamtaseela,414141-EPD-B-Washing,FALSE
+1367,1051251,Miss Sukanya Kamtaseela,414454-EPD-B-Starter Magnetic Switch P64,FALSE
+1368,1051254,Mr. Wiharn Apiwattanasorn,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+1369,1051290,Mr. Puvadon Buleesombat,414111-EPD-B-Press Parts,FALSE
+1370,1051303,Miss Boonsong Phondongnok,414419-EPD-B-Air Bag Sensor,FALSE
+1371,1051329,Mr. Janpop Takulram,414257-EPD-B-Starter Lathing,FALSE
+1372,1051368,Mr. Narong Ketkaeo,414464-EPD-B-SE Alternator Assy 3,FALSE
+1373,1051377,Mr. Werawat Wiengkaew,414257-EPD-B-Starter Lathing,FALSE
+1374,1051381,Miss Wannipa Luklam,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+1375,1051393,Mr. Narit Charoiram,414111-EPD-B-Press Parts,FALSE
+1376,1051409,Miss Arunnee Utapho,414721-EPD-B-Material & Part Control (Assy),FALSE
+1377,1051456,Mr. Seksan Suepkha,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+1378,1051477,Miss Onnicha Ainhorm,414260-EPD-B-Starter R-Large Assy,FALSE
+1379,1051523,Mr. Wasin Phothichak,414731-EPD-B-Assy & Delivery Control (Parts),FALSE
+1380,1051531,Mrs. Sudawan Intalas,414254-EPD-B-Starter Clutch,FALSE
+1381,1051543,Miss Piyamas Khambote,414721-EPD-B-Material & Part Control (Assy),FALSE
+1382,1051544,Mr. Artnarong Satthatham,414463-EPD-B-SE Alternator Assy 2,FALSE
+1383,1051546,Mr. Nawapon Mongkhonwi,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+1384,1051568,Mr. Arnon Phonsri,414274-EPD-B-SE Rectifier Assy 2,FALSE
+1385,1051570,Miss Walaporn Settasing,414282-EPD-B-Starter Brush Holder PA70,FALSE
+1386,1051588,Miss Nutcharin Panaphoota,414277-EPD-B-SE Rotor Assy 3,FALSE
+1387,1051589,Mr. Boonpak Sanolam,414273-EPD-B-SE Coil Rotor,FALSE
+1388,1051639,Miss Rattiyaporn Phimsai,414464-EPD-B-SE Alternator Assy 3,FALSE
+1389,1051646,Miss Suphawadi Phankhamphu,414463-EPD-B-SE Alternator Assy 2,FALSE
+1390,1051662,Mr. Manad Chaiwongsa,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+1391,1051671,Miss Thankamon Wongnil,414275-EPD-B-SE Regulator Assy 2,FALSE
+1392,1051680,Miss Nathaya Sringam,414283-EPD-B-Starter Shaft Sub Assy,FALSE
+1393,1051684,Miss Titinan Phonamsap,414256-EPD-B-Starter Armature PA70,FALSE
+1394,1051686,Mr. Ittipong Kuwiriya,414277-EPD-B-SE Rotor Assy 3,FALSE
+1395,1051687,Mr. Somwang Nankrathok,414277-EPD-B-SE Rotor Assy 3,FALSE
+1396,1051689,Mr. Suriya Neunskul,414273-EPD-B-SE Coil Rotor,FALSE
+1397,1051690,Mr. Napa Meekaew,414277-EPD-B-SE Rotor Assy 3,FALSE
+1398,1051709,Miss Panyamon Simmaluang,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+1399,1051720,Mr. Sathiar Sangarun,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+1400,1051785,Miss Pronpimon Phrasri,414412-EPD-B-Washer,FALSE
+1401,1051812,Miss Sarinna Phiochanthuek,414132-EPD-B-Housing Stator & Nozzle Body,FALSE
+1402,1051838,Mr. Chananan Pongkan,424659-MPC-B-Facility Management & Carbon Neutral,FALSE
+1403,1051841,Miss Chutikan Hansamer,414268-EPD-B-SE Rectifier Assy 3,FALSE
+1404,1051842,Mr. Pradit Sopa,414721-EPD-B-Material & Part Control (Assy),FALSE
+1405,1051848,Miss Wassana Chanchamsri,414642-EPD-B-QA (Final Inspection : Parts),FALSE
+1406,1051851,Mr. Dusit Ponlakun,414286-EPD-B-Starter Armature RA90,FALSE
+1407,1051871,Miss Chanaporn Srihata,424688-EPD-B-TPM (PC Cutting Tool),FALSE
+1408,1051894,Miss Natchanok Choeichan,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+1409,1051895,Miss Piyarat Aupanan,414254-EPD-B-Starter Clutch,FALSE
+1410,1051896,Miss Suvadee Poonsavat,414420-EPD-B-Wiper,FALSE
+1411,1051897,Miss Nhutud Sangsooksawang,414721-EPD-B-Material & Part Control (Assy),FALSE
+1412,1051901,Mr. Channarong Bunmak,414257-EPD-B-Starter Lathing,FALSE
+1413,1051919,Mr. Likhit Kaewketpong,414151-EPD-B-Cold Forgings (Parts),FALSE
+1414,1051948,Mr. Pirapon Saisee,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+1415,1051983,Miss Ratree Suktawee,414268-EPD-B-SE Rectifier Assy 3,FALSE
+1416,1051998,Miss Wipa Sopaboot,414153-EPD-B-Frame Magnetic Switch,FALSE
+1417,1052002,Miss Phatchari Simueangphia,414498-EPD-B-Pregnant Room,FALSE
+1418,1052009,Miss Panluethai Kodpet,414134-EPD-B-GDP-3,FALSE
+1419,1052011,Miss Siriwan Jitjan,414498-EPD-B-Pregnant Room,FALSE
+1420,1052027,Miss Ratchanee Prasomsi,414153-EPD-B-Frame Magnetic Switch,FALSE
+1421,1052028,Miss Anongnat Janyakon,414259-EPD-B-Starter Magnetic Switch PA,FALSE
+1422,1052035,Mr. Chanchai Saonok,414464-EPD-B-SE Alternator Assy 3,FALSE
+1423,1052037,Mr. Athiwat  Auipatchawong,414120-EPD-B-Starter Armature Shaft,FALSE
+1424,1052038,Mr. Thinnakon Dalai,414120-EPD-B-Starter Armature Shaft,FALSE
+1425,1052041,Mr. Surakit Janmeechai,414151-EPD-B-Cold Forgings (Parts),FALSE
+1426,1052042,Miss Sirinda Autmani,414268-EPD-B-SE Rectifier Assy 3,FALSE
+1427,1052043,Miss Saengtawan Wichakwien,414412-EPD-B-Washer,FALSE
+1428,1052044,Miss Malisa Bunyaphithak,414452-EPD-B-Starter Assy Gen,FALSE
+1429,1052045,Miss Phinthuson Thothong,414256-EPD-B-Starter Armature PA70,FALSE
+1430,1052046,Miss Laoongdao Sungkhao,414256-EPD-B-Starter Armature PA70,FALSE
+1431,1052048,Miss Sirilux Boonsaart,414453-EPD-B-Starter R-Large,FALSE
+1432,1052049,Miss Mayura Sansuk,414453-EPD-B-Starter R-Large,FALSE
+1433,1052051,Mr. Chanapon Treerattanakasem,414453-EPD-B-Starter R-Large,FALSE
+1434,1052052,Miss Rungratda Tanumart,414286-EPD-B-Starter Armature RA90,FALSE
+1435,1052053,Miss Natthakan Worawut,414464-EPD-B-SE Alternator Assy 3,FALSE
+1436,1052057,Mr. Patiphat Phanprasoet,414254-EPD-B-Starter Clutch,FALSE
+1437,1052058,Miss Piyada Waengchaiyaphum,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+1438,1052059,Miss Chonlada Wanachai,414452-EPD-B-Starter Assy Gen,FALSE
+1439,1052060,Mr. Jirawat Pinlom,414452-EPD-B-Starter Assy Gen,FALSE
+1440,1052062,Mr. Nonthapat Nonsiri,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+1441,1052063,Mr. Thiraphon Thipmon,414259-EPD-B-Starter Magnetic Switch PA,FALSE
+1442,1052064,Mr. Khachonsak Kemchaiyaphum,414284-EPD-B-Starter Tube S/A PA70,FALSE
+1443,1052066,Mr. Bandit Phrmmarin,414124-EPD-B-Starter Shaft P-Drive,FALSE
+1444,1052067,Mr. Kitsada Phasada,414257-EPD-B-Starter Lathing,FALSE
+1445,1052068,Miss Suphawan Padapchuea,414443-EPD-B-Glow Plug Control Unit,FALSE
+1446,1052069,Miss Natthariya Thettham,414120-EPD-B-Starter Armature Shaft,FALSE
+1447,1052071,Miss Aueamporn Pensuk,414153-EPD-B-Frame Magnetic Switch,FALSE
+1448,1052072,Miss Laksasupa Pasotakang,414153-EPD-B-Frame Magnetic Switch,FALSE
+1449,1052073,Mr. Kananat Kaewurai,414721-EPD-B-Material & Part Control (Assy),FALSE
+1450,1052074,Mr. Choedchai Wongkro,414731-EPD-B-Assy & Delivery Control (Parts),FALSE
+1451,1052075,Mr. Chainarong Kaewnok,414464-EPD-B-SE Alternator Assy 3,FALSE
+1452,1052077,Mr. Krittiphong Saengkaeo,414122-EPD-B-SE Shaft Lathe,FALSE
+1453,1052078,Miss Oradee Suwannapap,414642-EPD-B-QA (Final Inspection : Parts),FALSE
+1454,1052080,Mr. Nappanat Pangsantea,414272-EPD-B-SE Stator,FALSE
+1455,1052081,Mr. Danusorn Soisuwan,414721-EPD-B-Material & Part Control (Assy),FALSE
+1456,1052082,Mr. Suparerk Nasomkob,414131-EPD-B-Cold Forgings (T & Former),FALSE
+1457,1052083,Mr. Prommin Udomwit,414156-EPD-B-Pole Core,FALSE
+1458,1052086,Miss Phannipa Somsri,414275-EPD-B-SE Regulator Assy 2,FALSE
+1459,1052087,Miss Chayanit Jakthong,414412-EPD-B-Washer,FALSE
+1460,1052088,Mr. Khanin Wongkhamsao,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+1461,1052090,Mr. Woradet Yokyao,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+1462,1052091,Mr. Chongkon Chanthanui,414256-EPD-B-Starter Armature PA70,FALSE
+1463,1052092,Mr. Natthaphong Gondingee,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+1464,1052093,Mr. Sahnguan Saensuk,414268-EPD-B-SE Rectifier Assy 3,FALSE
+1465,1052094,Mr. Kritdanai Chauyraksa,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+1466,1052095,Mr. Jirawat Promrat,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+1467,1052096,Mr. Suradet Phimit,414111-EPD-B-Press Parts,FALSE
+1468,1052097,Mr. Comson Phunsawat,414111-EPD-B-Press Parts,FALSE
+1469,1052098,Mr. Supachai Sawatdeelapa,414284-EPD-B-Starter Tube S/A PA70,FALSE
+1470,1052099,Miss Niphawan Srisombat,414275-EPD-B-SE Regulator Assy 2,FALSE
+1471,1052100,Miss Kanathip Nonnoi,414412-EPD-B-Washer,FALSE
+1472,1052101,Miss Phornchita Chaerthong,414412-EPD-B-Washer,FALSE
+1473,1052102,Miss Nanthacha Pasotakang,414498-EPD-B-Pregnant Room,FALSE
+1474,1052103,Mr. Sittikorn Suttison,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+1475,1052104,Mr. Siwakorn Sil-Anan,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+1476,1052105,Mr. Natthawut Sonnara,414721-EPD-B-Material & Part Control (Assy),FALSE
+1477,1052106,Miss Pongpalaporn Inthong,414259-EPD-B-Starter Magnetic Switch PA,FALSE
+1478,1052107,Miss Jariya Phetthong,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+1479,1052108,Mr. Kiattisak Changsarn,414277-EPD-B-SE Rotor Assy 3,FALSE
+1480,1052109,Mr. Metha Butsiphum,414270-EPD-B-SE Frame Lathe,FALSE
+1481,1052110,Mr. Phatthanan Saensuk,414111-EPD-B-Press Parts,FALSE
+1482,1052112,Mr. Pannawat Puangjang,414122-EPD-B-SE Shaft Lathe,FALSE
+1483,1052113,Mr. Amarin Chonwattanakhin,414131-EPD-B-Cold Forgings (T & Former),FALSE
+1484,1052114,Mr. Songphon Thongkun,414131-EPD-B-Cold Forgings (T & Former),FALSE
+1485,1052115,Miss Wilaiporn Santhia,414256-EPD-B-Starter Armature PA70,FALSE
+1486,1052116,Miss Tanaporn Wongsaken,414153-EPD-B-Frame Magnetic Switch,FALSE
+1487,1052117,Mr. Sirichai Sasen,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+1488,1052118,Mr. Phonchakri Wongkanya,414136-EPD-B-Warm Forgings,FALSE
+1489,1052119,Miss Sirirat Kanphanom,414153-EPD-B-Frame Magnetic Switch,FALSE
+1490,1052120,Mr. Somchat Srisukporm,414731-EPD-B-Assy & Delivery Control (Parts),FALSE
+1491,1052121,Mr. Chonlathan Chansamut,414153-EPD-B-Frame Magnetic Switch,FALSE
+1492,1052122,Mr. Pongpat Sorat,414134-EPD-B-GDP-3,FALSE
+1493,1052123,Mr. Phiphatphong Auttathun,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+1494,1052124,Mr. Chatphong Khaphinit,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+1495,1052125,Mr. Aphirak Kasemsuk,414111-EPD-B-Press Parts,FALSE
+1496,1200052,Mr. Toru Suzuki,424893-EPD-B-Advisor (Assy),FALSE
+1497,1200155,Mr. Hirohiko Mizutani,424893-EPD-B-Advisor (Assy),FALSE
+1498,1200209,Mr. Yusuke Asaka,424893-EPD-B-Advisor (Assy),FALSE
+1499,1200216,Mr. Michio Miyasaka,424893-EPD-B-Advisor (Assy),FALSE
+1500,1200217,Mr. Toshio Hosokawa,424893-EPD-B-Advisor (Assy),FALSE
+1501,1200219,Mr. Shintaro Ikeda,424893-EPD-B-Advisor (Assy),FALSE
+1502,1300010,Mr. Somyos U-Kongka,434992(D)-CAD-B-General Affairs (Driver),FALSE
+1503,1300011,Mr. Jirasak Yingkawe,434992(D)-CAD-B-General Affairs (Driver),FALSE
+1504,1300012,Miss Varunee Soisudsawat,434921-CAD-SWB-Payroll & HRIS,FALSE
+1505,1620619,Mr. Tawatchai Sapudom,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+1506,1620827,Mr. Theerasak Suyanang,414134-EPD-B-GDP-3,FALSE
+1507,1620852,Mr. Anawin Srimookda,414134-EPD-B-GDP-3,FALSE
+1508,1640006,Mr. Aekgkachai Junton,414257-EPD-B-Starter Lathing,FALSE
+1509,1640157,Mr. Tanakorn Dungpang,414114-EPD-B-SE Stator Core,FALSE
+1510,1640186,Miss Sukanya Srion,414132-EPD-B-Housing Stator & Nozzle Body,FALSE
+1511,1640279,Mr. Sittisak Wongsena,414277-EPD-B-SE Rotor Assy 3,FALSE
+1512,1640280,Mr. Chatree Onwhan,414257-EPD-B-Starter Lathing,FALSE
+1513,1640283,Miss Wiwa Sopha,414268-EPD-B-SE Rectifier Assy 3,FALSE
+1514,1640295,Miss Hattaya Meekhamnid,414498-EPD-B-Pregnant Room,FALSE
+1515,1640533,Miss Wawwarin Prommawan,414259-EPD-B-Starter Magnetic Switch PA,FALSE
+1516,1640567,Mr. Natthaphon Bualee,414257-EPD-B-Starter Lathing,FALSE
+1517,1640583,Mr. Chainarong Sawangsaengthong,414651-EPD-B-QA (Receiving Inspection),FALSE
+1518,1640589,Mr. Watcharaphon Thepkhiao,414283-EPD-B-Starter Shaft Sub Assy,FALSE
+1519,1640590,Mr. Aphirat Phong-Ngoy,414283-EPD-B-Starter Shaft Sub Assy,FALSE
+1520,1640636,Miss Mukdawan Mahamun,414453-EPD-B-Starter R-Large,FALSE
+1521,1640643,Mr. Cherdpong Dam Naen,414454-EPD-B-Starter Magnetic Switch P64,FALSE
+1522,1640648,Miss Panatda Namchaidee,414270-EPD-B-SE Frame Lathe,FALSE
+1523,1640650,Miss Supranee Laokhen,414280-EPD-B-Starter Armature Assy,FALSE
+1524,1640673,Mr. Chanikorn Kamrueang,414151-EPD-B-Cold Forgings (Parts),FALSE
+1525,1640710,Mr. Niwat Poommipun,414721-EPD-B-Material & Part Control (Assy),FALSE
+1526,1640783,Mr. Nithinan Ksenkhampha,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+1527,1640797,Miss Sunny Laoleot,414283-EPD-B-Starter Shaft Sub Assy,FALSE
+1528,1640800,Miss La-Ongdaw Kaewlamul,414256-EPD-B-Starter Armature PA70,FALSE
+1529,1640834,Miss Sumalee Kamreang,414273-EPD-B-SE Coil Rotor,FALSE
+1530,1640849,Mr. Wuttichai Junyothin,414131-EPD-B-Cold Forgings (T & Former),FALSE
+1531,1640861,Mr. Chirawat Rakthong,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+1532,1640866,Miss Supawadee Sanamprom,414122-EPD-B-SE Shaft Lathe,FALSE
+1533,1640893,Mr. Prasit Pearphukeaw,414134-EPD-B-GDP-3,FALSE
+1534,1640899,Miss Sauwaluk Kanhachai,414256-EPD-B-Starter Armature PA70,FALSE
+1535,1640914,Miss Kassada Dachrach,414498-EPD-B-Pregnant Room,FALSE
+1536,1640929,Miss Kulwarin Krasae,414282-EPD-B-Starter Brush Holder PA70,FALSE
+1537,1640962,Mr. Surak Chusri,414272-EPD-B-SE Stator,FALSE
+1538,1640970,Miss Mattanawee Wanta,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+1539,1640972,Miss Auraiporn Sookruksa,414274-EPD-B-SE Rectifier Assy 2,FALSE
+1540,1640993,Miss Ratchaneekron Navongsri,414124-EPD-B-Starter Shaft P-Drive,FALSE
+1541,1641000,Miss Kanokwan Pinyoyai,414272-EPD-B-SE Stator,FALSE
+1542,1641025,Miss Netnapa Cherdchai,414133-EPD-B-Die Casting 1,FALSE
+1543,1641028,Mr. Klattisak Kunsuwan,414277-EPD-B-SE Rotor Assy 3,FALSE
+1544,1641035,Mr. Thotsaphon Phongsaen,414270-EPD-B-SE Frame Lathe,FALSE
+1545,1641053,Mr. Pisit Thungfonphoom,414151-EPD-B-Cold Forgings (Parts),FALSE
+1546,1641055,Mr. Pattawee Hongklang,414133-EPD-B-Die Casting 1,FALSE
+1547,1641059,Mr. Teerapong Kaewsrijan,414134-EPD-B-GDP-3,FALSE
+1548,1641063,Mr. Adisorn Wongpheng,414731-EPD-B-Assy & Delivery Control (Parts),FALSE
+1549,1641068,Miss Vipada Sarabun,414454-EPD-B-Starter Magnetic Switch P64,FALSE
+1550,1641071,Mr. Sakchai Phawiram,414256-EPD-B-Starter Armature PA70,FALSE
+1551,1641074,Mr. Nanthaphong Worawoot,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+1552,1641080,Mr. Yordruk Mattiko,414111-EPD-B-Press Parts,FALSE
+1553,1641081,Mr. Nobpadon Hangsee,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+1554,1641083,Mr. Suchat Kaeolamun,414257-EPD-B-Starter Lathing,FALSE
+1555,1641084,Mr. Kittiphan Khwanmueang,414120-EPD-B-Starter Armature Shaft,FALSE
+1556,1641096,Miss Wipawadee Ramsrida,414133-EPD-B-Die Casting 1,FALSE
+1557,1641097,Miss Napatsawan Noorit,414463-EPD-B-SE Alternator Assy 2,FALSE
+1558,1641098,Miss Sunisa Kambudda,414443-EPD-B-Glow Plug Control Unit,FALSE
+1559,1641110,Miss Chanchira Sombunsri,414420-EPD-B-Wiper,FALSE
+1560,1641113,Mr. Warakorn Saejung,414134-EPD-B-GDP-3,FALSE
+1561,1641114,Miss Sakuntala Ratrongtai,414463-EPD-B-SE Alternator Assy 2,FALSE
+1562,1641116,Mr. Chadnarin Singchompoo,414721-EPD-B-Material & Part Control (Assy),FALSE
+1563,1641121,Miss Narisara Pansan,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+1564,1641136,Mr. Wanus Katikan,414283-EPD-B-Starter Shaft Sub Assy,FALSE
+1565,1641138,Miss Phanni Mangmi,414153-EPD-B-Frame Magnetic Switch,FALSE
+1566,1641139,Miss Chanyaphat Suriyasongpai,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+1567,1641160,Mr. Adisak Saibut,414134-EPD-B-GDP-3,FALSE
+1568,1641167,Mr. Sumet Auamsanthia,414499-EPD-B-Packaging,FALSE
+1569,1641171,Mr. Phonlawat Sonkarn,414280-EPD-B-Starter Armature Assy,FALSE
+1570,1641174,Miss Oupapatsorn Yukyow,414273-EPD-B-SE Coil Rotor,FALSE
+1571,1641185,Miss Hathairat Sasit,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+1572,1641186,Miss Pukjira Yaluemdee,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+1573,1641191,Mr. Arthit Suriyangam,414134-EPD-B-GDP-3,FALSE
+1574,1641194,Mr. Prirat Tatong,414134-EPD-B-GDP-3,FALSE
+1575,1641195,Mr. Panask Krobsuwan,414139-EPD-B-Tool Pre-setter & Re-build,FALSE
+1576,1641221,Mr. Supan Wangsan,414134-EPD-B-GDP-3,FALSE
+1577,1641224,Mr. Natthapol Sitthiho,414134-EPD-B-GDP-3,FALSE
+1578,1641233,Mr. Suriyan Budsabong,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+1579,1641236,Mr. Saranyou Phain,414286-EPD-B-Starter Armature RA90,FALSE
+1580,1641240,Mr. Jinthasak Pholsakkwa,414272-EPD-B-SE Stator,FALSE
+1581,1641242,Miss Napapan Pakprom,414498-EPD-B-Pregnant Room,FALSE
+1582,1641246,Mr. Todsapon Chakaew,414443-EPD-B-Glow Plug Control Unit,FALSE
+1583,1641248,Miss Pimpisa Pattanaprapan,414464-EPD-B-SE Alternator Assy 3,FALSE
+1584,1641249,Mr. Pharadon Tonsin,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+1585,1641250,Mr. Somchai Nipat,414731-EPD-B-Assy & Delivery Control (Parts),FALSE
+1586,1641251,Mr. Suwalak Deesanit,414134-EPD-B-GDP-3,FALSE
+1587,1641252,Miss Kanyarat Thunchalong,414153-EPD-B-Frame Magnetic Switch,FALSE
+1588,1641253,Mr. Kittithat Pidjaturas,414412-EPD-B-Washer,FALSE
+1589,1641254,Miss Jariya Ngamrasri,414259-EPD-B-Starter Magnetic Switch PA,FALSE
+1590,1641256,Miss Awika Thonoy,414259-EPD-B-Starter Magnetic Switch PA,FALSE
+1591,1641259,Mr. Winai Saomukda,414256-EPD-B-Starter Armature PA70,FALSE
+1592,1641262,Mr. Arkom Saenyo,414256-EPD-B-Starter Armature PA70,FALSE
+1593,1641263,Mr. Natthaphong Chanphaka,414257-EPD-B-Starter Lathing,FALSE
+1594,1641265,Miss Supawadee Chiawchan,414259-EPD-B-Starter Magnetic Switch PA,FALSE
+1595,1641266,Miss Kantika Boonsorn,414153-EPD-B-Frame Magnetic Switch,FALSE
+1596,1641267,Miss Supharuedee Seelianlun,414259-EPD-B-Starter Magnetic Switch PA,FALSE
+1597,1641268,Miss Namthip Prommawan,414282-EPD-B-Starter Brush Holder PA70,FALSE
+1598,1641269,Mr. Seksan Duangmanee,414721-EPD-B-Material & Part Control (Assy),FALSE
+1599,1641270,Mr. Warot Changprasert,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+1600,1641271,Miss Paweena Charoendee,414153-EPD-B-Frame Magnetic Switch,FALSE
+1601,1641272,Miss Panida Saothong,414268-EPD-B-SE Rectifier Assy 3,FALSE
+1602,1641275,Miss Orasa Taemthong,414272-EPD-B-SE Stator,FALSE
+1603,1641276,Mr. Amnat Mattri,414256-EPD-B-Starter Armature PA70,FALSE
+1604,1641277,Mr. Thanadon Bungpai,414124-EPD-B-Starter Shaft P-Drive,FALSE
+1605,1641278,Mr. Panuwat Prasertsang,414454-EPD-B-Starter Magnetic Switch P64,FALSE
+1606,1641279,Mr. Bancha Promsaman,414134-EPD-B-GDP-3,FALSE
+1607,1641280,Mr. Sarawut Dachthuyawat,414124-EPD-B-Starter Shaft P-Drive,FALSE
+1608,1641282,Miss Onnicha Aiamphut,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+1609,1641283,Miss Jenjira Chenpimai,414412-EPD-B-Washer,FALSE
+1610,1641284,Mr. Sorasak Kamjud,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+1611,1641285,Mr. Natthaphong Dindam,414253-EPD-B-Starter Magnetic Switch R2,FALSE
+1612,1641286,Mr. Pariwat Chaphakdee,414134-EPD-B-GDP-3,FALSE
+1613,1641288,Miss Wannisa Buran,414412-EPD-B-Washer,FALSE
+1614,1641289,Miss Thipwarin Sisamut,414412-EPD-B-Washer,FALSE
+1615,1641290,Mr. Danupol Samanya,414111-EPD-B-Press Parts,FALSE
+1616,1641291,Mr. Sawit Wannamool,414131-EPD-B-Cold Forgings (T & Former),FALSE
+1617,1641292,Mr. Parinwat Wanthananphat,414131-EPD-B-Cold Forgings (T & Former),FALSE
+1618,1641294,Mr. Natthaphong Kaeocharun,414136-EPD-B-Warm Forgings,FALSE
+1619,1641296,Mr. Panupong Jaemsaeng,414153-EPD-B-Frame Magnetic Switch,FALSE
+1620,1641298,Mr. Pharadon Bunserm,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+1621,1641300,Mr. Natthaphon Khamrueang,414259-EPD-B-Starter Magnetic Switch PA,FALSE
+1622,1641302,Miss Aomjai Kittago,414279-EPD-B-SE Regulator Assy 3,FALSE
+1623,1641303,Miss Janjira Khamrueang,414279-EPD-B-SE Regulator Assy 3,FALSE
+1624,1641304,Miss Oatcharaphon Lunsakaewong,414256-EPD-B-Starter Armature PA70,FALSE
+1625,1641305,Mr. Kirati Aphaichit,414134-EPD-B-GDP-3,FALSE
+1626,1641307,Mr. Yothin Pronjamsil,414134-EPD-B-GDP-3,FALSE
+1627,1641309,Mr. Aekkalak Chaitamat,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+1628,1641310,Mr. Wachirasak Pao-Sanga,414256-EPD-B-Starter Armature PA70,FALSE
+1629,1641312,Miss Jirarat Woradetkriangkrai,414269-EPD-B-SE Regulator Assy 1,FALSE
+1630,1641313,Mr. Phoomin Doungprom,414120-EPD-B-Starter Armature Shaft,FALSE
+1631,1641316,Mr. Tawan Jularee,414283-EPD-B-Starter Shaft Sub Assy,FALSE
+1632,1641317,Mr. Thanapat Kaenkangdon,414273-EPD-B-SE Coil Rotor,FALSE
+1633,1641318,Mr. Ratchaphon Thawicharoen,414136-EPD-B-Warm Forgings,FALSE
+1634,1641319,Mr. Panupong Namwong,414131-EPD-B-Cold Forgings (T & Former),FALSE
+1635,1690173,Mr. Thanawut Salueak,414270-EPD-B-SE Frame Lathe,FALSE
+1636,1690174,Mr. Pousit Jitpoonphon,414256-EPD-B-Starter Armature PA70,FALSE
+1637,1690175,Mr. Patipan Ploysri,414286-EPD-B-Starter Armature RA90,FALSE
+1638,1690176,Mr. Khemmanat Dasri,424686-EPD-B-TPM (Die),FALSE
+1639,1690177,Mr. Sarawut Waibunya,424686-EPD-B-TPM (Die),FALSE
+1640,1690178,Mr. Pathomphong Buathong,424621-EPD-B-TPM (Machine),FALSE
+1641,1690179,Mr. Jakarin Udlert,424876-2WAC-B-Monozukuri Engineering,FALSE
+1642,1690180,Mr. Vithawin Aupthong,424876-2WAC-B-Monozukuri Engineering,FALSE
+1643,1720254,Mr. Tharathon Choknak,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+1644,1720283,Mr. Phirayut Intharam,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+1645,1720315,Miss Buranat Jongrak,414256-EPD-B-Starter Armature PA70,FALSE
+1646,1720317,Mr. Chaichana Amim,414731-EPD-B-Assy & Delivery Control (Parts),FALSE
+1647,1720342,Mr. Roengchai Khongnam,414272-EPD-B-SE Stator,FALSE
+1648,1720367,Mr. Siwat Suwinchai,414721-EPD-B-Material & Part Control (Assy),FALSE
+1649,1750043,Mr. Adtaporn Singlod,414136-EPD-B-Warm Forgings,FALSE
+1650,1750090,Miss Siriwan Khamtanet,414453-EPD-B-Starter R-Large,FALSE
+1651,1750094,Miss Kanokwan Phuangphet,414498-EPD-B-Pregnant Room,FALSE
+1652,1750095,Miss Supawadee Sompak,414277-EPD-B-SE Rotor Assy 3,FALSE
+1653,1750106,Miss Tunyaret Paengchalee,414256-EPD-B-Starter Armature PA70,FALSE
+1654,1750125,Mr. Somsak Latong,414721-EPD-B-Material & Part Control (Assy),FALSE
+1655,1750146,Mr. Ritthikiat Labsupa,414136-EPD-B-Warm Forgings,FALSE
+1656,1750168,Miss Oonauma Hongsiri,414463-EPD-B-SE Alternator Assy 2,FALSE
+1657,1750180,Miss Yupa Pimkeeree,414259-EPD-B-Starter Magnetic Switch PA,FALSE
+1658,1750192,Miss Suphanida Chusri,414283-EPD-B-Starter Shaft Sub Assy,FALSE
+1659,1750198,Mr. Wasan Philaiwan,414134-EPD-B-GDP-3,FALSE
+1660,1750230,Mr. Thanachot Saenthawisuk,414133-EPD-B-Die Casting 1,FALSE
+1661,1750232,Mr. Arnil Kongma,414134-EPD-B-GDP-3,FALSE
+1662,1750238,Miss Thanyathip Pinasa,414443-EPD-B-Glow Plug Control Unit,FALSE
+1663,1750255,Mr. Jatuphol Prawan,414134-EPD-B-GDP-3,FALSE
+1664,1750256,Mr. Somjet Thiwatthanadon,414134-EPD-B-GDP-3,FALSE
+1665,1750258,Mr. Vichit Butngam,414139-EPD-B-Tool Pre-setter & Re-build,FALSE
+1666,1750263,Mr. Aphichat Norkaew,414134-EPD-B-GDP-3,FALSE
+1667,1750276,Mr. Todsaporn Seethongdang,414134-EPD-B-GDP-3,FALSE
+1668,1750292,Miss Sutiporn Phonmesak,414133-EPD-B-Die Casting 1,FALSE
+1669,1750296,Mr. Chanchai Wisetdonhwai,414642-EPD-B-QA (Final Inspection : Parts),FALSE
+1670,1750311,Mr. Jakkrit Wilairam,414133-EPD-B-Die Casting 1,FALSE
+1671,1750326,Mr. Poonyaphat Charoenying,414721-EPD-B-Material & Part Control (Assy),FALSE
+1672,1750328,Mr. Arnon Saemthong,414499-EPD-B-Packaging,FALSE
+1673,1750336,Mr. Naethipong Sonsoon,414464-EPD-B-SE Alternator Assy 3,FALSE
+1674,1750337,Mr. Thanat Wongnongwa,414291-EPD-B-SE Stator 4,FALSE
+1675,1750346,Mr. Patee Sabwiboon,414133-EPD-B-Die Casting 1,FALSE
+1676,1750348,Mr. Thanawan Nigoonram,414283-EPD-B-Starter Shaft Sub Assy,FALSE
+1677,1750355,Mr. Chanachai Maneesee,414134-EPD-B-GDP-3,FALSE
+1678,1750356,Mr. Amnat Siriklin,414134-EPD-B-GDP-3,FALSE
+1679,1750357,Mr. Supasit Khanthak,414256-EPD-B-Starter Armature PA70,FALSE
+1680,1750360,Mr. Wasun Chotikan,414270-EPD-B-SE Frame Lathe,FALSE
+1681,1750361,Mr. Chakchai Khofungklang,414259-EPD-B-Starter Magnetic Switch PA,FALSE
+1682,1750364,Mr. Phakkasit Puttichotiphat,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+1683,1750365,Miss Monnapa Truadmanka,414153-EPD-B-Frame Magnetic Switch,FALSE
+1684,1750370,Mr. Tanachai Thongma,414286-EPD-B-Starter Armature RA90,FALSE
+1685,1750371,Mr. Arthit Srithiaothai,414499-EPD-B-Packaging,FALSE
+1686,1750373,Miss Chonlathip Khambonphithak,414141-EPD-B-Washing,FALSE
+1687,1750374,Miss Thidarat Khamkun,414268-EPD-B-SE Rectifier Assy 3,FALSE
+1688,1750377,Mr. Tanapol Pomprayoon,414280-EPD-B-Starter Armature Assy,FALSE
+1689,1750378,Mr. Sattawat Auppaphong,414272-EPD-B-SE Stator,FALSE
+1690,1750379,Mr. Veerawan Boonsorn,414283-EPD-B-Starter Shaft Sub Assy,FALSE
+1691,1750380,Miss Nannaphat Phannason,414132-EPD-B-Housing Stator & Nozzle Body,FALSE
+1692,1750381,Miss Nichapa Ladlakorn,414257-EPD-B-Starter Lathing,FALSE
+1693,1750382,Mr. Sulachai Boonshaluay,414453-EPD-B-Starter R-Large,FALSE
+1694,1750384,Mr. Thaweechai Hansri,414136-EPD-B-Warm Forgings,FALSE
+1695,1750387,Mr. Surachat Krachan,414131-EPD-B-Cold Forgings (T & Former),FALSE
+1696,1750388,Mr. Pongsak Pakankaew,414286-EPD-B-Starter Armature RA90,FALSE
+1697,1750391,Mr. Danudech Intarakamhaeng,414134-EPD-B-GDP-3,FALSE
+1698,1750392,Mr. Chatuphon Phanchat,414133-EPD-B-Die Casting 1,FALSE
+1699,1750393,Mr. Narathip Penpongpun,414453-EPD-B-Starter R-Large,FALSE
+1700,1750394,Mr. Prawit Lomphontan,414286-EPD-B-Starter Armature RA90,FALSE
+1701,1750395,Miss Naluemol Srimuang,414272-EPD-B-SE Stator,FALSE
+1702,1750396,Mr. Attapon Pimkinnalee,414452-EPD-B-Starter Assy Gen,FALSE
+1703,1750398,Miss Techinee Sriloet,414412-EPD-B-Washer,FALSE
+1704,1750401,Miss Sirinapha Punsang,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+1705,1750402,Miss Nanthiya Jantee,414286-EPD-B-Starter Armature RA90,FALSE
+1706,1750403,Miss Suwanna Artpongsa,414268-EPD-B-SE Rectifier Assy 3,FALSE
+1707,1750405,Miss Napaporn Daenprathueang,414277-EPD-B-SE Rotor Assy 3,FALSE
+1708,1750406,Mr. Natthapong Saengpho,414464-EPD-B-SE Alternator Assy 3,FALSE
+1709,1750407,Mr. Adisak Kotiram,414270-EPD-B-SE Frame Lathe,FALSE
+1710,1750408,Mr. Kittiwat Saengpho,414257-EPD-B-Starter Lathing,FALSE
+1711,1750409,Mr. Kaiyasit Chanaman,414133-EPD-B-Die Casting 1,FALSE
+1712,1750410,Mr. Chaiyakon Chumchan,414132-EPD-B-Housing Stator & Nozzle Body,FALSE
+1713,1750411,Miss Pattaranis Chirakitthanadon,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+1714,1750413,Mr. Aphiwat Saibuaban,414153-EPD-B-Frame Magnetic Switch,FALSE
+1715,1750415,Miss Saowaluk Boonsong,414259-EPD-B-Starter Magnetic Switch PA,FALSE
+1716,1750416,Mr. Karom Wongprathat,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+1717,1750417,Mr. Jetsadarak Charoenkitmaneesakun,414134-EPD-B-GDP-3,FALSE
+1718,1750419,Mr. Wachara Sroyjumpa,414463-EPD-B-SE Alternator Assy 2,FALSE
+1719,1750422,Mr. Patiphan Kanuntang,414134-EPD-B-GDP-3,FALSE
+1720,1750424,Mr. Teeradech Jaiyen,414136-EPD-B-Warm Forgings,FALSE
+1721,1750425,Mr. Komut Chunprasert,414153-EPD-B-Frame Magnetic Switch,FALSE
+1722,1750426,Mr. Kumpanat Chunprasert,414136-EPD-B-Warm Forgings,FALSE
+1723,1750428,Mr. Kiangkai Khampet,414136-EPD-B-Warm Forgings,FALSE
+1724,1750429,Mr. Nattawut Seelathong,414114-EPD-B-SE Stator Core,FALSE
+1725,1750430,Miss Sudarat Khukaeo,414153-EPD-B-Frame Magnetic Switch,FALSE
+1726,1750431,Miss Kanjana Promdaungsee,414443-EPD-B-Glow Plug Control Unit,FALSE
+1727,1750432,Mr. Suriya Wongpha,414257-EPD-B-Starter Lathing,FALSE
+1728,1750433,Mr. Somkiad Laison,414412-EPD-B-Washer,FALSE
+1729,1750435,Mr. Thepsuriya Chamrongpheng,414463-EPD-B-SE Alternator Assy 2,FALSE
+1730,1750436,Mr. Itsaret Ruechaphan,414134-EPD-B-GDP-3,FALSE
+1731,1750437,Mr. Suphachip Piwkham,414132-EPD-B-Housing Stator & Nozzle Body,FALSE
+1732,1750443,Miss Kanyanee Plianthaisong,414412-EPD-B-Washer,FALSE
+1733,1750444,Miss Anisa Boonnoon,414412-EPD-B-Washer,FALSE
+1734,1750445,Miss Nittaya Thammajak,414498-EPD-B-Pregnant Room,FALSE
+1735,1750447,Mr. Rungrod Mayounok,414134-EPD-B-GDP-3,FALSE
+1736,1750448,Mr. Itsara Homkajon,414641-EPD-B-QA (Final Inspection : Assy),FALSE
+1737,1750449,Mr. Sitthiphak Yotthaisong,414270-EPD-B-SE Frame Lathe,FALSE
+1738,1750451,Miss Varanya Wangrach,414279-EPD-B-SE Regulator Assy 3,FALSE
+1739,1750452,Miss Nanticha Munchit,414454-EPD-B-Starter Magnetic Switch P64,FALSE
+1740,1750453,Miss Thanaree Thongmag,414253-EPD-B-Starter Magnetic Switch R2,FALSE
+1741,1750454,Mr. Arnon Metkhen,414136-EPD-B-Warm Forgings,FALSE
+1742,1750456,Mr. Chaiyakon Kawtattim,414131-EPD-B-Cold Forgings (T & Former),FALSE
+1743,1750457,Mr. Somyot Nachampa,414270-EPD-B-SE Frame Lathe,FALSE
+1744,1750458,Miss Sirintip Wilairak,414498-EPD-B-Pregnant Room,FALSE
+1745,1750460,Miss Worarat Pongsri,414120-EPD-B-Starter Armature Shaft,FALSE
+1746,1750461,Mr. Authen Nanram,414120-EPD-B-Starter Armature Shaft,FALSE
+1747,1750462,Mr. Phumin Saribut,414270-EPD-B-SE Frame Lathe,FALSE
+1748,1750463,Mr. Anusorn Prasoetsang,414111-EPD-B-Press Parts,FALSE
+1749,1750464,Mr. Siridanai Phondon,414151-EPD-B-Cold Forgings (Parts),FALSE
+1750,1750465,Mr. Thanakorn Khamkhun,414141-EPD-B-Washing,FALSE
+1751,1750467,Mr. Teerachat Saengsuk,414731-EPD-B-Assy & Delivery Control (Parts),FALSE
+1752,1750468,Mr. Amornrit Butsomsri,414151-EPD-B-Cold Forgings (Parts),FALSE
+1753,1750469,Miss Nidanud Tonwong,414711-EPD-B-Assy & Delivery Control (Assy),FALSE
+1754,8000453,Miss Natthanon Suriya,212907-DIMA-B-CTG Inspection,FALSE
+1755,8000457,Mr. Parintorn Toma,212906-DIMA-B-CTG Manufacturing,FALSE
+1756,8000458,Mr. Thiantham Chobdee,212904-DIMA-B-Cutting Tool  Engineering,FALSE
+1757,8000460,Mr. Nitiwat Kuntisiridit,212904-DIMA-B-Cutting Tool  Engineering,FALSE
+1758,8000461,Mr. Surasak Kwang-In,212906-DIMA-B-CTG Manufacturing,FALSE
+1759,8000464,Mr. Arnon Kankham,212904-DIMA-B-Cutting Tool  Engineering,FALSE
+1760,8000468,Mr. Pakorn Tonsorn,212906-DIMA-B-CTG Manufacturing,FALSE
+1761,8000470,Mr. Songpol Jantone,212906-DIMA-B-CTG Manufacturing,FALSE
+1762,8000473,Mr. Apichart Chuekuna,212907-DIMA-B-CTG Inspection,FALSE
+1763,8000478,Mr. Amnat Nongkae,212906-DIMA-B-CTG Manufacturing,FALSE
+1764,8000492,Mr. Meechai Phoemkham,212904-DIMA-B-Cutting Tool  Engineering,FALSE
+1765,8000493,Mr. Nuttawit Khamduang,212906-DIMA-B-CTG Manufacturing,FALSE
+1766,8000513,Mr. Arthit Romyenram,212906-DIMA-B-CTG Manufacturing,FALSE
+1767,8000516,Mr. Rattapol Dokbao,212906-DIMA-B-CTG Manufacturing,FALSE
+1768,8000528,Mr. Teerapon Thongsangthom,212906-DIMA-B-CTG Manufacturing,FALSE
+1769,8000529,Mr. Naoyuki Nagasaka,212906-DIMA-B-CTG Manufacturing,FALSE
+1770,8000572,Mr. Teerapat Kerdprad,212904-DIMA-B-Cutting Tool  Engineering,FALSE
+1771,1007615,Mr. Wongbundit Longyant,424627-EPD-B-TPM (PM),FALSE
+1772,1007616,Mr. Apakorn Hayapong,424889-EPD-B-Cost Planning,FALSE
+1773,1200222,Mr. Hitoshi Terayama,424893-EPD-B-Advisor (Assy),FALSE

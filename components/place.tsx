@@ -29,6 +29,7 @@ import toast, { Toaster } from "react-hot-toast";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
+import { error } from "console";
 
 const prisma = new PrismaClient();
 
@@ -39,6 +40,8 @@ const formSchema = z.object({
 });
 
 export function PlacePage() {
+  const [sectionFliter, setSectionFliter] = useState("");
+
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -46,9 +49,24 @@ export function PlacePage() {
     },
   });
 
+  const handleChange = (event: any) => {
+    event.preventDefault();
+  };
+
+  console.log(sectionFliter);
+
   async function handleSubmit(data: z.infer<typeof formSchema>) {
-    await UpdateStatus(data);
-    toast.success("Successfully created!");
+    const search = await prisma.user.findMany({
+      where: {
+        username: data.username,
+      },
+    });
+
+    if (search) {
+      toast.success("Search Complete!");
+    } else {
+      toast.success("Somthing went wrong! ");
+    }
   }
   return (
     <div className="flex items-center justify-center">
@@ -59,7 +77,7 @@ export function PlacePage() {
             className="flex flex-col rounded-lg p-2 h-full border-2 border-gray-100 items-center group border-transparent px-4 py-6 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           >
             <Image
-              src="/uploads/1007508.jpg"
+              src="/uploads/1007555.png"
               width={150}
               height={0}
               alt="Picture of the author"
@@ -85,7 +103,7 @@ export function PlacePage() {
           </DialogHeader>
           <div className="flex flex-col items-center justify-between gap-y-4">
             <Image
-              src="/uploads/1007508.jpg"
+              src="/uploads/1007555.png"
               width={200}
               height={0}
               alt="Picture of the author"
@@ -97,7 +115,8 @@ export function PlacePage() {
               </Label>
               <Form {...form}>
                 <form
-                  onSubmit={form.handleSubmit(handleSubmit)}
+                  // onSubmit={form.handleSubmit(handleSubmit)}
+
                   className="w-3/3"
                 >
                   <FormField
@@ -106,11 +125,12 @@ export function PlacePage() {
                     render={({ field }) => (
                       <FormItem>
                         <FormControl>
-                          <Input
-                            id="username"
+                          <input
+                            type="text"
                             placeholder="รหัสพนักงาน"
                             className="col-span-3"
                             {...field}
+                            onChange={(e) => setSectionFliter(e.target.value)}
                           />
                         </FormControl>
                         <FormMessage />

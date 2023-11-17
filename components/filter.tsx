@@ -3,8 +3,6 @@ import React, { useState } from "react";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { PrismaClient } from "@prisma/client";
-import toast from "react-hot-toast";
-import { FormEvent } from "react";
 
 const prisma = new PrismaClient();
 

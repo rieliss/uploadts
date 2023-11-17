@@ -1,5 +1,4 @@
 "use client";
-import React, { useState } from "react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import {
@@ -12,62 +11,35 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import {
-  Form,
-  FormControl,
-  FormDescription,
-  FormField,
-  FormItem,
-  FormLabel,
-  FormMessage,
-} from "@/components/ui/form";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import { UpdateStatus } from "@/function/details";
-import { PrismaClient } from "@prisma/client";
-import toast, { Toaster } from "react-hot-toast";
-import { useForm } from "react-hook-form";
-import { zodResolver } from "@hookform/resolvers/zod";
-import * as z from "zod";
-import { error } from "console";
-
-const prisma = new PrismaClient();
-
-const formSchema = z.object({
-  username: z.string().min(7, {
-    message: "ID must be at least 2 characters.",
-  }),
-});
+import { useRef } from "react";
+import { useFormState, useFormStatus } from "react-dom";
+import { searchItem } from "@/app/action";
 
 export function PlacePage() {
-  const [sectionFliter, setSectionFliter] = useState("");
-
-  const form = useForm<z.infer<typeof formSchema>>({
-    resolver: zodResolver(formSchema),
-    defaultValues: {
-      username: "",
+  const formRef = useRef<HTMLFormElement>(null);
+  const [formState, formAction] = useFormState(searchItem, [
+    {
+      error: null,
     },
-  });
+  ]);
 
-  const handleChange = (event: any) => {
-    event.preventDefault();
-  };
-
-  console.log(sectionFliter);
-
-  async function handleSubmit(data: z.infer<typeof formSchema>) {
-    const search = await prisma.user.findMany({
-      where: {
-        username: data.username,
-      },
-    });
-
-    if (search) {
-      toast.success("Search Complete!");
-    } else {
-      toast.success("Somthing went wrong! ");
-    }
+  function SubmitButton() {
+    const { pending } = useFormStatus();
+    return (
+      <Button type="submit" variant="destructive">
+        {pending ? "..." : "Save changes"}
+      </Button>
+    );
   }
+  function SearchButton() {
+    const { pending } = useFormStatus();
+    return (
+      <Button variant="secondary" type="submit">
+        {pending ? "..." : "Search"}
+      </Button>
+    );
+  }
+
   return (
     <div className="flex items-center justify-center">
       <Dialog>
@@ -94,14 +66,22 @@ export function PlacePage() {
             </p>
           </Button>
         </DialogTrigger>
-        <DialogContent className="max-w-[350px] max-h-[600px] rounded-lg sm:max-w-[425px]">
+
+        <DialogContent className="border rounded-lg shadow-xl p-10 w-screen flex flex-col items-center justify-center">
           <DialogHeader>
             <DialogTitle>Voting...🚀</DialogTitle>
             <DialogDescription>
               Vote for who you like. Click save when you are done!
             </DialogDescription>
           </DialogHeader>
-          <div className="flex flex-col items-center justify-between gap-y-4">
+
+          <form
+            action={async (formData: FormData) => {
+              formAction(formData);
+            }}
+            ref={formRef}
+            className="flex flex-col items-center justify-center"
+          >
             <Image
               src="/uploads/1007555.png"
               width={200}
@@ -109,56 +89,49 @@ export function PlacePage() {
               alt="Picture of the author"
               className="rounded"
             />
-            <div className="flex justify-center items-center gap-x-4">
-              <Label htmlFor="name" className="text-right">
-                ID
-              </Label>
-              <Form {...form}>
-                <form
-                  // onSubmit={form.handleSubmit(handleSubmit)}
-
-                  className="w-3/3"
-                >
-                  <FormField
-                    control={form.control}
-                    name="username"
-                    render={({ field }) => (
-                      <FormItem>
-                        <FormControl>
-                          <input
-                            type="text"
-                            placeholder="รหัสพนักงาน"
-                            className="col-span-3"
-                            {...field}
-                            onChange={(e) => setSectionFliter(e.target.value)}
-                          />
-                        </FormControl>
-                        <FormMessage />
-                      </FormItem>
-                    )}
-                  />
-                  <DialogFooter></DialogFooter>
-                </form>
-                <Button variant="secondary" type="submit">
-                  Search
-                </Button>
-              </Form>
+            <div className="w-full flex justify-between items-center gap-2">
+              <input
+                type="text"
+                name="input"
+                className="w-full border border-gray-300 p-2 rounded-lg"
+                placeholder="รหัสพนักงาน"
+              />
+              <SearchButton />
             </div>
-
-            <div className="flex flex-col items-center justify-center gap-y-4">
-              <Label htmlFor="name" className="text-right">
-                name
-              </Label>
-              <Label htmlFor="department" className="text-right">
-                department
-              </Label>
+          </form>
+          <form>
+            <div className="w-full flex flex-col items-left justify-between p-2">
+              {formState.error ? (
+                <p className="w-full flex flex-col items-left justify-between bg-red-100 rounded-lg p-2 text-red-500 font-bold">
+                  โปรดใส่รหัสพนักงาน!
+                </p>
+              ) : (
+                <div>
+                  {formState.map((t: any) => {
+                    return (
+                      <div
+                        key={t.id}
+                        className="w-[280px] flex flex-col items-left justify-between text-sm border-gray-300 bg-gray-100 rounded-lg p-2 mb-2"
+                      >
+                        <span>
+                          <b>รหัสพนักงาน : </b> {t.username}
+                        </span>
+                        <span>
+                          <b>ชื่อ : </b> {t.name}
+                        </span>
+                        <span>
+                          <b>แผนก : </b> {t.department}
+                        </span>
+                      </div>
+                    );
+                  })}
+                </div>
+              )}
             </div>
-          </div>
-          <DialogFooter>
-            <Button type="submit" variant="destructive">
-              Save changes
-            </Button>
-          </DialogFooter>
+            <DialogFooter>
+              <SubmitButton />
+            </DialogFooter>
+          </form>
         </DialogContent>
       </Dialog>
     </div>

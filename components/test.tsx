@@ -1,28 +1,30 @@
 "use client";
-import React, { useState } from "react";
+
+import prisma from "@/app/db";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import prisma from "../db";
+import React, { useCallback, useRef } from "react";
 
 async function getData(credentials: any) {
   const { username } = credentials;
-
-  if (username === credentials.username) {
-    const data = await prisma.user.findMany({
-      where: {
-        username: username,
-      },
-    });
-    return data;
-  } else {
-    return null;
-  }
+  const data = await prisma.user.findMany({
+    where: {
+      username: username,
+    },
+  });
+  return data;
 }
 
-export default function Page() {
-  const [inputValue, setInputValue] = useState<string>("");
-  const data = getData(inputValue);
-  console.log(data);
+export default function page() {
+  const userref = useRef<string>("");
+  const Login = useCallback(async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    await getData("credentials", {
+      username: userref.current,
+      redirect: true,
+      callbackUrl: "/",
+    });
+  }, []);
   return (
     <div className="h-screen w-screen flex flex-col items-center justify-center">
       <div className="border rounded-lg shadow-xl p-10 w-[30vw]">
@@ -33,7 +35,7 @@ export default function Page() {
               id="username"
               name="username"
               placeholder="รหัสพนักงาน"
-              onChange={(e) => setInputValue(e.target.value)}
+              onChange={(e) => (userref.current = e.target.value)}
             />
             <Button variant="secondary" type="submit">
               Search
@@ -41,7 +43,6 @@ export default function Page() {
           </div>
         </form>
       </div>
-      <p>{inputValue}</p>
       {/* {data.map((users) => (
         <div key={users.id}>
           <p className="text-xl text-blue-500 p-2">{users.name}</p>

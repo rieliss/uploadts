@@ -42,7 +42,6 @@ export default function FormElement({}: Props) {
         />
         <SubmitButton />
       </div>
-      {state as string}
       <div className="mt-5 flex flex-col gap-y-2"></div>
     </form>
   );

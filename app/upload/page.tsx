@@ -10,11 +10,11 @@ export default function Upload({}: Props) {
       action={AddImage}
       className="flex flex-col items-center justify-center gap-y-4 p-24"
     >
-      <input
+      {/* <input
         type="text"
         name="type"
         className="border-black-300 border-2 rounded"
-      />
+      /> */}
       <input
         type="file"
         name="file"

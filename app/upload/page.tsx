@@ -9,6 +9,7 @@ type Props = {};
 export default function Upload({}: Props) {
   function SubmitButton() {
     const { pending } = useFormStatus();
+
     return (
       <Button type="submit" size="lg">
         {pending ? "Uploading..." : "Upload"}

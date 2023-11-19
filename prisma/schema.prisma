@@ -7,12 +7,6 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Name {
-  id    String     @id @default(uuid())
-  email String  @unique
-  name  String?
-}
-
 model User {
   id         String  @id @default(uuid())
   username   String  @unique
@@ -21,17 +15,14 @@ model User {
   status     Boolean @default(false)
 }
 
-model UserImage {
-  id       String  @id @default(uuid())
-  username String
-  imgURL   String?
-}
-
 model ImgFile {
   id           Int     @id @default(autoincrement())
   originalName String
   authorId     Int
   author       TypeImg @relation(fields: [authorId], references: [id], onDelete: Cascade)
+  username String
+  name       String  @unique
+  department String 
 
   @@index([authorId])
 }

@@ -57,3 +57,15 @@ export async function searchItem(prevState: any, formData: FormData) {
     return { error: null };
   }
 }
+
+export async function deleteItem(formData: FormData) {
+  "use server";
+  const inputId = formData.get("inputId") as string;
+
+  await prisma.imgFile.delete({
+    where: {
+      originalName: inputId,
+    },
+  });
+  revalidatePath("/delete_photos");
+}

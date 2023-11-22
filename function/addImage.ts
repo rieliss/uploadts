@@ -2,6 +2,7 @@
 import { PrismaClient } from "@prisma/client";
 import { join } from "path";
 import { writeFile, mkdir } from "fs/promises";
+import { readFileSync } from "fs";
 
 const prisma = new PrismaClient();
 export async function AddImage(data: FormData) {
@@ -14,6 +15,9 @@ export async function AddImage(data: FormData) {
       const buffer = Buffer.from(bytes);
       const path = join(process.cwd(), "public", "uploads", file.name);
       await writeFile(path, buffer);
+      // const data = readFileSync(path, "utf8");
+      // console.log("🚀 ~ file: addImage.ts:19 ~ AddImage ~ data:", data);
+
       const user = await prisma.user.findMany({
         select: {
           username: true,

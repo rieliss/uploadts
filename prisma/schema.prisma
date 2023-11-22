@@ -13,16 +13,19 @@ model User {
   name       String  @unique
   department String 
   status     Boolean @default(false)
+  VoteFor String
+  
+  @@index([username])
 }
 
 model ImgFile {
   id           Int     @id @default(autoincrement())
-  originalName String
+  originalName String @unique
   authorId     Int
   author       TypeImg @relation(fields: [authorId], references: [id], onDelete: Cascade)
   username String
   name       String  @unique
-  department String 
+  department String  @default("")
 
   @@index([authorId])
 }

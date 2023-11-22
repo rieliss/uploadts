@@ -4,6 +4,7 @@ import { useRef } from "react";
 import { useFormState, useFormStatus } from "react-dom";
 import { searchItem } from "@/app/action";
 import Image from "next/image";
+import NavBar from "@/components/nav";
 
 type Props = {
   params: any;
@@ -17,13 +18,11 @@ export default function PlacePage({ params }: Props) {
     },
   ]);
 
-  console.log(params);
-
   function SubmitButton() {
     const { pending } = useFormStatus();
     return (
       <Button type="submit" variant="destructive">
-        {pending ? "..." : "Save changes"}
+        {pending ? "Voting..." : `Vote for ${params.id}`}
       </Button>
     );
   }
@@ -37,8 +36,9 @@ export default function PlacePage({ params }: Props) {
   }
 
   return (
-    <div className="h-screen w-screen flex flex-col items-center justify-center">
-      <div className="border rounded-lg shadow-xl p-10 w-screen h-screen">
+    <main className="p-4">
+      <NavBar />
+      <div className="flex flex-col items-center justify-center">
         <form
           action={async (formData: FormData) => {
             formAction(formData);
@@ -60,7 +60,7 @@ export default function PlacePage({ params }: Props) {
             <input
               type="text"
               name="input"
-              className="w-full border border-gray-300 p-2 rounded-lg"
+              className="w-full border p-2 rounded-lg"
               placeholder="รหัสพนักงาน"
             />
             <SearchButton />
@@ -69,7 +69,7 @@ export default function PlacePage({ params }: Props) {
         <form>
           <div className="w-full flex flex-col items-center justify-center p">
             {formState.error ? (
-              <p className="w-full flex flex-col items-left justify-between bg-red-100 rounded-lg p-2 mb-2 text-red-500 font-bold">
+              <p className="w-full flex flex-col items-left justify-between rounded-lg p-2 mb-2 text-red-500 font-bold">
                 โปรดใส่รหัสพนักงาน!
               </p>
             ) : (
@@ -98,6 +98,6 @@ export default function PlacePage({ params }: Props) {
           </div>
         </form>
       </div>
-    </div>
+    </main>
   );
 }

@@ -20,7 +20,7 @@ async function getData() {
   return data;
 }
 
-export default async function AddImage({}: Props) {
+export default async function DeletePage({}: Props) {
   const data = await getData();
 
   return (

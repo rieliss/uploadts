@@ -20,7 +20,7 @@ async function getData() {
   return data;
 }
 
-export default async function AddImage({}: Props) {
+export default async function AddImageforChart({}: Props) {
   const data = await getData();
 
   return (
@@ -32,7 +32,7 @@ export default async function AddImage({}: Props) {
             className="flex flex-col justify-center items-center"
           >
             <a
-              className="grid m-2 rounded-lg h-full border-2 border-gray-100 w-full text-white bg-[rgb(232,65,71)] items-center group border-transparent space-x-12 px-2 py-6 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+              className="flex flex-col rounded-lg p-2 h-full border-2 border-gray-100 items-center group border-transparent px-4 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
               href={`/vote/${img.originalName.slice(0, 7)}`}
             >
               <div className="flex flex-col justify-center items-center gap-2">

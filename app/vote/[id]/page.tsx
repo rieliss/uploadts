@@ -2,9 +2,11 @@
 import { Button } from "@/components/ui/button";
 import { useRef } from "react";
 import { useFormState, useFormStatus } from "react-dom";
-import { searchItem } from "@/app/action";
+import { searchItem, updateItem } from "@/app/action";
 import Image from "next/image";
 import NavBar from "@/components/nav";
+import prisma from "@/app/db";
+import { SearchButton, SubmitButton } from "@/components/Savebutton";
 
 type Props = {
   params: any;
@@ -18,27 +20,10 @@ export default function PlacePage({ params }: Props) {
     },
   ]);
 
-  function SubmitButton() {
-    const { pending } = useFormStatus();
-    return (
-      <Button type="submit" variant="destructive">
-        {pending ? "Voting..." : `Vote for ${params.id}`}
-      </Button>
-    );
-  }
-  function SearchButton() {
-    const { pending } = useFormStatus();
-    return (
-      <Button variant="secondary" type="submit">
-        {pending ? "..." : "Search"}
-      </Button>
-    );
-  }
-
   return (
     <main className="p-4">
       <NavBar />
-      <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-col items-center justify-center mt-10">
         <form
           action={async (formData: FormData) => {
             formAction(formData);
@@ -66,37 +51,61 @@ export default function PlacePage({ params }: Props) {
             <SearchButton />
           </div>
         </form>
-        <form>
-          <div className="w-full flex flex-col items-center justify-center p">
-            {formState.error ? (
-              <p className="w-full flex flex-col items-left justify-between rounded-lg p-2 mb-2 text-red-500 font-bold">
-                โปรดใส่รหัสพนักงาน!
-              </p>
-            ) : (
-              <div>
+
+        <div className="w-full flex flex-col items-center justify-center p">
+          {formState.error ? (
+            <p className="w-full flex flex-col items-center justify-between rounded-lg p-2 mb-2 text-red-500 font-bold">
+              โปรดใส่รหัสพนักงาน!
+            </p>
+          ) : (
+            <form action={updateItem}>
+              <div className="items-center flex flex-col justify-center gap-y-2">
                 {formState.map((t: any) => {
                   return (
                     <div
                       key={t.id}
-                      className="w-[280px] flex flex-col items-left justify-between text-sm border-gray-300 bg-gray-100 rounded-lg p-2 mb-2"
+                      className="w-[280px] flex flex-col items-left justify-between text-sm border-gray-300 bg-gray-100 rounded-lg p-2 mb-2 gap-1"
                     >
-                      <span>
+                      <input
+                        className="bg-gray-100 font-bold"
+                        type="text"
+                        name="no"
+                        defaultValue={t.username}
+                      />
+                      <input
+                        className="bg-gray-100 font-bold"
+                        type="text"
+                        name="name"
+                        defaultValue={t.name}
+                      />
+                      <input
+                        className="bg-gray-100 font-bold"
+                        type="text"
+                        name="department"
+                        defaultValue={t.department}
+                      />
+                      {/* <span id="no">
                         <b>รหัสพนักงาน : </b> {t.username}
                       </span>
-                      <span>
+                      <span id="name">
                         <b>ชื่อ : </b> {t.name}
                       </span>
-                      <span>
+                      <span id="department">
                         <b>แผนก : </b> {t.department}
-                      </span>
+                      </span> */}
+                      <input
+                        type="hidden"
+                        name="Vote"
+                        defaultValue={params.id}
+                      />
                     </div>
                   );
                 })}
+                <SubmitButton />
               </div>
-            )}
-            <SubmitButton />
-          </div>
-        </form>
+            </form>
+          )}
+        </div>
       </div>
     </main>
   );

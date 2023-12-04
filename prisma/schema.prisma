@@ -12,7 +12,7 @@ model User {
   username   String  @unique
   name       String  @unique
   department String 
-  status     Boolean @default(false)
+  status     Int @default(0)
   VoteFor String
   
   @@index([username])

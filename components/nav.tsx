@@ -7,6 +7,8 @@ import {
 } from "@heroicons/react/24/solid";
 import { Button } from "./ui/button";
 import { Moon, Sun, ArrowLeftCircle } from "lucide-react";
+import Logo from "@/public/DL.png";
+import Image from "next/image";
 
 type Props = {};
 
@@ -15,7 +17,11 @@ export default function NavBar({}: Props) {
     <header>
       <nav>
         <ul className="flex items-center justify-between">
-          <li></li>
+          <li>
+            <a href="/">
+              <Image src={Logo} alt="Logo" width={75} />
+            </a>
+          </li>
           <li>
             <Button variant="outline" size="icon">
               <a href="/" target="_self" rel="noopener noreferrer">

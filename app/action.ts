@@ -69,3 +69,36 @@ export async function deleteItem(formData: FormData) {
   });
   revalidatePath("/delete_photos");
 }
+
+export async function updateItem(formData: FormData) {
+  "use server";
+
+  const NoId = formData.get("no") as string;
+  const Vote = formData.get("Vote") as string;
+  await prisma.user.update({
+    where: {
+      username: NoId,
+    },
+    data: {
+      status: 1,
+      VoteFor: Vote,
+    },
+  });
+  revalidatePath("/");
+
+  // try {
+  //   await prisma.user.update({
+  //     where: {
+  //       username: NoId,
+  //     },
+  //     data: {
+  //       status: true,
+  //       VoteFor: Vote,
+  //     },
+  //   });
+  //   revalidatePath("/");
+  //   return Response.json({ msg: "voted Successfully" });
+  // } catch {
+  //   return Response.json({ msg: "voted Unsuccess!" });
+  // }
+}

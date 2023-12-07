@@ -32,7 +32,7 @@ export default async function AddImage({}: Props) {
             className="flex flex-col justify-center items-center"
           >
             <a
-              className="grid m-2 rounded-lg h-full border-2 border-gray-100 w-full text-white bg-[rgb(232,65,71)] items-center group border-transparent space-x-12 px-2 py-6 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+              className="grid m-2 rounded-lg h-full border-2 border-gray-100 w-full text-white bg-[rgb(232,65,71)] items-center group border-transparent space-x-18 px-8 py-6 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
               href={`/vote/${img.originalName.slice(0, 7)}`}
             >
               <div className="flex flex-col justify-center items-center gap-2">

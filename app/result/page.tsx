@@ -1,5 +1,4 @@
 import StatementChart from "@/app/result/Chart/StatementChart";
-import rawData from "@/data.json";
 import { DailyAmount } from "./Chart/types";
 import Balance from "./Balance/Balance";
 

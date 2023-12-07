@@ -71,18 +71,21 @@ export default function PlacePage({ params }: Props) {
                         type="text"
                         name="no"
                         defaultValue={t.username}
+                        readOnly
                       />
                       <input
                         className="bg-gray-100 font-bold"
                         type="text"
                         name="name"
                         defaultValue={t.name}
+                        readOnly
                       />
                       <input
                         className="bg-gray-100 font-bold"
                         type="text"
                         name="department"
                         defaultValue={t.department}
+                        readOnly
                       />
                       {/* <span id="no">
                         <b>รหัสพนักงาน : </b> {t.username}

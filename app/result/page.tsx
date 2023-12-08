@@ -51,7 +51,7 @@ export default async function Home() {
     <main className="p-4">
       <Nav />
       <div
-        className={`container flex min-h-screen space-y-6 flex-col items-center justify-center w-full ${DMsans.className}`}
+        className={`flex space-y-6 flex-col items-center mt-8 ${DMsans.className}`}
       >
         <Balance />
         <StatementChart statement={data as DailyAmount[]} />

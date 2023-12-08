@@ -25,8 +25,6 @@ type Props = {
 };
 
 const StatementChart: FC<Props> = ({ statement }) => {
-  const [isStatus, setIsStatus] = useState(Number);
-
   // Returns an array of the chart labels (day)
   const labels = useMemo(() => statement.map((e) => e.VoteFor), [statement]);
   // Returns an array of the chart spending amounts (amount)

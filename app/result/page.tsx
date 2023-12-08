@@ -4,6 +4,7 @@ import Balance from "./Balance/Balance";
 
 import { DM_Sans } from "next/font/google";
 import prisma from "../db";
+import Nav from "@/components/nav";
 const DMsans = DM_Sans({ subsets: ["latin"], weight: ["400", "700"] });
 
 // async function getData() {
@@ -45,14 +46,16 @@ async function getData() {
 
 export default async function Home() {
   const data = await getData();
-  console.log(data);
 
   return (
-    <main
-      className={`container flex min-h-screen space-y-6 flex-col items-center justify-center w-full ${DMsans.className}`}
-    >
-      <Balance />
-      <StatementChart statement={data as DailyAmount[]} />
+    <main className="p-4">
+      <Nav />
+      <div
+        className={`container flex min-h-screen space-y-6 flex-col items-center justify-center w-full ${DMsans.className}`}
+      >
+        <Balance />
+        <StatementChart statement={data as DailyAmount[]} />
+      </div>
     </main>
   );
 }

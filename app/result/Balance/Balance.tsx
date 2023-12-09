@@ -5,8 +5,8 @@ import Logo from "@/public/DL_bg.png";
 
 const Balance: FC = () => {
   return (
-    <section className="w-full bg-[rgb(232,65,71)] text-white flex flex-row items-center justify-between rounded-xl space-x-4 px-6">
-      <div className="space-y-1">
+    <section className="w-full bg-[rgb(232,65,71)] text-white flex flex-row items-center justify-between rounded-xl px-6">
+      <div className="">
         <p className="text-sm text-slate-100">Total of Vote</p>
         {/* <h1 className="text-2xl font-bold">$921.48</h1> */}
       </div>

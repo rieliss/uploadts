@@ -25,8 +25,6 @@ type Props = {
 };
 
 const StatementChart: FC<Props> = ({ statement }) => {
-  const [isStatus, setIsStatus] = useState(Number);
-
   // Returns an array of the chart labels (day)
   const labels = useMemo(() => statement.map((e) => e.VoteFor), [statement]);
   // Returns an array of the chart spending amounts (amount)
@@ -126,11 +124,6 @@ const StatementChart: FC<Props> = ({ statement }) => {
           }}
         />
       </div>
-      {/* <div className="flex-grow border-t border-gray-200 my-6"></div> */}
-      {/* <div className="space-y-1 flex flex-col items-center justify-center">
-        <p className="text-gray-500 text-xs md:text-md">Total of Vote</p>
-        <h2 className="text-4xl md:text-4xl font-semibold">{spendingTotal}</h2>
-      </div> */}
     </section>
   );
 };

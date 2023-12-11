@@ -45,7 +45,7 @@ export default function PlacePage({ params }: Props) {
             <input
               type="text"
               name="input"
-              className="w-full border p-2 rounded-lg"
+              className="w-full border p-2 rounded-lg text-black"
               placeholder="รหัสพนักงาน"
             />
             <SearchButton />

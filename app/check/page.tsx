@@ -21,8 +21,6 @@ export default function FormElement() {
     },
   ]);
 
-  console.log("🚀 ~ ", formState);
-
   function SubmitButton() {
     const { pending } = useFormStatus();
     return (

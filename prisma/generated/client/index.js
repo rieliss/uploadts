@@ -21,7 +21,6 @@ const {
   warnOnce,
   defineDmmfProperty,
   Public,
-  detectRuntime,
 } = require('./runtime/library')
 
 
@@ -31,12 +30,12 @@ exports.Prisma = Prisma
 exports.$Enums = {}
 
 /**
- * Prisma Client JS version: 5.7.0
- * Query Engine version: 79fb5193cf0a8fdbef536e4b4a159cad677ab1b9
+ * Prisma Client JS version: 5.6.0
+ * Query Engine version: e95e739751f42d8ca026f6b910f5a2dc5adeaeee
  */
 Prisma.prismaVersion = {
-  client: "5.7.0",
-  engine: "79fb5193cf0a8fdbef536e4b4a159cad677ab1b9"
+  client: "5.6.0",
+  engine: "e95e739751f42d8ca026f6b910f5a2dc5adeaeee"
 }
 
 Prisma.PrismaClientKnownRequestError = PrismaClientKnownRequestError;
@@ -165,12 +164,13 @@ const config = {
     "schemaEnvPath": "../../../.env"
   },
   "relativePath": "../..",
-  "clientVersion": "5.7.0",
-  "engineVersion": "79fb5193cf0a8fdbef536e4b4a159cad677ab1b9",
+  "clientVersion": "5.6.0",
+  "engineVersion": "e95e739751f42d8ca026f6b910f5a2dc5adeaeee",
   "datasourceNames": [
     "db"
   ],
   "activeProvider": "postgresql",
+  "postinstall": true,
   "inlineDatasources": {
     "db": {
       "url": {
@@ -180,7 +180,8 @@ const config = {
     }
   },
   "inlineSchema": "Z2VuZXJhdG9yIGNsaWVudCB7DQogIHByb3ZpZGVyID0gInByaXNtYS1jbGllbnQtanMiDQogIG91dHB1dCAgID0gIi4vZ2VuZXJhdGVkL2NsaWVudCINCn0NCg0KZGF0YXNvdXJjZSBkYiB7DQogIHByb3ZpZGVyID0gInBvc3RncmVzcWwiDQogIHVybCAgICAgID0gZW52KCJEQVRBQkFTRV9VUkwiKQ0KfQ0KDQptb2RlbCBVc2VyIHsNCiAgaWQgICAgICAgICBTdHJpbmcgIEBpZCBAZGVmYXVsdCh1dWlkKCkpDQogIHVzZXJuYW1lICAgU3RyaW5nICBAdW5pcXVlDQogIG5hbWUgICAgICAgU3RyaW5nICBAdW5pcXVlDQogIGRlcGFydG1lbnQgU3RyaW5nIA0KICBzdGF0dXMgICAgIEludCBAZGVmYXVsdCgwKQ0KICBWb3RlRm9yIFN0cmluZw0KICBTdGFydERhdGUgRGF0ZVRpbWUNCiAgDQogIEBAaW5kZXgoW3VzZXJuYW1lXSkNCn0NCg0KbW9kZWwgSW1nRmlsZSB7DQogIGlkICAgICAgICAgICBJbnQgICAgIEBpZCBAZGVmYXVsdChhdXRvaW5jcmVtZW50KCkpDQogIG9yaWdpbmFsTmFtZSBTdHJpbmcgQHVuaXF1ZQ0KICBhdXRob3JJZCAgICAgSW50DQogIGF1dGhvciAgICAgICBUeXBlSW1nIEByZWxhdGlvbihmaWVsZHM6IFthdXRob3JJZF0sIHJlZmVyZW5jZXM6IFtpZF0sIG9uRGVsZXRlOiBDYXNjYWRlKQ0KICB1c2VybmFtZSBTdHJpbmcNCiAgbmFtZSAgICAgICBTdHJpbmcgIEB1bmlxdWUNCiAgZGVwYXJ0bWVudCBTdHJpbmcgIEBkZWZhdWx0KCIiKQ0KDQogIEBAaW5kZXgoW2F1dGhvcklkXSkNCn0NCg0KbW9kZWwgVHlwZUltZyB7DQogIGlkICAgICBJbnQgICAgICAgQGlkIEBkZWZhdWx0KGF1dG9pbmNyZW1lbnQoKSkNCiAgdHlwZSAgIFN0cmluZz8NCiAgaW1nc3JjIEltZ0ZpbGVbXQ0KfQ0K",
-  "inlineSchemaHash": "76653c2714d0169ba280259be9d7ca2e7dc342173b393d00a83059f407b6149f"
+  "inlineSchemaHash": "76653c2714d0169ba280259be9d7ca2e7dc342173b393d00a83059f407b6149f",
+  "noEngine": false
 }
 
 const fs = require('fs')

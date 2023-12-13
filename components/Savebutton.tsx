@@ -4,6 +4,7 @@ import { Button } from "./ui/button";
 
 export function SubmitButton() {
   const { pending } = useFormStatus();
+
   return (
     <div>
       <Button type="submit" variant="destructive">

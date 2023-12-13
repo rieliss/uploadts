@@ -1,12 +1,22 @@
 "use client";
-import { Button } from "@/components/ui/button";
-import { useRef } from "react";
+
+import { useRef, useState } from "react";
 import { useFormState, useFormStatus } from "react-dom";
 import { searchItem, updateItem } from "@/app/action";
 import Image from "next/image";
 import NavBar from "@/components/nav";
-import prisma from "@/app/db";
 import { SearchButton, SubmitButton } from "@/components/Savebutton";
+import {
+  Select,
+  SelectContent,
+  SelectGroup,
+  SelectItem,
+  SelectLabel,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import { Button } from "@/components/ui/button";
+import { Label } from "@/components/ui/label";
 
 type Props = {
   params: any;
@@ -19,6 +29,15 @@ export default function PlacePage({ params }: Props) {
       error: null,
     },
   ]);
+
+  const { pending } = useFormStatus();
+
+  const [daySelect, setDaySelect] = useState("0");
+  const [monthSelect, setMonthSelect] = useState("0");
+  const [yearSelect, setYearSelect] = useState("0");
+
+  let CheckDate = daySelect + "-" + monthSelect + "-" + yearSelect;
+  console.log(daySelect + "-" + monthSelect + "-" + yearSelect);
 
   return (
     <main className="p-4">
@@ -104,7 +123,137 @@ export default function PlacePage({ params }: Props) {
                     </div>
                   );
                 })}
-                <SubmitButton />
+                <Label className="flex justify-between p-2">
+                  วันที่เริ่มเข้าทำงาน :
+                </Label>
+                <div className="flex justify-center items-center gap-1">
+                  <Select onValueChange={setDaySelect} defaultValue={daySelect}>
+                    <SelectTrigger className="bg-white text-black w-[100px]">
+                      <SelectValue placeholder="Day" />
+                    </SelectTrigger>
+                    <SelectContent defaultValue="year">
+                      <SelectGroup>
+                        <SelectItem value="1">1</SelectItem>
+                        <SelectItem value="2">2</SelectItem>
+                        <SelectItem value="3">3</SelectItem>
+                        <SelectItem value="4">4</SelectItem>
+                        <SelectItem value="5">5</SelectItem>
+                        <SelectItem value="6">6</SelectItem>
+                        <SelectItem value="7">7</SelectItem>
+                        <SelectItem value="8">8</SelectItem>
+                        <SelectItem value="9">9</SelectItem>
+                        <SelectItem value="10">10</SelectItem>
+                        <SelectItem value="11">11</SelectItem>
+                        <SelectItem value="12">12</SelectItem>
+                        <SelectItem value="13">13</SelectItem>
+                        <SelectItem value="14">14</SelectItem>
+                        <SelectItem value="15">15</SelectItem>
+                        <SelectItem value="16">16</SelectItem>
+                        <SelectItem value="17">17</SelectItem>
+                        <SelectItem value="18">18</SelectItem>
+                        <SelectItem value="19">19</SelectItem>
+                        <SelectItem value="20">20</SelectItem>
+                        <SelectItem value="21">21</SelectItem>
+                        <SelectItem value="22">22</SelectItem>
+                        <SelectItem value="23">23</SelectItem>
+                        <SelectItem value="24">24</SelectItem>
+                        <SelectItem value="25">25</SelectItem>
+                        <SelectItem value="26">26</SelectItem>
+                        <SelectItem value="27">27</SelectItem>
+                        <SelectItem value="28">28</SelectItem>
+                        <SelectItem value="29">29</SelectItem>
+                        <SelectItem value="30">30</SelectItem>
+                        <SelectItem value="31">31</SelectItem>
+                      </SelectGroup>
+                    </SelectContent>
+                  </Select>
+                  <Select
+                    onValueChange={setMonthSelect}
+                    defaultValue={monthSelect}
+                  >
+                    <SelectTrigger className="bg-white text-black w-[100px]">
+                      <SelectValue placeholder="Month" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectGroup>
+                        <SelectItem value="1">Jan</SelectItem>
+                        <SelectItem value="2">Feb</SelectItem>
+                        <SelectItem value="3">Mar</SelectItem>
+                        <SelectItem value="4">Apr</SelectItem>
+                        <SelectItem value="5">May</SelectItem>
+                        <SelectItem value="6">Jun</SelectItem>
+                        <SelectItem value="7">Jul</SelectItem>
+                        <SelectItem value="8">Aug</SelectItem>
+                        <SelectItem value="9">Sep</SelectItem>
+                        <SelectItem value="10">Oct</SelectItem>
+                        <SelectItem value="11">Nov</SelectItem>
+                        <SelectItem value="12">Dec</SelectItem>
+                      </SelectGroup>
+                    </SelectContent>
+                  </Select>
+                  <Select
+                    onValueChange={setYearSelect}
+                    defaultValue={yearSelect}
+                  >
+                    <SelectTrigger className="bg-white text-black w-[100px]">
+                      <SelectValue placeholder="Year" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectGroup>
+                        <SelectItem value="1982">1982</SelectItem>
+                        <SelectItem value="1983">1983</SelectItem>
+                        <SelectItem value="1984">1984</SelectItem>
+                        <SelectItem value="1985">1985</SelectItem>
+                        <SelectItem value="1986">1986</SelectItem>
+                        <SelectItem value="1987">1987</SelectItem>
+                        <SelectItem value="1988">1988</SelectItem>
+                        <SelectItem value="1989">1989</SelectItem>
+                        <SelectItem value="1990">1990</SelectItem>
+                        <SelectItem value="1991">1991</SelectItem>
+                        <SelectItem value="1992">1992</SelectItem>
+                        <SelectItem value="1993">1993</SelectItem>
+                        <SelectItem value="1994">1994</SelectItem>
+                        <SelectItem value="1995">1995</SelectItem>
+                        <SelectItem value="1996">1996</SelectItem>
+                        <SelectItem value="1997">1997</SelectItem>
+                        <SelectItem value="1998">1998</SelectItem>
+                        <SelectItem value="1999">1999</SelectItem>
+                        <SelectItem value="2000">2000</SelectItem>
+                        <SelectItem value="2001">2001</SelectItem>
+                        <SelectItem value="2002">2002</SelectItem>
+                        <SelectItem value="2003">2003</SelectItem>
+                        <SelectItem value="2004">2004</SelectItem>
+                        <SelectItem value="2005">2005</SelectItem>
+                        <SelectItem value="2006">2006</SelectItem>
+                        <SelectItem value="2007">2007</SelectItem>
+                        <SelectItem value="2008">2008</SelectItem>
+                        <SelectItem value="2009">2009</SelectItem>
+                        <SelectItem value="2010">2010</SelectItem>
+                        <SelectItem value="2011">2011</SelectItem>
+                        <SelectItem value="2012">2012</SelectItem>
+                        <SelectItem value="2013">2013</SelectItem>
+                        <SelectItem value="2014">2014</SelectItem>
+                        <SelectItem value="2015">2015</SelectItem>
+                        <SelectItem value="2016">2016</SelectItem>
+                        <SelectItem value="2017">2017</SelectItem>
+                        <SelectItem value="2018">2018</SelectItem>
+                        <SelectItem value="2019">2019</SelectItem>
+                        <SelectItem value="2020">2020</SelectItem>
+                        <SelectItem value="2021">2021</SelectItem>
+                        <SelectItem value="2022">2022</SelectItem>
+                        <SelectItem value="2023">2023</SelectItem>
+                      </SelectGroup>
+                    </SelectContent>
+                  </Select>
+                </div>
+                {/* <SubmitButton /> */}
+                <Button
+                  className="w-[30vw] text-2xl mt-4"
+                  type="submit"
+                  variant="destructive"
+                >
+                  {pending ? "Voting..." : `Vote`}
+                </Button>
               </div>
             </form>
           )}

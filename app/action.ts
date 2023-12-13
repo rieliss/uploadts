@@ -72,18 +72,36 @@ export async function deleteItem(formData: FormData) {
 
 export async function updateItem(formData: FormData) {
   "use server";
-  const NoId = formData.get("no") as string;
-  const Vote = formData.get("Vote") as string;
-  await prisma.user.update({
-    where: {
-      username: NoId,
-    },
-    data: {
-      status: 1,
-      VoteFor: Vote,
-    },
-  });
-  revalidatePath("/");
+  try {
+    const NoId = formData.get("no") as string;
+    const Vote = formData.get("Vote") as string;
+
+    let day = formData.get("day") as string;
+    let month = formData.get("month") as string;
+    let year = formData.get("year") as string;
+    let CheckDate = day + "-" + month + "-" + year;
+    console.log(CheckDate);
+
+    const dateCheck = await prisma.user.findMany({
+      where: {
+        username: NoId,
+      },
+    });
+
+    if (!NoId || Vote || CheckDate) {
+      await prisma.user.update({
+        where: {
+          username: NoId,
+        },
+        data: {
+          status: 1,
+          VoteFor: Vote,
+        },
+      });
+    }
+  } catch (error: any) {
+    return error;
+  }
 
   // try {
   //   await prisma.user.update({

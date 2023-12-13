@@ -237,8 +237,8 @@ export namespace Prisma {
   export import Exact = $Public.Exact
 
   /**
-   * Prisma Client JS version: 5.6.0
-   * Query Engine version: e95e739751f42d8ca026f6b910f5a2dc5adeaeee
+   * Prisma Client JS version: 5.7.0
+   * Query Engine version: 79fb5193cf0a8fdbef536e4b4a159cad677ab1b9
    */
   export type PrismaVersion = {
     client: string
@@ -1080,7 +1080,7 @@ export namespace Prisma {
     department: string | null
     status: number | null
     VoteFor: string | null
-    StartDate: Date | null
+    StartDate: string | null
   }
 
   export type UserMaxAggregateOutputType = {
@@ -1090,7 +1090,7 @@ export namespace Prisma {
     department: string | null
     status: number | null
     VoteFor: string | null
-    StartDate: Date | null
+    StartDate: string | null
   }
 
   export type UserCountAggregateOutputType = {
@@ -1237,7 +1237,7 @@ export namespace Prisma {
     department: string
     status: number
     VoteFor: string
-    StartDate: Date
+    StartDate: string
     _count: UserCountAggregateOutputType | null
     _avg: UserAvgAggregateOutputType | null
     _sum: UserSumAggregateOutputType | null
@@ -1290,7 +1290,7 @@ export namespace Prisma {
       department: string
       status: number
       VoteFor: string
-      StartDate: Date
+      StartDate: string
     }, ExtArgs["result"]["user"]>
     composites: {}
   }
@@ -1691,7 +1691,7 @@ export namespace Prisma {
     readonly department: FieldRef<"User", 'String'>
     readonly status: FieldRef<"User", 'Int'>
     readonly VoteFor: FieldRef<"User", 'String'>
-    readonly StartDate: FieldRef<"User", 'DateTime'>
+    readonly StartDate: FieldRef<"User", 'String'>
   }
     
 
@@ -3993,20 +3993,6 @@ export namespace Prisma {
 
 
   /**
-   * Reference to a field of type 'DateTime'
-   */
-  export type DateTimeFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'DateTime'>
-    
-
-
-  /**
-   * Reference to a field of type 'DateTime[]'
-   */
-  export type ListDateTimeFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'DateTime[]'>
-    
-
-
-  /**
    * Reference to a field of type 'Float'
    */
   export type FloatFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'Float'>
@@ -4033,7 +4019,7 @@ export namespace Prisma {
     department?: StringFilter<"User"> | string
     status?: IntFilter<"User"> | number
     VoteFor?: StringFilter<"User"> | string
-    StartDate?: DateTimeFilter<"User"> | Date | string
+    StartDate?: StringFilter<"User"> | string
   }
 
   export type UserOrderByWithRelationInput = {
@@ -4056,7 +4042,7 @@ export namespace Prisma {
     department?: StringFilter<"User"> | string
     status?: IntFilter<"User"> | number
     VoteFor?: StringFilter<"User"> | string
-    StartDate?: DateTimeFilter<"User"> | Date | string
+    StartDate?: StringFilter<"User"> | string
   }, "id" | "username" | "name">
 
   export type UserOrderByWithAggregationInput = {
@@ -4084,7 +4070,7 @@ export namespace Prisma {
     department?: StringWithAggregatesFilter<"User"> | string
     status?: IntWithAggregatesFilter<"User"> | number
     VoteFor?: StringWithAggregatesFilter<"User"> | string
-    StartDate?: DateTimeWithAggregatesFilter<"User"> | Date | string
+    StartDate?: StringWithAggregatesFilter<"User"> | string
   }
 
   export type ImgFileWhereInput = {
@@ -4198,7 +4184,7 @@ export namespace Prisma {
     department: string
     status?: number
     VoteFor: string
-    StartDate: Date | string
+    StartDate: string
   }
 
   export type UserUncheckedCreateInput = {
@@ -4208,7 +4194,7 @@ export namespace Prisma {
     department: string
     status?: number
     VoteFor: string
-    StartDate: Date | string
+    StartDate: string
   }
 
   export type UserUpdateInput = {
@@ -4218,7 +4204,7 @@ export namespace Prisma {
     department?: StringFieldUpdateOperationsInput | string
     status?: IntFieldUpdateOperationsInput | number
     VoteFor?: StringFieldUpdateOperationsInput | string
-    StartDate?: DateTimeFieldUpdateOperationsInput | Date | string
+    StartDate?: StringFieldUpdateOperationsInput | string
   }
 
   export type UserUncheckedUpdateInput = {
@@ -4228,7 +4214,7 @@ export namespace Prisma {
     department?: StringFieldUpdateOperationsInput | string
     status?: IntFieldUpdateOperationsInput | number
     VoteFor?: StringFieldUpdateOperationsInput | string
-    StartDate?: DateTimeFieldUpdateOperationsInput | Date | string
+    StartDate?: StringFieldUpdateOperationsInput | string
   }
 
   export type UserCreateManyInput = {
@@ -4238,7 +4224,7 @@ export namespace Prisma {
     department: string
     status?: number
     VoteFor: string
-    StartDate: Date | string
+    StartDate: string
   }
 
   export type UserUpdateManyMutationInput = {
@@ -4248,7 +4234,7 @@ export namespace Prisma {
     department?: StringFieldUpdateOperationsInput | string
     status?: IntFieldUpdateOperationsInput | number
     VoteFor?: StringFieldUpdateOperationsInput | string
-    StartDate?: DateTimeFieldUpdateOperationsInput | Date | string
+    StartDate?: StringFieldUpdateOperationsInput | string
   }
 
   export type UserUncheckedUpdateManyInput = {
@@ -4258,7 +4244,7 @@ export namespace Prisma {
     department?: StringFieldUpdateOperationsInput | string
     status?: IntFieldUpdateOperationsInput | number
     VoteFor?: StringFieldUpdateOperationsInput | string
-    StartDate?: DateTimeFieldUpdateOperationsInput | Date | string
+    StartDate?: StringFieldUpdateOperationsInput | string
   }
 
   export type ImgFileCreateInput = {
@@ -4382,17 +4368,6 @@ export namespace Prisma {
     not?: NestedIntFilter<$PrismaModel> | number
   }
 
-  export type DateTimeFilter<$PrismaModel = never> = {
-    equals?: Date | string | DateTimeFieldRefInput<$PrismaModel>
-    in?: Date[] | string[] | ListDateTimeFieldRefInput<$PrismaModel>
-    notIn?: Date[] | string[] | ListDateTimeFieldRefInput<$PrismaModel>
-    lt?: Date | string | DateTimeFieldRefInput<$PrismaModel>
-    lte?: Date | string | DateTimeFieldRefInput<$PrismaModel>
-    gt?: Date | string | DateTimeFieldRefInput<$PrismaModel>
-    gte?: Date | string | DateTimeFieldRefInput<$PrismaModel>
-    not?: NestedDateTimeFilter<$PrismaModel> | Date | string
-  }
-
   export type UserCountOrderByAggregateInput = {
     id?: SortOrder
     username?: SortOrder
@@ -4463,20 +4438,6 @@ export namespace Prisma {
     _sum?: NestedIntFilter<$PrismaModel>
     _min?: NestedIntFilter<$PrismaModel>
     _max?: NestedIntFilter<$PrismaModel>
-  }
-
-  export type DateTimeWithAggregatesFilter<$PrismaModel = never> = {
-    equals?: Date | string | DateTimeFieldRefInput<$PrismaModel>
-    in?: Date[] | string[] | ListDateTimeFieldRefInput<$PrismaModel>
-    notIn?: Date[] | string[] | ListDateTimeFieldRefInput<$PrismaModel>
-    lt?: Date | string | DateTimeFieldRefInput<$PrismaModel>
-    lte?: Date | string | DateTimeFieldRefInput<$PrismaModel>
-    gt?: Date | string | DateTimeFieldRefInput<$PrismaModel>
-    gte?: Date | string | DateTimeFieldRefInput<$PrismaModel>
-    not?: NestedDateTimeWithAggregatesFilter<$PrismaModel> | Date | string
-    _count?: NestedIntFilter<$PrismaModel>
-    _min?: NestedDateTimeFilter<$PrismaModel>
-    _max?: NestedDateTimeFilter<$PrismaModel>
   }
 
   export type TypeImgRelationFilter = {
@@ -4604,10 +4565,6 @@ export namespace Prisma {
     divide?: number
   }
 
-  export type DateTimeFieldUpdateOperationsInput = {
-    set?: Date | string
-  }
-
   export type TypeImgCreateNestedOneWithoutImgsrcInput = {
     create?: XOR<TypeImgCreateWithoutImgsrcInput, TypeImgUncheckedCreateWithoutImgsrcInput>
     connectOrCreate?: TypeImgCreateOrConnectWithoutImgsrcInput
@@ -4693,17 +4650,6 @@ export namespace Prisma {
     not?: NestedIntFilter<$PrismaModel> | number
   }
 
-  export type NestedDateTimeFilter<$PrismaModel = never> = {
-    equals?: Date | string | DateTimeFieldRefInput<$PrismaModel>
-    in?: Date[] | string[] | ListDateTimeFieldRefInput<$PrismaModel>
-    notIn?: Date[] | string[] | ListDateTimeFieldRefInput<$PrismaModel>
-    lt?: Date | string | DateTimeFieldRefInput<$PrismaModel>
-    lte?: Date | string | DateTimeFieldRefInput<$PrismaModel>
-    gt?: Date | string | DateTimeFieldRefInput<$PrismaModel>
-    gte?: Date | string | DateTimeFieldRefInput<$PrismaModel>
-    not?: NestedDateTimeFilter<$PrismaModel> | Date | string
-  }
-
   export type NestedStringWithAggregatesFilter<$PrismaModel = never> = {
     equals?: string | StringFieldRefInput<$PrismaModel>
     in?: string[] | ListStringFieldRefInput<$PrismaModel>
@@ -4746,20 +4692,6 @@ export namespace Prisma {
     gt?: number | FloatFieldRefInput<$PrismaModel>
     gte?: number | FloatFieldRefInput<$PrismaModel>
     not?: NestedFloatFilter<$PrismaModel> | number
-  }
-
-  export type NestedDateTimeWithAggregatesFilter<$PrismaModel = never> = {
-    equals?: Date | string | DateTimeFieldRefInput<$PrismaModel>
-    in?: Date[] | string[] | ListDateTimeFieldRefInput<$PrismaModel>
-    notIn?: Date[] | string[] | ListDateTimeFieldRefInput<$PrismaModel>
-    lt?: Date | string | DateTimeFieldRefInput<$PrismaModel>
-    lte?: Date | string | DateTimeFieldRefInput<$PrismaModel>
-    gt?: Date | string | DateTimeFieldRefInput<$PrismaModel>
-    gte?: Date | string | DateTimeFieldRefInput<$PrismaModel>
-    not?: NestedDateTimeWithAggregatesFilter<$PrismaModel> | Date | string
-    _count?: NestedIntFilter<$PrismaModel>
-    _min?: NestedDateTimeFilter<$PrismaModel>
-    _max?: NestedDateTimeFilter<$PrismaModel>
   }
 
   export type NestedStringNullableFilter<$PrismaModel = never> = {

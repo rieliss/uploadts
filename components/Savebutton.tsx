@@ -9,7 +9,6 @@ export function SubmitButton() {
       <Button type="submit" variant="destructive">
         {pending ? "Voting..." : `Vote`}
       </Button>
-      <p> {pending ? "Voting..." : ``}</p>
     </div>
   );
 }

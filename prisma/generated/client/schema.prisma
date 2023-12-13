@@ -1,0 +1,39 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "./generated/client"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id         String  @id @default(uuid())
+  username   String  @unique
+  name       String  @unique
+  department String 
+  status     Int @default(0)
+  VoteFor String
+  StartDate DateTime
+  
+  @@index([username])
+}
+
+model ImgFile {
+  id           Int     @id @default(autoincrement())
+  originalName String @unique
+  authorId     Int
+  author       TypeImg @relation(fields: [authorId], references: [id], onDelete: Cascade)
+  username String
+  name       String  @unique
+  department String  @default("")
+
+  @@index([authorId])
+}
+
+model TypeImg {
+  id     Int       @id @default(autoincrement())
+  type   String?
+  imgsrc ImgFile[]
+}

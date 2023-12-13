@@ -72,7 +72,6 @@ export async function deleteItem(formData: FormData) {
 
 export async function updateItem(formData: FormData) {
   "use server";
-
   const NoId = formData.get("no") as string;
   const Vote = formData.get("Vote") as string;
   await prisma.user.update({

@@ -15,6 +15,7 @@ model User {
   department String 
   status     Int @default(0)
   VoteFor String
+  StartDate DateTime
   
   @@index([username])
 }

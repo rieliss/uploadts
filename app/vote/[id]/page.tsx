@@ -253,14 +253,7 @@ export default function PlacePage({ params }: Props) {
                     </SelectContent>
                   </Select>
                 </div>
-                {/* <SubmitButton /> */}
-                <Button
-                  className="w-[30vw] text-2xl mt-4"
-                  type="submit"
-                  variant="destructive"
-                >
-                  {pending ? "Voting..." : `Vote`}
-                </Button>
+                <SubmitButton />
               </div>
             </form>
           )}

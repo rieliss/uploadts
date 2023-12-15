@@ -23,7 +23,7 @@ export async function getData(value: any) {
 export async function searchItem(formData: FormData) {
   try {
     let input = formData.get("input") as string;
-    const data = await prisma.user.findMany({
+    const data = await prisma.user.findFirst({
       select: {
         username: true,
         name: true,
@@ -38,11 +38,13 @@ export async function searchItem(formData: FormData) {
       },
     });
     if(data){
-      return Object.values(data)[0];
+      return  data
     }
     return false
-  } catch (error: any) {
-    return { error: null };
+  } catch (error) {
+      console.log(error)
+
+   
   }
 }
 

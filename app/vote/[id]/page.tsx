@@ -85,7 +85,7 @@ export default function PlacePage({ params }: Props) {
                 {formState.map((t: any, index: number) => {
                   return (
                     <div
-                      key={t.id + "vpte"}
+                      key={t.id + "vote"}
                       className="w-[280px] flex flex-col items-left justify-between text-sm border-gray-300 bg-gray-100 rounded-lg p-2 mb-2 gap-1 text-black"
                     >
                       <input

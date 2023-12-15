@@ -77,7 +77,7 @@ export async function updateItem(formData: FormData) {
     const dateCheck = await prisma.user.findFirst({
       where: {
         username: NoId,
-        // StartDate: CheckDate,
+        StartDate: CheckDate,
       },
     });
     console.log(dateCheck)

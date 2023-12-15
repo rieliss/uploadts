@@ -14,8 +14,8 @@ model User {
   name       String  @unique
   department String 
   status     Int @default(0)
-  VoteFor    String
-  StartDate  String
+  VoteFor String
+  StartDate DateTime
   
   @@index([username])
 }

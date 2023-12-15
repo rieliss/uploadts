@@ -72,6 +72,7 @@ export async function deleteItem(formData: FormData) {
 
 export async function updateItem(formData: FormData) {
   "use server";
+<<<<<<< HEAD
   try {
     const NoId = formData.get("no") as string;
     const Vote = formData.get("Vote") as string;
@@ -108,6 +109,20 @@ export async function updateItem(formData: FormData) {
   } catch (error: any) {
     return error;
   }
+=======
+  const NoId = formData.get("no") as string;
+  const Vote = formData.get("Vote") as string;
+  await prisma.user.update({
+    where: {
+      username: NoId,
+    },
+    data: {
+      status: 1,
+      VoteFor: Vote,
+    },
+  });
+  revalidatePath("/");
+>>>>>>> parent of d001747 (1.1.4)
 
   // try {
   //   await prisma.user.update({

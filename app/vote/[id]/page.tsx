@@ -134,11 +134,7 @@ export default function PlacePage({ params }: Props) {
                   วันที่เริ่มเข้าทำงาน :
                 </Label>
                 <div className="flex justify-center items-center gap-1">
-                  <Select
-                    name="day"
-                    onValueChange={setDaySelect}
-                    defaultValue={daySelect}
-                  >
+                  <Select onValueChange={setDaySelect} defaultValue={daySelect}>
                     <SelectTrigger className="bg-white text-black w-[100px]">
                       <SelectValue placeholder="Day" />
                     </SelectTrigger>
@@ -179,7 +175,6 @@ export default function PlacePage({ params }: Props) {
                     </SelectContent>
                   </Select>
                   <Select
-                    name="month"
                     onValueChange={setMonthSelect}
                     defaultValue={monthSelect}
                   >
@@ -204,7 +199,6 @@ export default function PlacePage({ params }: Props) {
                     </SelectContent>
                   </Select>
                   <Select
-                    name="year"
                     onValueChange={setYearSelect}
                     defaultValue={yearSelect}
                   >
@@ -259,7 +253,14 @@ export default function PlacePage({ params }: Props) {
                     </SelectContent>
                   </Select>
                 </div>
-                <SubmitButton />
+                {/* <SubmitButton /> */}
+                <Button
+                  className="w-[30vw] text-2xl mt-4"
+                  type="submit"
+                  variant="destructive"
+                >
+                  {pending ? "Voting..." : `Vote`}
+                </Button>
               </div>
             </form>
           )}

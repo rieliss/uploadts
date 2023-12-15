@@ -8,7 +8,6 @@ export default async function LocationPage() {
   return (
     <main className="p-4">
       <NavFirstBar />
-
       <div
         className={`container flex min-h-screen space-y-6 flex-col items-center justify-center w-full ${DMsans.className}`}
       >

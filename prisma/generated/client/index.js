@@ -144,7 +144,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "E:\\Dev\\uploadts\\prisma\\generated\\client",
+      "value": "D:\\Work\\den\\uploadts\\prisma\\generated\\client",
       "fromEnvVar": null
     },
     "config": {

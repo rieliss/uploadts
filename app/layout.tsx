@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { IBM_Plex_Sans_Thai } from "next/font/google";
 import "./globals.css";
+import { Toaster } from "react-hot-toast";
 
 const sans = IBM_Plex_Sans_Thai({
   weight: ["400"],
@@ -19,7 +20,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={sans.className}>{children}</body>
+      <body className={sans.className}>
+        <Toaster/>
+        {children}
+        </body>
     </html>
   );
 }

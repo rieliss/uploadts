@@ -6,6 +6,7 @@ import { searchItem, updateItem } from "@/app/action";
 import Image from "next/image";
 import NavBar from "@/components/nav";
 import { SearchButton, SubmitButton } from "@/components/Savebutton";
+import { useRouter } from "next/navigation";
 import {
   Select,
   SelectContent,
@@ -16,12 +17,14 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Label } from "@/components/ui/label";
+import toast from "react-hot-toast";
 
 type Props = {
   params: any;
 };
 
 export default function PlacePage({ params }: Props) {
+  const router = useRouter()
   const formRef = useRef<HTMLFormElement>(null);
   const [formState, formAction] = useFormState(searchItem, [
     {
@@ -72,14 +75,18 @@ export default function PlacePage({ params }: Props) {
             </p>
           ) : (
             <form
-              action={async (e) => {
-                const itemsreturn = await updateItem(e);
+              action={async (e : FormData) => {     
+              const itemsreturn =  await updateItem(e);
                 if (itemsreturn) {
-                  alert("บันทึกเรียบร้อย");
+                 toast.success('บันทึกสำเร็จ')
+                 router.push('/result')
+                  return
                 } else {
-                  alert("กรุณากรอกข้อมูลให้ถูกต้อง");
+                  toast.error('กรุณากรอกข้อมูลให้ถูกต้อง')
+                  return
                 }
-              }}
+              }
+            }
             >
               <div className="items-center flex flex-col justify-center gap-y-2 text-black">
                 {formState.map((t: any, index: number) => {
@@ -130,7 +137,7 @@ export default function PlacePage({ params }: Props) {
                   วันที่เริ่มเข้าทำงาน :
                 </Label>
                 <div className="flex justify-center items-center gap-1">
-                  <Select onValueChange={setDaySelect} defaultValue={daySelect}>
+                  <Select onValueChange={(value:string)=> setDaySelect(value)} defaultValue={daySelect} name="day">
                     <SelectTrigger className="bg-white text-black w-[100px]">
                       <SelectValue placeholder="Day" />
                     </SelectTrigger>
@@ -171,6 +178,7 @@ export default function PlacePage({ params }: Props) {
                     </SelectContent>
                   </Select>
                   <Select
+                    name="month"
                     onValueChange={setMonthSelect}
                     defaultValue={monthSelect}
                   >
@@ -195,6 +203,7 @@ export default function PlacePage({ params }: Props) {
                     </SelectContent>
                   </Select>
                   <Select
+                    name="year"
                     onValueChange={setYearSelect}
                     defaultValue={yearSelect}
                   >

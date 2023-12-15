@@ -23,14 +23,19 @@ type Props = {
   params: any;
 };
 
+
 export default function PlacePage({ params }: Props) {
   const router = useRouter()
   const formRef = useRef<HTMLFormElement>(null);
-  const [formState, formAction] = useFormState(searchItem, [
-    {
-      error: null,
-    },
-  ]);
+  const [formdata, setFormdata] = useState<any>(true)
+  const [checker ,setchecker] = useState<boolean>(false)
+  // const [formState, formAction] = useFormState(searchItem, [
+  //   {
+  //     error: null,
+  //   },
+  // ]);
+
+  
   const [daySelect, setDaySelect] = useState("0");
   const [monthSelect, setMonthSelect] = useState("0");
   const [yearSelect, setYearSelect] = useState("0");
@@ -40,8 +45,15 @@ export default function PlacePage({ params }: Props) {
       <div className="flex flex-col items-center justify-center mt-10">
         <form
           action={async (formData: FormData) => {
-            console.log(formState)
-            formAction(formData);
+           const newData : any = await searchItem(formData)
+           console.log(newData)
+           if(!newData){
+              toast.error('กรุณากรอกข้อมูลให้ถูกต้อง')
+            return
+           }
+           setchecker(false)
+           setFormdata(newData)
+           router.refresh()
           }}
           ref={formRef}
           className="flex flex-col items-center justify-center p-4 gap-4"
@@ -68,9 +80,9 @@ export default function PlacePage({ params }: Props) {
         </form>
 
         <div className="w-full flex flex-col items-center justify-center p">
-          {formState.error ? (
+          {checker ? (
             <p className="w-full flex flex-col items-center justify-between rounded-lg p-2 mb-2 text-red-500 font-bold">
-              โปรดใส่รหัสพนักงาน!
+              โปรดใส่รหัสพนักงานให้ถูกต้อง!
             </p>
           ) : (
             <form
@@ -88,31 +100,29 @@ export default function PlacePage({ params }: Props) {
             }
             >
               <div className="items-center flex flex-col justify-center gap-y-2 text-black">
-                { formState ? formState.map((t: any, index: number) => {
-                  return (
+                { formdata ? 
                     <div
-                      key={t.id + "vote"}
                       className="w-[280px] flex flex-col items-left justify-between text-sm border-gray-300 bg-gray-100 rounded-lg p-2 mb-2 gap-1 text-black"
                     >
                       <input
                         className="bg-gray-100 font-bold text-black"
                         type="text"
                         name="no"
-                        defaultValue={t.username}
+                        defaultValue={formdata.username}
                         readOnly
                       />
                       <input
                         className="bg-gray-100 font-bold text-black"
                         type="text"
                         name="name"
-                        defaultValue={t.name}
+                        defaultValue={formdata.name}
                         readOnly
                       />
                       <input
                         className="bg-gray-100 font-bold text-black"
                         type="text"
                         name="department"
-                        defaultValue={t.department}
+                        defaultValue={formdata.department}
                         readOnly
                       />
                       {/* <span id="no">
@@ -130,8 +140,7 @@ export default function PlacePage({ params }: Props) {
                         defaultValue={params.id}
                       />
                     </div>
-                  );
-                }) : null}
+                   : null}
                 <Label className="flex justify-between p-2">
                   วันที่เริ่มเข้าทำงาน :
                 </Label>

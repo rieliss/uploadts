@@ -20,18 +20,9 @@ export async function getData(value: any) {
   return data;
 }
 
-export async function searchItem(prevState: any, formData: FormData) {
+export async function searchItem(formData: FormData) {
   try {
     let input = formData.get("input") as string;
-
-    if (
-      !input ||
-      input.toString().length < 7 ||
-      input === undefined ||
-      input == null
-    ) {
-      return { error: "Please fill youre employee ID." };
-    }
     const data = await prisma.user.findMany({
       select: {
         username: true,
@@ -46,7 +37,10 @@ export async function searchItem(prevState: any, formData: FormData) {
         username: "desc",
       },
     });
-    return Object.values(data);
+    if(data){
+      return Object.values(data)[0];
+    }
+    return false
   } catch (error: any) {
     return { error: null };
   }

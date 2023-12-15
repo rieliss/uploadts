@@ -35,7 +35,7 @@ export default function PlacePage({ params }: Props) {
   //   },
   // ]);
 
-  
+  console.log(formdata)
   const [daySelect, setDaySelect] = useState("0");
   const [monthSelect, setMonthSelect] = useState("0");
   const [yearSelect, setYearSelect] = useState("0");
@@ -107,21 +107,21 @@ export default function PlacePage({ params }: Props) {
                         className="bg-gray-100 font-bold text-black"
                         type="text"
                         name="no"
-                        defaultValue={formdata.username}
+                        defaultValue={formdata?.username}
                         readOnly
                       />
                       <input
                         className="bg-gray-100 font-bold text-black"
                         type="text"
                         name="name"
-                        defaultValue={formdata.name}
+                        defaultValue={formdata?.name}
                         readOnly
                       />
                       <input
                         className="bg-gray-100 font-bold text-black"
                         type="text"
                         name="department"
-                        defaultValue={formdata.department}
+                        defaultValue={formdata?.department}
                         readOnly
                       />
                       {/* <span id="no">
@@ -136,7 +136,7 @@ export default function PlacePage({ params }: Props) {
                       <input
                         type="hidden"
                         name="Vote"
-                        defaultValue={params.id}
+                        defaultValue={params?.id}
                       />
                     </div>
                    : null}

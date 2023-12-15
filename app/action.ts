@@ -79,16 +79,19 @@ export async function updateItem(formData: FormData) {
     let day = formData.get("day") as string;
     let month = formData.get("month") as string;
     let year = formData.get("year") as string;
-    let CheckDate = day + "-" + month + "-" + year;
+    let CheckDate = year + "-" + month + "-" + day + " 00:00:00";
     console.log(CheckDate);
 
-    const dateCheck = await prisma.user.findMany({
+    const dateCheck = await prisma.user.findFirst({
       where: {
         username: NoId,
+        StartDate: CheckDate,
       },
     });
 
-    if (!NoId || Vote || CheckDate) {
+    console.log(dateCheck);
+
+    if (dateCheck) {
       await prisma.user.update({
         where: {
           username: NoId,
@@ -98,6 +101,9 @@ export async function updateItem(formData: FormData) {
           VoteFor: Vote,
         },
       });
+      return true;
+    } else {
+      return false;
     }
   } catch (error: any) {
     return error;

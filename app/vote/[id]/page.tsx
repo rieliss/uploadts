@@ -15,7 +15,6 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 
 type Props = {
@@ -37,7 +36,6 @@ export default function PlacePage({ params }: Props) {
   const [yearSelect, setYearSelect] = useState("0");
 
   let CheckDate = daySelect + "-" + monthSelect + "-" + yearSelect;
-  console.log(daySelect + "-" + monthSelect + "-" + yearSelect);
 
   return (
     <main className="p-4">
@@ -77,12 +75,21 @@ export default function PlacePage({ params }: Props) {
               โปรดใส่รหัสพนักงาน!
             </p>
           ) : (
-            <form action={updateItem}>
+            <form
+              action={async (e) => {
+                const itemsreturn = await updateItem(e);
+                if (itemsreturn) {
+                  alert("บันทึกเรียบร้อย");
+                } else {
+                  alert("กรุณากรอกข้อมูลให้ถูกต้อง");
+                }
+              }}
+            >
               <div className="items-center flex flex-col justify-center gap-y-2 text-black">
-                {formState.map((t: any) => {
+                {formState.map((t: any, index: number) => {
                   return (
                     <div
-                      key={t.id}
+                      key={t.id + "v"}
                       className="w-[280px] flex flex-col items-left justify-between text-sm border-gray-300 bg-gray-100 rounded-lg p-2 mb-2 gap-1 text-black"
                     >
                       <input
@@ -137,15 +144,15 @@ export default function PlacePage({ params }: Props) {
                     </SelectTrigger>
                     <SelectContent defaultValue="year">
                       <SelectGroup>
-                        <SelectItem value="1">1</SelectItem>
-                        <SelectItem value="2">2</SelectItem>
-                        <SelectItem value="3">3</SelectItem>
-                        <SelectItem value="4">4</SelectItem>
-                        <SelectItem value="5">5</SelectItem>
-                        <SelectItem value="6">6</SelectItem>
-                        <SelectItem value="7">7</SelectItem>
-                        <SelectItem value="8">8</SelectItem>
-                        <SelectItem value="9">9</SelectItem>
+                        <SelectItem value="01">1</SelectItem>
+                        <SelectItem value="02">2</SelectItem>
+                        <SelectItem value="03">3</SelectItem>
+                        <SelectItem value="04">4</SelectItem>
+                        <SelectItem value="05">5</SelectItem>
+                        <SelectItem value="06">6</SelectItem>
+                        <SelectItem value="07">7</SelectItem>
+                        <SelectItem value="08">8</SelectItem>
+                        <SelectItem value="09">9</SelectItem>
                         <SelectItem value="10">10</SelectItem>
                         <SelectItem value="11">11</SelectItem>
                         <SelectItem value="12">12</SelectItem>
@@ -181,15 +188,15 @@ export default function PlacePage({ params }: Props) {
                     </SelectTrigger>
                     <SelectContent>
                       <SelectGroup>
-                        <SelectItem value="1">Jan</SelectItem>
-                        <SelectItem value="2">Feb</SelectItem>
-                        <SelectItem value="3">Mar</SelectItem>
-                        <SelectItem value="4">Apr</SelectItem>
-                        <SelectItem value="5">May</SelectItem>
-                        <SelectItem value="6">Jun</SelectItem>
-                        <SelectItem value="7">Jul</SelectItem>
-                        <SelectItem value="8">Aug</SelectItem>
-                        <SelectItem value="9">Sep</SelectItem>
+                        <SelectItem value="01">Jan</SelectItem>
+                        <SelectItem value="02">Feb</SelectItem>
+                        <SelectItem value="03">Mar</SelectItem>
+                        <SelectItem value="04">Apr</SelectItem>
+                        <SelectItem value="05">May</SelectItem>
+                        <SelectItem value="06">Jun</SelectItem>
+                        <SelectItem value="07">Jul</SelectItem>
+                        <SelectItem value="08">Aug</SelectItem>
+                        <SelectItem value="09">Sep</SelectItem>
                         <SelectItem value="10">Oct</SelectItem>
                         <SelectItem value="11">Nov</SelectItem>
                         <SelectItem value="12">Dec</SelectItem>

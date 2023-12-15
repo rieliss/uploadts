@@ -31,17 +31,16 @@ export default function PlacePage({ params }: Props) {
       error: null,
     },
   ]);
-
   const [daySelect, setDaySelect] = useState("0");
   const [monthSelect, setMonthSelect] = useState("0");
   const [yearSelect, setYearSelect] = useState("0");
-
   return (
     <main className="p-4">
       <NavBar />
       <div className="flex flex-col items-center justify-center mt-10">
         <form
           action={async (formData: FormData) => {
+            console.log(formState)
             formAction(formData);
           }}
           ref={formRef}
@@ -89,7 +88,7 @@ export default function PlacePage({ params }: Props) {
             }
             >
               <div className="items-center flex flex-col justify-center gap-y-2 text-black">
-                {formState.map((t: any, index: number) => {
+                { formState ? formState.map((t: any, index: number) => {
                   return (
                     <div
                       key={t.id + "vote"}
@@ -132,7 +131,7 @@ export default function PlacePage({ params }: Props) {
                       />
                     </div>
                   );
-                })}
+                }) : null}
                 <Label className="flex justify-between p-2">
                   วันที่เริ่มเข้าทำงาน :
                 </Label>

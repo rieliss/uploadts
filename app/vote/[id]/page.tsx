@@ -46,7 +46,6 @@ export default function PlacePage({ params }: Props) {
         <form
           action={async (formData: FormData) => {
            const newData : any = await searchItem(formData)
-           console.log(newData)
            if(!newData){
               toast.error('กรุณากรอกข้อมูลให้ถูกต้อง')
             return

@@ -35,7 +35,6 @@ export default function PlacePage({ params }: Props) {
   //   },
   // ]);
 
-  console.log(formdata)
   const [daySelect, setDaySelect] = useState("0");
   const [monthSelect, setMonthSelect] = useState("0");
   const [yearSelect, setYearSelect] = useState("0");

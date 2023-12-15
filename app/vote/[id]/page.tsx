@@ -1,7 +1,7 @@
 "use client";
 
 import { useRef, useState } from "react";
-import { useFormState, useFormStatus } from "react-dom";
+import { useFormState } from "react-dom";
 import { searchItem, updateItem } from "@/app/action";
 import Image from "next/image";
 import NavBar from "@/components/nav";
@@ -29,13 +29,9 @@ export default function PlacePage({ params }: Props) {
     },
   ]);
 
-  const { pending } = useFormStatus();
-
   const [daySelect, setDaySelect] = useState("0");
   const [monthSelect, setMonthSelect] = useState("0");
   const [yearSelect, setYearSelect] = useState("0");
-
-  let CheckDate = daySelect + "-" + monthSelect + "-" + yearSelect;
 
   return (
     <main className="p-4">
@@ -89,7 +85,7 @@ export default function PlacePage({ params }: Props) {
                 {formState.map((t: any, index: number) => {
                   return (
                     <div
-                      key={t.id + "v"}
+                      key={t.id}
                       className="w-[280px] flex flex-col items-left justify-between text-sm border-gray-300 bg-gray-100 rounded-lg p-2 mb-2 gap-1 text-black"
                     >
                       <input

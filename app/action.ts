@@ -48,10 +48,6 @@ export async function searchItem(prevState: any, formData: FormData) {
         username: "desc",
       },
     });
-    console.log(data);
-    revalidatePath("/check");
-
-    // return { data: data };
     return Object.values(data);
   } catch (error: any) {
     return { error: null };

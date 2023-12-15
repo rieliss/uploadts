@@ -49,10 +49,7 @@
     "eslint": "^8",
     "eslint-config-next": "14.0.1",
     "postcss": "^8",
-<<<<<<< HEAD
-=======
     "prisma": "^5.6.0",
->>>>>>> parent of d001747 (1.1.4)
     "tailwindcss": "^3.3.0",
     "typescript": "^5.2.2"
   },

@@ -121,15 +121,6 @@ export default function PlacePage({ params }: Props) {
                       defaultValue={formdata?.department}
                       readOnly
                     />
-                    {/* <span id="no">
-                        <b>รหัสพนักงาน : </b> {t.username}
-                      </span>
-                      <span id="name">
-                        <b>ชื่อ : </b> {t.name}
-                      </span>
-                      <span id="department">
-                        <b>แผนก : </b> {t.department}
-                      </span> */}
                     <input
                       type="hidden"
                       name="Vote"

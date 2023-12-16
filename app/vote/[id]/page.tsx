@@ -17,23 +17,24 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Label } from "@/components/ui/label";
+import { Button } from "@/components/ui/button";
+
 import toast from "react-hot-toast";
 
 type Props = {
   params: any;
 };
 
-
 export default function PlacePage({ params }: Props) {
-  const router = useRouter()
+  const router = useRouter();
   const formRef = useRef<HTMLFormElement>(null);
-  const [formdata, setFormdata] = useState<any>(true)
-  const [checker ,setchecker] = useState<boolean>(false)
-  // const [formState, formAction] = useFormState(searchItem, [
-  //   {
-  //     error: null,
-  //   },
-  // ]);
+  const [formdata, setFormdata] = useState<any>(true);
+  const [checker, setchecker] = useState<boolean>(false);
+  const [formState, formAction] = useFormState(searchItem, [
+    {
+      error: null,
+    },
+  ]);
 
   const [daySelect, setDaySelect] = useState("0");
   const [monthSelect, setMonthSelect] = useState("0");
@@ -44,15 +45,19 @@ export default function PlacePage({ params }: Props) {
       <div className="flex flex-col items-center justify-center mt-10">
         <form
           action={async (formData: FormData) => {
-           const newData : any = await searchItem(formData)
-           if(!newData){
-              toast.error('กรุณากรอกข้อมูลให้ถูกต้อง')
-            return
-           }
-           setchecker(false)
-           setFormdata(newData)
-           router.refresh()
+            console.log(formState);
+            formAction(formData);
           }}
+          // action={async (formData: FormData) => {
+          //   const newData: any = await searchItem(formData);
+          //   if (!newData) {
+          //     toast.error("กรุณากรอกข้อมูลให้ถูกต้อง");
+          //     return;
+          //   }
+          //   setchecker(false);
+          //   setFormdata(newData);
+          //   router.refresh();
+          // }}
           ref={formRef}
           className="flex flex-col items-center justify-center p-4 gap-4"
         >
@@ -78,72 +83,73 @@ export default function PlacePage({ params }: Props) {
         </form>
 
         <div className="w-full flex flex-col items-center justify-center p">
-          {checker ? (
+          {formState.error ? (
             <p className="w-full flex flex-col items-center justify-between rounded-lg p-2 mb-2 text-red-500 font-bold">
               โปรดใส่รหัสพนักงานให้ถูกต้อง!
             </p>
           ) : (
             <form
-              action={async (e : FormData) => {     
-              const itemsreturn =  await updateItem(e);
+              action={async (e: FormData) => {
+                const itemsreturn = await updateItem(e);
                 if (itemsreturn) {
-                 toast.success('บันทึกสำเร็จ')
-                 router.push('/result')
-                  return
+                  toast.success("บันทึกสำเร็จ");
+                  router.push("/result");
+                  return;
                 } else {
-                  toast.error('กรุณากรอกข้อมูลให้ถูกต้อง')
-                  return
+                  toast.error("กรุณากรอกข้อมูลให้ถูกต้อง");
+                  return;
                 }
-              }
-            }
+              }}
             >
               <div className="items-center flex flex-col justify-center gap-y-2 text-black">
-                { formdata ? 
-                    <div
-                      className="w-[280px] flex flex-col items-left justify-between text-sm border-gray-300 bg-gray-100 rounded-lg p-2 mb-2 gap-1 text-black"
-                    >
-                      <input
-                        className="bg-gray-100 font-bold text-black"
-                        type="text"
-                        name="no"
-                        defaultValue={formdata?.username}
-                        readOnly
-                      />
-                      <input
-                        className="bg-gray-100 font-bold text-black"
-                        type="text"
-                        name="name"
-                        defaultValue={formdata?.name}
-                        readOnly
-                      />
-                      <input
-                        className="bg-gray-100 font-bold text-black"
-                        type="text"
-                        name="department"
-                        defaultValue={formdata?.department}
-                        readOnly
-                      />
-                      {/* <span id="no">
-                        <b>รหัสพนักงาน : </b> {t.username}
-                      </span>
-                      <span id="name">
-                        <b>ชื่อ : </b> {t.name}
-                      </span>
-                      <span id="department">
-                        <b>แผนก : </b> {t.department}
-                      </span> */}
-                      <input
-                        type="hidden"
-                        name="Vote"
-                        defaultValue={params?.id}
-                      />
-                    </div>
-                   : null}
+                {formState
+                  ? formState.map((t: any, index: number) => {
+                      return (
+                        <div
+                          key={t.id + "vote"}
+                          className="w-[280px] flex flex-col items-left justify-between text-sm border-gray-300 bg-gray-100 rounded-lg p-2 mb-2 gap-1 text-black"
+                        >
+                          <input
+                            className="bg-gray-100 font-bold text-black"
+                            type="text"
+                            name="no"
+                            defaultValue={t.username}
+                            readOnly
+                          />
+                          <input
+                            className="bg-gray-100 font-bold text-black"
+                            type="text"
+                            name="name"
+                            defaultValue={t.name}
+                            readOnly
+                          />
+                          <input
+                            className="bg-gray-100 font-bold text-black"
+                            type="text"
+                            name="department"
+                            defaultValue={t.department}
+                            readOnly
+                          />
+                          <input
+                            className="bg-gray-100 font-bold text-black"
+                            type="text"
+                            name="Vote"
+                            defaultValue={params.id}
+                            hidden
+                          />
+                        </div>
+                      );
+                    })
+                  : null}
                 <Label className="flex justify-between p-2">
                   วันที่เริ่มเข้าทำงาน :
                 </Label>
                 <div className="flex justify-center items-center gap-1">
-                  <Select onValueChange={(value:string)=> setDaySelect(value)} defaultValue={daySelect} name="day">
+                  <Select
+                    onValueChange={(value: string) => setDaySelect(value)}
+                    defaultValue={daySelect}
+                    name="day"
+                  >
                     <SelectTrigger className="bg-white text-black w-[100px]">
                       <SelectValue placeholder="Day" />
                     </SelectTrigger>

@@ -20,9 +20,10 @@ export async function getData(value: any) {
   return data;
 }
 
-export async function searchItem(formData: FormData) {
+export async function searchItem(prevState: any, formData: FormData) {
   try {
     let input = formData.get("input") as string;
+
     const data = await prisma.user.findFirst({
       select: {
         username: true,
@@ -37,19 +38,17 @@ export async function searchItem(formData: FormData) {
         username: "desc",
       },
     });
-    if(data){
-      return  data
-    }
-    return false
-  } catch (error) {
-      console.log(error)
 
-   
+    console.log(data);
+    return Object.values({
+      data: data,
+    });
+  } catch (error) {
+    console.log(error);
   }
 }
 
 export async function deleteItem(formData: FormData) {
-
   const inputId = formData.get("inputId") as string;
 
   await prisma.imgFile.delete({
@@ -65,20 +64,20 @@ export async function updateItem(formData: FormData) {
     const NoId = formData.get("no") as string;
     const Vote = formData.get("Vote") as string;
 
+    console.log(Vote);
+
     let day = formData.get("day") as string;
     let month = formData.get("month") as string;
     let year = formData.get("year") as string;
-    let CheckDate = year+"-" + month + "-" + day +"T00:00:00Z";
-    console.log(CheckDate)
+    let CheckDate = year + "-" + month + "-" + day + "T00:00:00Z";
+    // console.log(CheckDate);
     const dateCheck = await prisma.user.findFirst({
       where: {
         username: NoId,
         StartDate: CheckDate,
       },
     });
-    console.log(dateCheck)
-
-
+    console.log(dateCheck);
 
     if (dateCheck) {
       await prisma.user.update({
@@ -90,25 +89,12 @@ export async function updateItem(formData: FormData) {
           VoteFor: Vote,
         },
       });
-      revalidatePath('/result')
+      revalidatePath("/result");
       return true;
     } else {
       return false;
     }
   } catch (error: any) {
-      console.log(error)
-   
+    console.log(error);
   }
-  // const NoId = formData.get("no") as string;
-  // const Vote = formData.get("Vote") as string;
-  // await prisma.user.update({
-  //   where: {
-  //     username: NoId,
-  //   },
-  //   data: {
-  //     status: 1,
-  //     VoteFor: Vote,
-  //   },
-  // });
-  // revalidatePath("/");
 }

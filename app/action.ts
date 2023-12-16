@@ -20,9 +20,11 @@ export async function getData(value: any) {
   return data;
 }
 
-export async function searchItem(prevState: any, formData: FormData) {
+export async function searchItem(formData: FormData) {
   try {
     let input = formData.get("input") as string;
+
+    console.log(input);
 
     const data = await prisma.user.findFirst({
       select: {
@@ -38,11 +40,10 @@ export async function searchItem(prevState: any, formData: FormData) {
         username: "desc",
       },
     });
-
-    console.log(data);
-    return Object.values({
-      data: data,
-    });
+    if (data) {
+      return data;
+    }
+    return false;
   } catch (error) {
     console.log(error);
   }
@@ -64,13 +65,11 @@ export async function updateItem(formData: FormData) {
     const NoId = formData.get("no") as string;
     const Vote = formData.get("Vote") as string;
 
-    console.log(Vote);
-
     let day = formData.get("day") as string;
     let month = formData.get("month") as string;
     let year = formData.get("year") as string;
     let CheckDate = year + "-" + month + "-" + day + "T00:00:00Z";
-    // console.log(CheckDate);
+    console.log(CheckDate);
     const dateCheck = await prisma.user.findFirst({
       where: {
         username: NoId,

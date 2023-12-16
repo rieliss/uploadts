@@ -18,9 +18,10 @@ export default function NavBar({}: Props) {
             </Link>
           </li>
           <li>
-            <Link href={"/"} className="">
+            <p> </p>
+            {/* <Link href={"/"} className="">
               <ChevronLeftIcon className="h-[2.5rem] w-[2.5rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0 bg-slate-100 px-1 rounded-sm hover:text-white hover:bg-black" />
-            </Link>
+            </Link> */}
           </li>
         </ul>
       </nav>

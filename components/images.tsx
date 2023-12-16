@@ -35,7 +35,7 @@ export default async function AddImage({}: Props) {
                 </h1>
                 <Image
                   src={`/uploads/${img.originalName}`}
-                  width={150}
+                  width={500}
                   height={0}
                   alt="Picture of the author"
                   className="rounded"

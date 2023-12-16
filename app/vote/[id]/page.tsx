@@ -17,7 +17,6 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Label } from "@/components/ui/label";
-import { Button } from "@/components/ui/button";
 
 import toast from "react-hot-toast";
 
@@ -39,6 +38,7 @@ export default function PlacePage({ params }: Props) {
   const [daySelect, setDaySelect] = useState("0");
   const [monthSelect, setMonthSelect] = useState("0");
   const [yearSelect, setYearSelect] = useState("0");
+
   return (
     <main className="p-4">
       <NavBar />

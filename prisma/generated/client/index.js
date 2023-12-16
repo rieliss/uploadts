@@ -144,7 +144,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "D:\\Work\\den\\uploadts\\prisma\\generated\\client",
+      "value": "E:\\Dev\\uploadts\\prisma\\generated\\client",
       "fromEnvVar": null
     },
     "config": {
@@ -171,7 +171,6 @@ const config = {
     "db"
   ],
   "activeProvider": "postgresql",
-  "postinstall": false,
   "inlineDatasources": {
     "db": {
       "url": {
@@ -181,8 +180,7 @@ const config = {
     }
   },
   "inlineSchema": "Z2VuZXJhdG9yIGNsaWVudCB7DQogIHByb3ZpZGVyID0gInByaXNtYS1jbGllbnQtanMiDQogIG91dHB1dCAgID0gIi4vZ2VuZXJhdGVkL2NsaWVudCINCn0NCg0KZGF0YXNvdXJjZSBkYiB7DQogIHByb3ZpZGVyID0gInBvc3RncmVzcWwiDQogIHVybCAgICAgID0gZW52KCJEQVRBQkFTRV9VUkwiKQ0KfQ0KDQptb2RlbCBVc2VyIHsNCiAgaWQgICAgICAgICBTdHJpbmcgIEBpZCBAZGVmYXVsdCh1dWlkKCkpDQogIHVzZXJuYW1lICAgU3RyaW5nICBAdW5pcXVlDQogIG5hbWUgICAgICAgU3RyaW5nICBAdW5pcXVlDQogIGRlcGFydG1lbnQgU3RyaW5nIA0KICBzdGF0dXMgICAgIEludCBAZGVmYXVsdCgwKQ0KICBWb3RlRm9yIFN0cmluZw0KICBTdGFydERhdGUgRGF0ZVRpbWUNCiAgDQogIEBAaW5kZXgoW3VzZXJuYW1lXSkNCn0NCg0KbW9kZWwgSW1nRmlsZSB7DQogIGlkICAgICAgICAgICBJbnQgICAgIEBpZCBAZGVmYXVsdChhdXRvaW5jcmVtZW50KCkpDQogIG9yaWdpbmFsTmFtZSBTdHJpbmcgQHVuaXF1ZQ0KICBhdXRob3JJZCAgICAgSW50DQogIGF1dGhvciAgICAgICBUeXBlSW1nIEByZWxhdGlvbihmaWVsZHM6IFthdXRob3JJZF0sIHJlZmVyZW5jZXM6IFtpZF0sIG9uRGVsZXRlOiBDYXNjYWRlKQ0KICB1c2VybmFtZSBTdHJpbmcNCiAgbmFtZSAgICAgICBTdHJpbmcgIEB1bmlxdWUNCiAgZGVwYXJ0bWVudCBTdHJpbmcgIEBkZWZhdWx0KCIiKQ0KDQogIEBAaW5kZXgoW2F1dGhvcklkXSkNCn0NCg0KbW9kZWwgVHlwZUltZyB7DQogIGlkICAgICBJbnQgICAgICAgQGlkIEBkZWZhdWx0KGF1dG9pbmNyZW1lbnQoKSkNCiAgdHlwZSAgIFN0cmluZz8NCiAgaW1nc3JjIEltZ0ZpbGVbXQ0KfQ0K",
-  "inlineSchemaHash": "76653c2714d0169ba280259be9d7ca2e7dc342173b393d00a83059f407b6149f",
-  "noEngine": false
+  "inlineSchemaHash": "76653c2714d0169ba280259be9d7ca2e7dc342173b393d00a83059f407b6149f"
 }
 
 const fs = require('fs')

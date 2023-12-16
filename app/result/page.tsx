@@ -13,7 +13,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/ui/table"
+} from "@/components/ui/table";
 const DMsans = DM_Sans({ subsets: ["latin"], weight: ["400", "700"] });
 
 async function getData() {
@@ -37,28 +37,17 @@ async function getData() {
   return data;
 }
 
-
 export default async function Home() {
   let data = await getData();
-  let sixup: any = []
+  let sixup: any = [];
   const newData = data.filter((data: any, index: number) => {
     if (index < 5) {
-      return data
+      return data;
     } else {
-      sixup.push(data)
+      sixup.push(data);
     }
-
-  })
-  sixup = Array.from(sixup)
-
-
-  console.log(sixup[0]['_sum'].status)
-
-
-
-
-
-
+  });
+  sixup = Array.from(sixup);
 
   const aggregations = await prisma.user.aggregate({
     _sum: {
@@ -67,7 +56,7 @@ export default async function Home() {
   });
 
   return (
-    <main className="p-4 w-full" >
+    <main className="p-4 w-full">
       <Nav />
       <section
         className={`flex space-y-2 flex-col items-center mt-8 ${DMsans.className} w-full`}
@@ -85,22 +74,31 @@ export default async function Home() {
         <TableCaption>Total of Vote.</TableCaption>
         <TableHeader>
           <TableRow>
-            <TableHead className="w-[200px] text-center font-bold text-black ">Number</TableHead>
-            <TableHead className="text-center w-[1500px] font-bold text-black">Name</TableHead>
+            <TableHead className="w-[200px] text-center font-bold text-black ">
+              Number
+            </TableHead>
+            <TableHead className="text-center w-[1500px] font-bold text-black">
+              Name
+            </TableHead>
             <TableHead className="font-bold text-black">Point</TableHead>
           </TableRow>
         </TableHeader>
         <TableBody>
-          { sixup ?
-              sixup.map((data : any , index : number)=>{
-                  return <TableRow key={index+'table'}>
-                           <TableCell className="font-medium text-center">{index+6}</TableCell>
-                           <TableCell className="text-center">{data['VoteFor']}</TableCell>
-                           <TableCell>{data['_sum'].status}</TableCell>
-                      </TableRow>
+          {sixup
+            ? sixup.map((data: any, index: number) => {
+                return (
+                  <TableRow key={index + "table"}>
+                    <TableCell className="font-medium text-center">
+                      {index + 6}
+                    </TableCell>
+                    <TableCell className="text-center">
+                      {data["VoteFor"]}
+                    </TableCell>
+                    <TableCell>{data["_sum"].status}</TableCell>
+                  </TableRow>
+                );
               })
-          : null
-          }
+            : null}
         </TableBody>
       </Table>
     </main>

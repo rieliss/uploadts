@@ -1,8 +1,8 @@
 "use server";
 
 import { revalidatePath } from "next/cache";
-import prisma from "./db";
-
+import { PrismaClient } from "@/prisma/generated/client";
+const prisma = new PrismaClient()
 export async function getData(value: any) {
   const data = await prisma.user.findMany({
     select: {

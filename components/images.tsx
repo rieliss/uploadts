@@ -23,6 +23,8 @@ async function getData() {
 export default async function AddImage({}: Props) {
   const data = await getData();
 
+  
+
   return (
     <div>
       {data.map((img) => {

@@ -4,6 +4,7 @@ import { DM_Sans } from "next/font/google";
 import NavFirstBar from "@/components/nacfirst";
 const DMsans = DM_Sans({ subsets: ["latin"], weight: ["400", "700"] });
 
+
 export default async function LocationPage() {
   return (
     <main className="p-4">

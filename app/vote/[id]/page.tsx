@@ -17,6 +17,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Label } from "@/components/ui/label";
+import { Button } from "@/components/ui/button";
 
 import toast from "react-hot-toast";
 
@@ -74,7 +75,13 @@ export default function PlacePage({ params }: Props) {
               className="w-full border p-2 rounded-lg text-black"
               placeholder="รหัสพนักงาน"
             />
-            <SearchButton />
+            {/* <SearchButton /> */}
+            <Button
+              className="bg-secondary text-secondary-foreground hover:bg-secondary/80"
+              type="submit"
+            >
+              Search
+            </Button>
           </div>
         </form>
 
@@ -257,7 +264,10 @@ export default function PlacePage({ params }: Props) {
                     </SelectContent>
                   </Select>
                 </div>
-                <SubmitButton />
+                {/* <SubmitButton /> */}
+                <Button type="submit" variant="destructive">
+                  Vote
+                </Button>
               </div>
             </form>
           )}

@@ -23,7 +23,6 @@ export async function getData(value: any) {
 export async function searchItem(formData: FormData) {
   try {
     let input = formData.get("input") as string;
-
     console.log(input);
 
     const data = await prisma.user.findFirst({

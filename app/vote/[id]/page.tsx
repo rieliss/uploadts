@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef, useState } from "react";
+import { useFormState } from "react-dom";
 import { searchItem, updateItem } from "@/app/action";
 import Image from "next/image";
 import NavBar from "@/components/nav";
@@ -28,6 +29,7 @@ export default function PlacePage({ params }: Props) {
   const formRef = useRef<HTMLFormElement>(null);
   const [formdata, setFormdata] = useState<any>(true)
   const [checker ,setchecker] = useState<boolean>(false)
+
   const [daySelect, setDaySelect] = useState("0");
   const [monthSelect, setMonthSelect] = useState("0");
   const [yearSelect, setYearSelect] = useState("0");
@@ -116,6 +118,15 @@ export default function PlacePage({ params }: Props) {
                         defaultValue={formdata?.department}
                         readOnly
                       />
+                      {/* <span id="no">
+                        <b>รหัสพนักงาน : </b> {t.username}
+                      </span>
+                      <span id="name">
+                        <b>ชื่อ : </b> {t.name}
+                      </span>
+                      <span id="department">
+                        <b>แผนก : </b> {t.department}
+                      </span> */}
                       <input
                         type="hidden"
                         name="Vote"
